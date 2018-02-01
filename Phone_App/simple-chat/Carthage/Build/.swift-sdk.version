@@ -1,90 +1,81 @@
 {
-  "Mac" : [
-
-  ],
-  "watchOS" : [
-
-  ],
-  "tvOS" : [
-
-  ],
   "commitish" : "v0.20.0",
   "iOS" : [
     {
       "name" : "ToneAnalyzerV3",
-      "hash" : "1a27f6f746d41da726caef247f0efe62ba850a1336be8cdfeabd50f6d9bfe5b6"
-    },
-    {
-      "name" : "RelationshipExtractionV1Beta",
-      "hash" : "0c7f399d59d118ee2f6373d9a85c9e9bb41380e8f86a35c22849f227b6777a38"
-    },
-    {
-      "name" : "DialogV1",
-      "hash" : "8fe4acd76abc1da523537dddce9b35f41dfc81aed413e27e49aa3983785f9e9c"
-    },
-    {
-      "name" : "AlchemyVisionV1",
-      "hash" : "7dc8591c8abf0e70f15d126d3aefea89d8d69b216622019c4700a49e9b6c9964"
-    },
-    {
-      "name" : "DocumentConversionV1",
-      "hash" : "be97ee869f8eb622457df82d27638108e8a8d8a879096ae240d5e29ebfa7e599"
-    },
-    {
-      "name" : "NaturalLanguageClassifierV1",
-      "hash" : "efd92a1075a90fd2e491c60b2f338ebf7885acba3dfb966d4353f7089fd92d9b"
-    },
-    {
-      "name" : "TradeoffAnalyticsV1",
-      "hash" : "b650219a25519905a8625de7b4a13e2b852af142ec4cde372c35b947858bcad5"
-    },
-    {
-      "name" : "RetrieveAndRankV1",
-      "hash" : "c33401122693c42f905195c0cc1c427b89fd8e1c399cf87528fb11882e4c784a"
-    },
-    {
-      "name" : "LanguageTranslatorV2",
-      "hash" : "d38133a0c7ea0f8553cd162d59eb3842bb1167fd0e9b00d1db223fd133e4b203"
-    },
-    {
-      "name" : "PersonalityInsightsV3",
-      "hash" : "21f82ec27be1f0daef39e06a948750db76d74007cfcf921b9552187ba9c09c4d"
+      "hash" : "04f7ece6ef4232007c5a3d0dd0b79ff11b9c0d7253ec3053d8b0fbd339c7438a"
     },
     {
       "name" : "PersonalityInsightsV2",
-      "hash" : "c4d867ac0ad8ff3c2130e80b5ed09ab53c73a9190adb501ac2b0b6a0edbee136"
+      "hash" : "b74eba0ae65cf80eff9d2ee0622e23eaf4d47dc50a8bdbab762d885ae5d84b29"
     },
     {
-      "name" : "TextToSpeechV1",
-      "hash" : "21b2b4c59fcdb5d04bf82b0bea7cff8f180c733999c81013c499bbf29ee588ab"
+      "name" : "PersonalityInsightsV3",
+      "hash" : "a86ee802faa8dc4109e498a2851db92b82011ff23d25c8b07afb73a5b37658ec"
     },
     {
-      "name" : "AlchemyDataNewsV1",
-      "hash" : "c22b0c564d2d61da9a14f012b2380bb9e5329e0d42abd9a4f4964f65920cd327"
+      "name" : "DocumentConversionV1",
+      "hash" : "ec32c312d8789a9f08e81f01242e55f3526e2ac71f7b0e9a32343870a2643c66"
     },
     {
-      "name" : "NaturalLanguageUnderstandingV1",
-      "hash" : "864da2e62733faaa9d7ecbbdde5a4b7022ead99b41e0da2b1580762461f557cc"
+      "name" : "NaturalLanguageClassifierV1",
+      "hash" : "426b4fda01d1d9e56e7ff2acb3c91b5f5000cbd11f6a56e437962aa68101a2bf"
+    },
+    {
+      "name" : "LanguageTranslatorV2",
+      "hash" : "db2bd5ff0205653b0598988f0a8b9dc578e62e75aa3663195ea2274a3b6694cc"
+    },
+    {
+      "name" : "RelationshipExtractionV1Beta",
+      "hash" : "081279bcac21e10e9e00d3152cf065dc5cbccee8b8ad8e5960c92e8987629c97"
+    },
+    {
+      "name" : "AlchemyVisionV1",
+      "hash" : "3f6dc6fa834a1eb40b7fc9266c47f5a079b46c3242342caf2059f4cee817ab80"
+    },
+    {
+      "name" : "DialogV1",
+      "hash" : "e70294d7d99cb046935b3b2b9e1aaa55be4fee7b4c7cca6f2bf9b7b5e7add9fc"
+    },
+    {
+      "name" : "TradeoffAnalyticsV1",
+      "hash" : "79128bc941c1c8b6877ebf5a1bf000ae180f94a1233bb17753142ff3b4a22373"
+    },
+    {
+      "name" : "RetrieveAndRankV1",
+      "hash" : "4d4c25f097b00de532adbfad7df76e4726f391c2015d03f3701f49327dda5241"
     },
     {
       "name" : "VisualRecognitionV3",
-      "hash" : "ea4b8f74d642a9aa07fde0513219e69cda64e50218f7a2d1695a84fa37e9d3cf"
+      "hash" : "fe6e2464c3467cb4606bf6c26ca1cb093143dcbb1bab7dc408fef855c3890073"
+    },
+    {
+      "name" : "TextToSpeechV1",
+      "hash" : "508954d0565957a0f155110160e49ec06ce3e8762de8e01a307de6dc0419c05f"
+    },
+    {
+      "name" : "AlchemyDataNewsV1",
+      "hash" : "d01cf6c0699bdb85b12ad3cb17a69a7ce44bcb6ed912ff53609761ec87cafab9"
+    },
+    {
+      "name" : "NaturalLanguageUnderstandingV1",
+      "hash" : "28279d4ac8242d86b1b7e7a0c5969d13173084c1be10aabf3d91cc766cfbf547"
     },
     {
       "name" : "AlchemyLanguageV1",
-      "hash" : "40d51350e605169b26f2814450215d1c58162ab5a986672223a172b0f416c289"
+      "hash" : "87b1e6ad0169f89d3f66309d4d2ce41ac3f4b014e200717f427a94aee78c2b2a"
     },
     {
       "name" : "DiscoveryV1",
-      "hash" : "1a289c52aa545ad48e5ec85e8436a46f9ad9b52699c08b82eb2a3c36ebed9dbd"
+      "hash" : "bb6ee5ff1ee947648474e82efd611ed882838298cf93b31ffd039eeaf9852b98"
     },
     {
       "name" : "SpeechToTextV1",
-      "hash" : "e751ef6cabd38afe516a0492285ce8a0de9ed25ca2057be0c5a3f24a3f6ce0b8"
+      "hash" : "77adc7cc51a6b35bcecd2c1e9215ab406ea37358c249e5080d2efc9b3f21f471"
     },
     {
       "name" : "ConversationV1",
-      "hash" : "c8707cff3b0aa7c926af1f47c166ab02c5d45f9a54ed4ba3b1f57f5b110195de"
+      "hash" : "4157f5e42b3b35ddf9edbcf2d62d1a757594779c7c8949d4507a07e4ab761c8c"
     }
   ]
 }

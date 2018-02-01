@@ -52,7 +52,7 @@ extension ViewController {
         conversation = Conversation(
             username: Credentials.ConversationUsername,
             password: Credentials.ConversationPassword,
-            version: "2017-05-26"
+            version: "2018-02-01"
         )
         speechToText = SpeechToText(
             username: Credentials.SpeechToTextUsername,
@@ -79,28 +79,53 @@ extension ViewController {
     
     /// Start a new conversation
     func startConversation() {
-        let message = JSQMessage(senderId: User.watson.rawValue, displayName: User.getName(User.watson), text: "Hello")
-        self.messages.append(message!)
-        self.finishSendingMessage(animated: true)
+        conversation.message(
+            workspaceID: workspace,
+            failure: failure,
+            success: presentResponse
+        )
     }
     
     /// Present a conversation reply and speak it to the user
     func presentResponse(_ response: MessageResponse) {
-        // TODO
+        let text = response.output.text.joined()
+        context = response.context // save context to continue conversation
+        
+        // synthesize and speak the response
+        textToSpeech.synthesize(text, failure: failure) { audio in
+            self.audioPlayer = try! AVAudioPlayer(data: audio)
+            self.audioPlayer?.prepareToPlay()
+            self.audioPlayer?.play()
+        }
+        
+        // create message
+        let message = JSQMessage(
+            senderId: User.watson.rawValue,
+            displayName: User.getName(User.watson),
+            text: text
+        )
+        
+        // add message to chat window
+        if let message = message {
+            self.messages.append(message)
+            DispatchQueue.main.async { self.finishSendingMessage() }
+        }
     }
     
     /// Start transcribing microphone audio
     @objc func startTranscribing() {
-        // TODO
+        audioPlayer?.stop()
+        var settings = RecognitionSettings(contentType: .opus)
+        settings.interimResults = true
+        speechToText.recognizeMicrophone(settings: settings, failure: failure) { results in
+            self.inputToolbar.contentView.textView.text = results.bestTranscript
+            self.inputToolbar.toggleSendButtonEnabled()
+        }
     }
     
     /// Stop transcribing microphone audio
     @objc func stopTranscribing() {
-        
-        let message = JSQMessage(senderId: User.me.rawValue, displayName: User.getName(User.me), text: "Hello")
-        self.messages.append(message!)
-        self.finishSendingMessage(animated: true)
-        
+        speechToText.stopRecognizeMicrophone()
     }
 }
 
@@ -110,8 +135,8 @@ extension ViewController {
     func setupInterface() {
         // bubbles
         let factory = JSQMessagesBubbleImageFactory()
-        let incomingColor = UIColor.jsq_messageBubbleBlue()
-        let outgoingColor = UIColor.jsq_messageBubbleRed()
+        let incomingColor = UIColor.jsq_messageBubbleLightGray()
+        let outgoingColor = UIColor.jsq_messageBubbleGreen()
         incomingBubble = factory!.incomingMessagesBubbleImage(with: incomingColor)
         outgoingBubble = factory!.outgoingMessagesBubbleImage(with: outgoingColor)
         
@@ -119,15 +144,13 @@ extension ViewController {
         collectionView.collectionViewLayout.outgoingAvatarViewSize = CGSize.zero
         
         // microphone button
-        let microphoneButton = UIButton(type: .roundedRect)
-        microphoneButton.frame = CGRect(x: 137, y: 493, width: 46, height: 30)
+        let microphoneButton = UIButton(type: .custom)
         microphoneButton.setImage(#imageLiteral(resourceName: "microphone-hollow"), for: .normal)
         microphoneButton.setImage(#imageLiteral(resourceName: "microphone"), for: .highlighted)
         microphoneButton.addTarget(self, action: #selector(startTranscribing), for: .touchDown)
         microphoneButton.addTarget(self, action: #selector(stopTranscribing), for: .touchUpInside)
         microphoneButton.addTarget(self, action: #selector(stopTranscribing), for: .touchUpOutside)
-        self.view.addSubview(microphoneButton)
-        inputToolbar.removeFromSuperview()
+        inputToolbar.contentView.leftBarButtonItem = microphoneButton
     }
     
     func setupSender() {
@@ -143,8 +166,8 @@ extension ViewController {
         date: Date!)
     {
         let message = JSQMessage(
-            senderId: User.watson.rawValue,
-            senderDisplayName: User.getName(User.watson),
+            senderId: User.me.rawValue,
+            senderDisplayName: User.getName(User.me),
             date: date,
             text: text
         )
@@ -153,8 +176,16 @@ extension ViewController {
             self.messages.append(message)
             self.finishSendingMessage(animated: true)
         }
-
-        // TODO: send text to conversation service
+        
+        // send text to conversation service
+        let input = InputData(text: text)
+        let request = MessageRequest(input: input, context: context)
+        conversation.message(
+            workspaceID: workspace,
+            request: request,
+            failure: failure,
+            success: presentResponse
+        )
     }
     
     override func didPressAccessoryButton(_ sender: UIButton!) {
