@@ -71,7 +71,7 @@ extension ViewController {
             message: error.localizedDescription,
             preferredStyle: .alert
         )
-        alert.addAction(UIAlertAction(title: "Ok", style: .default))
+        alert.addAction(UIAlertAction(title: "OK", style: .default))
         DispatchQueue.main.async {
             self.present(alert, animated: true)
         }
@@ -118,8 +118,10 @@ extension ViewController {
         var settings = RecognitionSettings(contentType: .opus)
         settings.interimResults = true
         speechToText.recognizeMicrophone(settings: settings, failure: failure) { results in
-            self.inputToolbar.contentView.textView.text = results.bestTranscript
-            self.inputToolbar.toggleSendButtonEnabled()
+            let message = JSQMessage(senderId: User.me.rawValue, displayName: User.getName(User.me), text: results.bestTranscript)
+            print(results.bestTranscript)
+            //self.messages.append(message!)
+            //self.finishSendingMessage(animated: true)
         }
     }
     
@@ -135,8 +137,8 @@ extension ViewController {
     func setupInterface() {
         // bubbles
         let factory = JSQMessagesBubbleImageFactory()
-        let incomingColor = UIColor.jsq_messageBubbleLightGray()
-        let outgoingColor = UIColor.jsq_messageBubbleGreen()
+        let incomingColor = UIColor.jsq_messageBubbleBlue()
+        let outgoingColor = UIColor.jsq_messageBubbleRed()
         incomingBubble = factory!.incomingMessagesBubbleImage(with: incomingColor)
         outgoingBubble = factory!.outgoingMessagesBubbleImage(with: outgoingColor)
         
@@ -145,12 +147,14 @@ extension ViewController {
         
         // microphone button
         let microphoneButton = UIButton(type: .custom)
+        microphoneButton.frame = CGRect(x: 137, y: 493, width: 46, height: 30)
         microphoneButton.setImage(#imageLiteral(resourceName: "microphone-hollow"), for: .normal)
         microphoneButton.setImage(#imageLiteral(resourceName: "microphone"), for: .highlighted)
         microphoneButton.addTarget(self, action: #selector(startTranscribing), for: .touchDown)
         microphoneButton.addTarget(self, action: #selector(stopTranscribing), for: .touchUpInside)
         microphoneButton.addTarget(self, action: #selector(stopTranscribing), for: .touchUpOutside)
-        inputToolbar.contentView.leftBarButtonItem = microphoneButton
+        self.view.addSubview(microphoneButton)
+        inputToolbar.removeFromSuperview()
     }
     
     func setupSender() {
