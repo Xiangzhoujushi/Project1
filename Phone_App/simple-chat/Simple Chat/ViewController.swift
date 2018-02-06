@@ -35,6 +35,8 @@ class ViewController: JSQMessagesViewController {
     var workspace = Credentials.ConversationWorkspace
     var context: Context?
     
+    var speech = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupInterface()
@@ -115,19 +117,31 @@ extension ViewController {
     /// Start transcribing microphone audio
     @objc func startTranscribing() {
         audioPlayer?.stop()
+        self.speech = ""
         var settings = RecognitionSettings(contentType: .opus)
         settings.interimResults = true
         speechToText.recognizeMicrophone(settings: settings, failure: failure) { results in
-            let message = JSQMessage(senderId: User.me.rawValue, displayName: User.getName(User.me), text: results.bestTranscript)
+            self.speech = results.bestTranscript
             print(results.bestTranscript)
-            //self.messages.append(message!)
-            //self.finishSendingMessage(animated: true)
         }
     }
     
     /// Stop transcribing microphone audio
     @objc func stopTranscribing() {
         speechToText.stopRecognizeMicrophone()
+        let message = JSQMessage(senderId: User.me.rawValue, displayName: User.getName(User.me), text: self.speech)
+        self.messages.append(message!)
+        self.finishSendingMessage(animated: true)
+        
+        // send text to conversation service
+        let input = InputData(text: self.speech)
+        let request = MessageRequest(input: input, context: context)
+        conversation.message(
+            workspaceID: workspace,
+            request: request,
+            failure: failure,
+            success: presentResponse
+        )
     }
 }
 
@@ -162,7 +176,7 @@ extension ViewController {
         senderDisplayName = User.getName(User.me)
     }
     
-    override func didPressSend(
+    /*override func didPressSend(
         _ button: UIButton!,
         withMessageText text: String!,
         senderId: String!,
@@ -190,7 +204,7 @@ extension ViewController {
             failure: failure,
             success: presentResponse
         )
-    }
+    }*/
     
     override func didPressAccessoryButton(_ sender: UIButton!) {
         // required by super class
