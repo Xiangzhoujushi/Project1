@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5228FE3C201AD47600A312EA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5228FE3B201AD47600A312EA /* Podfile */; };
 		5228FE3E201ADDF800A312EA /* Pods in Resources */ = {isa = PBXBuildFile; fileRef = 5228FE3D201ADDF800A312EA /* Pods */; };
+		52B46C5D202CDC4E0001C009 /* WeatherPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B46C5C202CDC4E0001C009 /* WeatherPart.swift */; };
 		642F51F9977D2B4C7F0C2B96 /* Pods_Simple_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F98792ECF89344B50C77911 /* Pods_Simple_Chat.framework */; };
 		6800B9221EE218EC00F2BD7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6800B9211EE218EC00F2BD7C /* AppDelegate.swift */; };
 		6800B9241EE218EC00F2BD7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6800B9231EE218EC00F2BD7C /* ViewController.swift */; };
@@ -66,6 +67,76 @@
 			remoteGlobalIDString = BD56820EE99EB767909861DACA9D52EF;
 			remoteInfo = "Pods-Simple Chat";
 		};
+		52B46C4A202CB3720001C009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ADCF7061CF0C2C5BBCE0DD51CF39BF74;
+			remoteInfo = Alamofire;
+		};
+		52B46C4C202CB3720001C009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 14E7C398FDC7A63D2F22537579A3B463;
+			remoteInfo = ObjectMapper;
+		};
+		52B46C4E202CB3720001C009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD15D04DE2A1DAC8F90D51B545AA5380;
+			remoteInfo = "openweathermap-swift-sdk";
+		};
+		52B46C56202CB3720001C009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE4B201ADEB000A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ADCF7061CF0C2C5BBCE0DD51CF39BF74;
+			remoteInfo = Alamofire;
+		};
+		52B46C58202CB3720001C009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE4B201ADEB000A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 14E7C398FDC7A63D2F22537579A3B463;
+			remoteInfo = ObjectMapper;
+		};
+		52B46C5A202CB3720001C009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE4B201ADEB000A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD15D04DE2A1DAC8F90D51B545AA5380;
+			remoteInfo = "openweathermap-swift-sdk";
+		};
+		52B46C68202D0A540001C009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08B83E629487AB884DA718B657A35CD7;
+			remoteInfo = OpenWeatherSwift;
+		};
+		52B46C6A202D0A540001C009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 379683464F403A9D501DF8A20A0EACEA;
+			remoteInfo = SwiftyJSON;
+		};
+		52B46C74202D0A540001C009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE4B201ADEB000A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08B83E629487AB884DA718B657A35CD7;
+			remoteInfo = OpenWeatherSwift;
+		};
+		52B46C76202D0A540001C009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE4B201ADEB000A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 379683464F403A9D501DF8A20A0EACEA;
+			remoteInfo = SwiftyJSON;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +145,7 @@
 		5228FE3D201ADDF800A312EA /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
 		5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		5228FE4B201ADEB000A312EA /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		52B46C5C202CDC4E0001C009 /* WeatherPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPart.swift; sourceTree = "<group>"; };
 		661949F74760477C68416846 /* Pods-Simple Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Chat/Pods-Simple Chat.release.xcconfig"; sourceTree = "<group>"; };
 		6800B91E1EE218EC00F2BD7C /* Simple Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6800B9211EE218EC00F2BD7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -134,9 +206,14 @@
 		5228FE40201ADE9D00A312EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				52B46C4B202CB3720001C009 /* Alamofire.framework */,
 				5228FE46201ADE9D00A312EA /* JSQMessagesViewController.framework */,
 				5228FE48201ADE9D00A312EA /* JSQSystemSoundPlayer.framework */,
+				52B46C4D202CB3720001C009 /* ObjectMapper.framework */,
+				52B46C4F202CB3720001C009 /* openweathermap_swift_sdk.framework */,
+				52B46C69202D0A540001C009 /* OpenWeatherSwift.framework */,
 				5228FE4A201ADE9D00A312EA /* Pods_Simple_Chat.framework */,
+				52B46C6B202D0A540001C009 /* SwiftyJSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,9 +221,14 @@
 		5228FE4C201ADEB000A312EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				52B46C57202CB3720001C009 /* Alamofire.framework */,
 				5228FE52201ADEB000A312EA /* JSQMessagesViewController.framework */,
 				5228FE54201ADEB000A312EA /* JSQSystemSoundPlayer.framework */,
+				52B46C59202CB3720001C009 /* ObjectMapper.framework */,
+				52B46C5B202CB3720001C009 /* openweathermap_swift_sdk.framework */,
+				52B46C75202D0A540001C009 /* OpenWeatherSwift.framework */,
 				5228FE56201ADEB000A312EA /* Pods_Simple_Chat.framework */,
+				52B46C77202D0A540001C009 /* SwiftyJSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,6 +263,7 @@
 				6800B9281EE218EC00F2BD7C /* Assets.xcassets */,
 				6800B92A1EE218EC00F2BD7C /* LaunchScreen.storyboard */,
 				6800B92D1EE218EC00F2BD7C /* Info.plist */,
+				52B46C5C202CDC4E0001C009 /* WeatherPart.swift */,
 			);
 			path = "Simple Chat";
 			sourceTree = "<group>";
@@ -297,6 +380,76 @@
 			remoteRef = 5228FE55201ADEB000A312EA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		52B46C4B202CB3720001C009 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 52B46C4A202CB3720001C009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		52B46C4D202CB3720001C009 /* ObjectMapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectMapper.framework;
+			remoteRef = 52B46C4C202CB3720001C009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		52B46C4F202CB3720001C009 /* openweathermap_swift_sdk.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = openweathermap_swift_sdk.framework;
+			remoteRef = 52B46C4E202CB3720001C009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		52B46C57202CB3720001C009 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 52B46C56202CB3720001C009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		52B46C59202CB3720001C009 /* ObjectMapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectMapper.framework;
+			remoteRef = 52B46C58202CB3720001C009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		52B46C5B202CB3720001C009 /* openweathermap_swift_sdk.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = openweathermap_swift_sdk.framework;
+			remoteRef = 52B46C5A202CB3720001C009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		52B46C69202D0A540001C009 /* OpenWeatherSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OpenWeatherSwift.framework;
+			remoteRef = 52B46C68202D0A540001C009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		52B46C6B202D0A540001C009 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 52B46C6A202D0A540001C009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		52B46C75202D0A540001C009 /* OpenWeatherSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OpenWeatherSwift.framework;
+			remoteRef = 52B46C74202D0A540001C009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		52B46C77202D0A540001C009 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 52B46C76202D0A540001C009 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -354,13 +507,23 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Simple Chat/Pods-Simple Chat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/OpenWeatherSwift/OpenWeatherSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/openweathermap-swift-sdk/openweathermap_swift_sdk.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenWeatherSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openweathermap_swift_sdk.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -396,6 +559,7 @@
 				6815751E1EE219EC00E2F476 /* Credentials.swift in Sources */,
 				6800B9241EE218EC00F2BD7C /* ViewController.swift in Sources */,
 				6800B9221EE218EC00F2BD7C /* AppDelegate.swift in Sources */,
+				52B46C5D202CDC4E0001C009 /* WeatherPart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,10 +693,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Simple Chat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glennrfisher.Simple-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -547,10 +712,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Simple Chat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glennrfisher.Simple-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

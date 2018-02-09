@@ -7,5 +7,7 @@ target 'Simple Chat' do
 
   # Pods for Simple Chat
   pod 'JSQMessagesViewController'
-
+  pod 'openweathermap-swift-sdk'
+  pod 'OpenWeatherSwift'
+  
 end

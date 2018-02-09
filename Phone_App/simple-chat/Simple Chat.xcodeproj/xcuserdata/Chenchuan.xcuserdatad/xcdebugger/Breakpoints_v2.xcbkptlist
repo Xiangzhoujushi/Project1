@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Simple Chat/ViewController.swift"
-            timestampString = "539644782.490574"
+            timestampString = "539843395.273296"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
             landmarkName = "setupInterface()"
             landmarkType = "7">
          </BreakpointContent>
@@ -25,14 +25,30 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Simple Chat/ViewController.swift"
-            timestampString = "539644782.49104"
+            filePath = "Pods/openweathermap-swift-sdk/openweathermap-swift-sdk/Classes/OpenWeatherMapAPIClient.swift"
+            timestampString = "539843395.274022"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "ViewController"
-            landmarkType = "21">
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "getWeather(cityName:block:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OpenWeatherSwift/OpenWeatherSwift/Weather.swift"
+            timestampString = "539843395.2758009"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "init(data:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

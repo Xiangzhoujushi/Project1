@@ -16,10 +16,14 @@
 
 import UIKit
 import JSQMessagesViewController
+//import OpenWeatherSwift
+import OpenWeatherSwift
+//import openweathermap_swift_sdk
 import AVFoundation
 import ConversationV1
 import SpeechToTextV1
 import TextToSpeechV1
+
 
 class ViewController: JSQMessagesViewController {
     
@@ -88,8 +92,39 @@ extension ViewController {
         )
     }
     
+    /*func getWeather() -> String {
+        var result = ""
+
+        OpenWeatherMapClient.client(appID: "ed9049dc12e1698ee3b17de097abadaa")
+        print (OpenWeatherMapClient.accessibilityActivate())
+        OpenWeatherMapAPIClient.client.getWeather(cityName: "") { (weatherData, error) in
+            if error == nil && weatherData!.code == "200" {
+                print(weatherData!.code)
+            }
+        }
+        return result
+    }*/
+    
+   func getWeather() -> String {
+        var output = ""
+        let client = OpenWeatherSwift(apiKey: "ed9049dc12e1698ee3b17de097abadaa", temperatureFormat: .Celsius)
+        client.currentWeatherByCity(name: "London") {results in
+            let weather = Weather2.init(data: results)
+            output = "The Temperature is " + (String) (weather.temperature) + "celsius"
+        }
+        return output
+    }
+    
     /// Present a conversation reply and speak it to the user
     func presentResponse(_ response: MessageResponse) {
+        
+        if ((response.intents.count > 0) && (response.intents[0].intent == "weather")){
+            
+        }
+        
+        //var tmp = getWeather()
+        
+        
         let text = response.output.text.joined()
         context = response.context // save context to continue conversation
         
