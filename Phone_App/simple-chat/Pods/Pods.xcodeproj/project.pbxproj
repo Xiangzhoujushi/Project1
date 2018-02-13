@@ -28,8 +28,8 @@
 		18E6DE6A5C5196F931759B4D545DE975 /* JSQMessagesCollectionViewCellIncoming.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3424E873FD02B33EFABAA440283EF89F /* JSQMessagesCollectionViewCellIncoming.xib */; };
 		18E9B5E96557418567FCB7DCC559299F /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1A2D9F38B3FEF608068B6879F886DC /* TransformOperators.swift */; };
 		194858D10B9B1DD9FFEFBE4EAA0700F3 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567D1C90183F52846B3BE14BC6B4A844 /* TransformOf.swift */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC1BEE3DE0408D87ABA0C6CA4C5F092 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C0A82E171CE11AF7C7CB4FC7D080BD3 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 548CEF30D04550BEB04696787A721627 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D58FF665358CD13210750DA0A5D568E9 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C0A82E171CE11AF7C7CB4FC7D080BD3 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB325222365D652D8A87CCB59B784DA /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D175A520B3D6B2B3134593270CF4C3B /* JSQPhotoMediaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9CFAD0FCC0DB51F7C86AB8EEDDFBBC /* JSQPhotoMediaItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D1D1FE3E3FBAF8A1CD081DF3B41E098 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2902EC1DFA2598ED1477EA650CB08D2D /* QuartzCore.framework */; };
 		1EA2E6DFBE4AC13642F05FDAA29C2C50 /* JSQMessagesInputToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F695C2EEDBF6005D31C66D290EDEF806 /* JSQMessagesInputToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,16 +39,16 @@
 		23B31DAECE298E56760B53206971C6E0 /* JSQMessagesCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9205D8C48EABC684F2C5AD9FE65D8F35 /* JSQMessagesCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		242D23D0EB67922D7A2DF72154DFBB6F /* JSQMessageAvatarImageDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 331FE543141B42E1ACC334572628F774 /* JSQMessageAvatarImageDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		255C4ADB2BD82FEEF86A3D4D43F31C63 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7138EFC4F27865B071E8C24585C955B6 /* ISO8601DateTransform.swift */; };
-		267E6AE39022DC2E5FD7A83A0A9C90CA /* OpenWeatherSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F7B3F1EF381A514E46161E5522BD7E /* OpenWeatherSwift-dummy.m */; };
+		267E6AE39022DC2E5FD7A83A0A9C90CA /* OpenWeatherSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C448F7A7B0DEC8D7F5AE406E4665339 /* OpenWeatherSwift-dummy.m */; };
 		27156C9092B7A82E24CF96312A941150 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6FDC9650F842EC0D3731519C850925 /* TransformType.swift */; };
 		29B73968F1BA2987FEF099C812351349 /* JSQMessagesToolbarContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E1E909C10C8FD463740AF6DF42EF7E /* JSQMessagesToolbarContentView.m */; };
 		2B83269B815EC174BB6EB295795CB0E3 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D3E31966D5303D8E8940389897196 /* Temperature.swift */; };
 		2C9F7C1DABBFB9CB281783A5DB445C44 /* JSQMessagesCollectionViewLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 531C70ED39ECA17FCCE2AE534F18947F /* JSQMessagesCollectionViewLayoutAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D89AB26203628C04B3E87D045525701 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07844CCAFC2C4555FAE634E10446DE9 /* MapError.swift */; };
-		308AF729D55840FF807E5B06B38F9548 /* Pods-Simple Chat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA139A2719E2CABDC3D8341B5F6BD9B6 /* Pods-Simple Chat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30A2CA86ADDB25AB2E7B7C152ECFA151 /* OpenWeatherSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E611F58D8B879667D1967BADB0AAF03 /* OpenWeatherSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		308AF729D55840FF807E5B06B38F9548 /* Pods-Simple Chat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B077C3A42FF6CF4A1256FE93C79B2165 /* Pods-Simple Chat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A2CA86ADDB25AB2E7B7C152ECFA151 /* OpenWeatherSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 904F0947DF836C871630CE7D7CAD64D0 /* OpenWeatherSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		319E1BA9E6B38CE41234EDABD73C4C38 /* NSBundle+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EDA844522AA3DADB5CFF584F16242A /* NSBundle+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3239F85B66A79E0B450141B1F2A5C45E /* openweathermap-swift-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F48614808CE1CA6F397E13BB4EB7C92 /* openweathermap-swift-sdk-dummy.m */; };
+		3239F85B66A79E0B450141B1F2A5C45E /* openweathermap-swift-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92F821700D3705409C80794E37718 /* openweathermap-swift-sdk-dummy.m */; };
 		33BB9AD3741F3ECF75411A4E3C82B74D /* JSQSystemSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 731B50D8FAD313C9E94E315E35C2FF94 /* JSQSystemSoundPlayer.m */; };
 		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEC92A9D2D65AF0FD3F2FA800F39CC7 /* TaskDelegate.swift */; };
 		39D7C670879E236D85F82657BB4DAD2A /* UIDevice+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C33748D292C7815AB150E4D7C46CC7 /* UIDevice+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,18 +71,18 @@
 		561D081EAB6F263BD3FA0B444C395030 /* JSQMessagesCellTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E0A3A9FEA9BB03453DD36232BAE50C /* JSQMessagesCellTextView.m */; };
 		56EE115614D32FF57180D7683412D915 /* UIColor+JSQMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D983F32325B224AD318FC9630A9080 /* UIColor+JSQMessages.m */; };
 		579F5B08F5D8299F4BB0A9AB44C84FA7 /* JSQMessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4BE92E74737114F2E3BC558DA7C6EC /* JSQMessageData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59109302859941E04E87DC7044DFEE89 /* ObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C8508BF01E850228854BA87C4A3CEB /* ObjectMapper-dummy.m */; };
+		59109302859941E04E87DC7044DFEE89 /* ObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8445A62B9CD90973648BDD048B5E6315 /* ObjectMapper-dummy.m */; };
 		597DCDBBC3F2A87D7BE4BBAB00D90385 /* JSQSystemSoundPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBDE855E035E0ECE9B4601504361F53 /* JSQSystemSoundPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CDD84D6922878E179B0FA6B88D14BA9 /* Precipitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AAD77B31BC4F2F2DD4EEA1EB0915D /* Precipitation.swift */; };
 		5E3CD934B1911134558C5CB7FF0BA1B4 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D3D49FB634A3151D5B9E732C51128C /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E7C46E9368070A9FE5150F7CFAE82D1 /* JSQMessagesCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5438B83D485ECA6CA8F481E403134FD2 /* JSQMessagesCollectionViewFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D15F4C167BFBD6563255447B02D053D /* DispatchQueue+Alamofire.swift */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421380F1927243F01B09C92FE62AD253 /* ServerTrustPolicy.swift */; };
-		639528137E7A5FC46C0EA5558B1C4350 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB02D2441D22C54C75CF0A9B3962C29 /* SwiftyJSON-dummy.m */; };
+		639528137E7A5FC46C0EA5558B1C4350 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D65150E77577A243E7FD40D4712DA8 /* SwiftyJSON-dummy.m */; };
 		64812729D8DE634B9524C5319F72E932 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = DA83639D0D78E0BB27122FC78F8551B3 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.m */; };
 		67195E786FB69ACCB85AFFB6F2B4A427 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F7217E6D2EB630021AD8B4307E35FE /* Alamofire.framework */; };
 		67A4D8A24085ADC44A65404E73461B43 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6D4B50F410C75142457273FF3A0B01 /* Mappable.swift */; };
-		6B3E1EF3C0A0280C1E99603DFC2966F0 /* JSQMessagesViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABF0CFFCB9CC8F278EAE75499CDEE4B /* JSQMessagesViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B3E1EF3C0A0280C1E99603DFC2966F0 /* JSQMessagesViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0754BD3B25B8EB2398CFDB4839E3798 /* JSQMessagesViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C2FE27FDBD6621AAB57E4082419C347 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1761DD6B6586567214BB4969037AAD3 /* NSDecimalNumberTransform.swift */; };
 		6CCE35C0E52AD7C8175B08C75B325049 /* JSQMessagesLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F7EAA5E239C6F0666C44F675F1C3995C /* JSQMessagesLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CFA0C1B6E580D5EC5F8B4E36ACDE892 /* UIImage+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D6FB03FCF56B1BFA8FDD0C656B15C5 /* UIImage+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -94,7 +94,7 @@
 		733E8CA810F0F437C9C7FDE6DA60B9E9 /* JSQMessagesInputToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 234CE50FF579288BE40CA987E0DDD6A6 /* JSQMessagesInputToolbar.m */; };
 		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BF71109E81949227FC24E92B321E25 /* Foundation.framework */; };
 		74EAADDADC835AE371509AF4BC19EED7 /* JSQMessagesKeyboardController.h in Headers */ = {isa = PBXBuildFile; fileRef = F1690279FBB4E35044BD73A17B3FDD70 /* JSQMessagesKeyboardController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75ACAD75F3E4820D6D9D23C828207E96 /* Pods-Simple Chat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A45F471E377877433577CEF4B3688B /* Pods-Simple Chat-dummy.m */; };
+		75ACAD75F3E4820D6D9D23C828207E96 /* Pods-Simple Chat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E867C077BE3355DDC69C68CC2A4BC737 /* Pods-Simple Chat-dummy.m */; };
 		768F1DE7CA5E754BE0F06A52066B3544 /* JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = C9156723564419141DE1BB6416BC5689 /* JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77CA4CD47748C0B69982A6D82C2799D5 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE562EEDEF250C2DE0EABB3BAA037BF /* Mapper.swift */; };
 		78BA75223D5CBFB27AC98092DA67839B /* JSQMessagesBubblesSizeCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 469A521846FF16CE2C4DB4656D202596 /* JSQMessagesBubblesSizeCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -125,23 +125,23 @@
 		9DA72045F2F0B01AA874820A27141A13 /* WeatherArrayResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EFFC4631B610D079D83F2F2BF7F09B /* WeatherArrayResult.swift */; };
 		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B569CD50CB57322A216867BD64B7FBD /* AFError.swift */; };
 		9F80FD930EFABE333171E6812AFFFF89 /* UIView+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = C31448A4328CFCCEE82B7B0F84A19A14 /* UIView+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A128DBCF691E0F4D2AC3EEA36F7BD562 /* ObjectMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1949324482C84500EEC2F26034E3E6CF /* ObjectMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A128DBCF691E0F4D2AC3EEA36F7BD562 /* ObjectMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA2B3FEA5B00B613F1D0A547C3A4EA6 /* ObjectMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A159C0A3164478623E459164250E45C4 /* JSQSystemSoundPlayer+JSQMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E46343E2A21DE0C446B885C77B7773 /* JSQSystemSoundPlayer+JSQMessages.m */; };
 		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D89265E296CBF9D60ECE0DB694B3F /* NetworkReachabilityManager.swift */; };
 		A3257198200B15501C5F45D4AA23885E /* OpenWeatherMapAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC890EBBAC76141D20B3F4EDE989B7 /* OpenWeatherMapAPIClient.swift */; };
 		A4F6DA7C20CC4B16DF0BBD943991108D /* JSQMessageBubbleImageDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C1FDFE170B09ECF1692DE69E2B9C6475 /* JSQMessageBubbleImageDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5BFC49ED41BC416BEBF4772517AB741 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9FE5E2AA69C468D22923DFD791CB7 /* Map.swift */; };
 		A66B83640404A2087A133D11A7FB633D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F7217E6D2EB630021AD8B4307E35FE /* Alamofire.framework */; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C7BFA1BEAA3A1E18878F5589B29FF7 /* Alamofire-dummy.m */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A647D4E32FC00A449B6D9E52BCDEBD /* Alamofire-dummy.m */; };
 		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF7895AC13C6ECA760F738120F3F6 /* SessionManager.swift */; };
 		AE73638A7C2DA0C1C9F0A61D1D1F133E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B601F2922CA9CC2D601350E176C2968C /* MapKit.framework */; };
-		B01BCEA53EAD2B9D468DA470ACE25399 /* JSQMessagesViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F51DD73484CB3A3B1D1DE9E050875D74 /* JSQMessagesViewController-dummy.m */; };
+		B01BCEA53EAD2B9D468DA470ACE25399 /* JSQMessagesViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E19BA1A827FC5EF6788DA7F20140F592 /* JSQMessagesViewController-dummy.m */; };
 		B29D907250856963C8C41CEC8336CF3B /* JSQMessagesAvatarImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F62B62442351950692B9B6CE595674E7 /* JSQMessagesAvatarImage.m */; };
 		B2EFEFFB34D517F8E9A203B674AEBD13 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20759788B1171CE0B7BDC974E4EA54A2 /* DictionaryTransform.swift */; };
 		B4E2F424298D517511F47AFBCE7877D1 /* JSQMessagesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = ACCCD055814101DD77EAD0EBC0AA0846 /* JSQMessagesViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEF3E5374283B4FF1E5300CC6FD85C /* MultipartFormData.swift */; };
 		B74724F4DE7AF477390ABC79AAD35BAE /* JSQMessagesCollectionViewCellIncoming.m in Sources */ = {isa = PBXBuildFile; fileRef = B199028003B0B68F226457B5D1798DF9 /* JSQMessagesCollectionViewCellIncoming.m */; };
-		B7E30B6EB3FAD392295C81DA08B80157 /* openweathermap-swift-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F9319EAE3A9EC248756E1C1D61B7B4 /* openweathermap-swift-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7E30B6EB3FAD392295C81DA08B80157 /* openweathermap-swift-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE02EEAD3BA9D35D7A58DDBFF62B89AC /* openweathermap-swift-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7F1D9E14737FA7269D75A6D01BBB5A9 /* JSQMessagesCollectionViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AC87C8D1F3DD1C41010308B34C806E /* JSQMessagesCollectionViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B87FE02FA7A0A8F226501245ADC88D3D /* JSQMessagesToolbarContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4CCC7C489B8EFE7740B7FF5A3F6949 /* JSQMessagesToolbarContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9C39C539A810D1958AEEF1AEC0FD75C /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D8A37DB1711F4FF4C63D566FEE6166 /* ImmutableMappable.swift */; };
@@ -163,7 +163,7 @@
 		D1E0D269EAD4B6FB01948F7780BD5469 /* JSQLocationMediaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A15B03ACF89C75A5858642F561CF3B6F /* JSQLocationMediaItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3606896B42830A11DDCD11445D58346 /* JSQMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FFF14CE5AA60A7FAB734705446AB4 /* JSQMediaItem.m */; };
 		D4A925404417A0AEA2569BE8697B84D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12B1847A7539E4A2A403ACE55125E11 /* UIKit.framework */; };
-		D5EDF701474637548017366D85DC162B /* JSQSystemSoundPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6383B03B1964678134C513810BC601 /* JSQSystemSoundPlayer-dummy.m */; };
+		D5EDF701474637548017366D85DC162B /* JSQSystemSoundPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7D7EB52153BB8E96FF6191E6BC9720 /* JSQSystemSoundPlayer-dummy.m */; };
 		D687858C00D384EE419E0AD92032CE67 /* JSQMessagesCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58621660E5F659E4098E776E5C28BE34 /* JSQMessagesCollectionView.m */; };
 		D789A642D4D8D3E2E99D2143408C2FDE /* JSQMessagesCellTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C14196E40CB746A7199AA1120367792B /* JSQMessagesCellTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D799C6D83286AC15F34FCDCC92A25871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BF71109E81949227FC24E92B321E25 /* Foundation.framework */; };
@@ -184,7 +184,7 @@
 		EC1A896625476730D64BF9645624BBAD /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95DF7A198D9A98DE174F52F988F8E3E /* DataTransform.swift */; };
 		EEAAC166B8C79BCA989836EAB89F3B35 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDD823596DA4515C47A431685D2DD70 /* SwiftyJSON.framework */; };
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B0D90ACFC863D7444DCC0D17F4973 /* Notifications.swift */; };
-		F0AAAFE8E84ECF9A6CBCCBBA96B16A29 /* JSQSystemSoundPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E86531A1AEABF356295BDA80BA2794 /* JSQSystemSoundPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0AAAFE8E84ECF9A6CBCCBBA96B16A29 /* JSQSystemSoundPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0ACFDB17DB93FB3DA7A220952D3A4B /* JSQSystemSoundPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F265230FDDB2472AB6646B2047983374 /* OpenWeatherMapClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F8248F94AF9864D93A32D04104475F /* OpenWeatherMapClient.swift */; };
 		F28CEFF02311DDB81E5DB68B295E067D /* JSQMessagesCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B085BF0E0089014BCA33E3DE173F0BC /* JSQMessagesCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3D3406B798B94A35C7F26504C44ADC9 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B366F673F165D75FF9A0957C557B7CA7 /* JSQMessagesTypingIndicatorFooterView.xib */; };
@@ -296,165 +296,161 @@
 		041CDF296917DE3526CF95AA10FC0B1B /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		05CFDAC14805010964FBEC5A30B73DB1 /* JSQMessagesMediaViewBubbleImageMasker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesMediaViewBubbleImageMasker.h; path = JSQMessagesViewController/Factories/JSQMessagesMediaViewBubbleImageMasker.h; sourceTree = "<group>"; };
 		0876AC842BCAA1EA86B0B652B5351269 /* EnumOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumOperators.swift; path = Sources/EnumOperators.swift; sourceTree = "<group>"; };
-		08B83E629487AB884DA718B657A35CD7 /* OpenWeatherSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenWeatherSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B83E629487AB884DA718B657A35CD7 /* OpenWeatherSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenWeatherSwift.framework; path = OpenWeatherSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CA2564DBB3C3371EF0AF4FDCE19E83 /* DailyForecastResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DailyForecastResult.swift; path = "openweathermap-swift-sdk/Classes/DailyForecastResult.swift"; sourceTree = "<group>"; };
 		090AEC6484DC65F1A3494780887AEDCD /* JSQMessagesToolbarButtonFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesToolbarButtonFactory.m; path = JSQMessagesViewController/Factories/JSQMessagesToolbarButtonFactory.m; sourceTree = "<group>"; };
+		091BA023A10D10636ADDC14D5AE2B0B4 /* openweathermap-swift-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "openweathermap-swift-sdk.modulemap"; sourceTree = "<group>"; };
 		0B085BF0E0089014BCA33E3DE173F0BC /* JSQMessagesCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewCell.h; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCell.h; sourceTree = "<group>"; };
 		0B569CD50CB57322A216867BD64B7FBD /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		0BBDE855E035E0ECE9B4601504361F53 /* JSQSystemSoundPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQSystemSoundPlayer.h; path = JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.h; sourceTree = "<group>"; };
+		0BC92F821700D3705409C80794E37718 /* openweathermap-swift-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "openweathermap-swift-sdk-dummy.m"; sourceTree = "<group>"; };
 		0D76F9F6DB487EBCB0B59E0DB36B7507 /* JSQMessagesAssets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = JSQMessagesAssets.bundle; path = JSQMessagesViewController/Assets/JSQMessagesAssets.bundle; sourceTree = "<group>"; };
 		0E91AB96A54D03AB7B00CB0AFC68B4D3 /* JSQMessagesComposerTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesComposerTextView.h; path = JSQMessagesViewController/Views/JSQMessagesComposerTextView.h; sourceTree = "<group>"; };
-		0F48614808CE1CA6F397E13BB4EB7C92 /* openweathermap-swift-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "openweathermap-swift-sdk-dummy.m"; sourceTree = "<group>"; };
-		11730C0E94DFE1D11F3E925697B194A1 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		11A647D4E32FC00A449B6D9E52BCDEBD /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		13C71D257CA45BEF4E8D18F361372DC3 /* JSQMessagesBubbleImageFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesBubbleImageFactory.h; path = JSQMessagesViewController/Factories/JSQMessagesBubbleImageFactory.h; sourceTree = "<group>"; };
-		1475AA2D744F49A3E4D36DA33904EAE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		155D5D838A6E771D46B99B1507B743DC /* JSQPhotoMediaItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQPhotoMediaItem.m; path = JSQMessagesViewController/Model/JSQPhotoMediaItem.m; sourceTree = "<group>"; };
-		1561BC9A6AB689C807E815DB66B494B2 /* OpenWeatherSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenWeatherSwift.xcconfig; sourceTree = "<group>"; };
-		168D9CE136AF9EF3D73253FE2594622C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16D8A37DB1711F4FF4C63D566FEE6166 /* ImmutableMappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImmutableMappable.swift; path = Sources/ImmutableMappable.swift; sourceTree = "<group>"; };
+		18317D9A616C096CAE60DA92B3BD6BAB /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		1873E3F814F425D1DB0590F9663E346C /* Clouds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Clouds.swift; path = "openweathermap-swift-sdk/Classes/Clouds.swift"; sourceTree = "<group>"; };
 		188B0B83E901E3DC6CEB5B7B3FA75CF2 /* UIColor+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+JSQMessages.h"; path = "JSQMessagesViewController/Categories/UIColor+JSQMessages.h"; sourceTree = "<group>"; };
 		18B345CD4D9641B2A827E637ACA81CC9 /* JSQVideoMediaItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQVideoMediaItem.h; path = JSQMessagesViewController/Model/JSQVideoMediaItem.h; sourceTree = "<group>"; };
-		18E0BEF0DC9FA00DB60C8D8623288B66 /* OpenWeatherSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OpenWeatherSwift.modulemap; sourceTree = "<group>"; };
-		1949324482C84500EEC2F26034E3E6CF /* ObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-umbrella.h"; sourceTree = "<group>"; };
+		1BB8C1BB1316AC3825B03BAE071810A7 /* JSQMessagesViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSQMessagesViewController.xcconfig; sourceTree = "<group>"; };
+		1C6B07A5186486302A2EDAB67FA5BE0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA362F471431D49418FF08A7BAC8A13 /* JSQMessagesViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSQMessagesViewController-prefix.pch"; sourceTree = "<group>"; };
 		1EC53490D40C852EC39F3171EA7624F1 /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = Sources/DateTransform.swift; sourceTree = "<group>"; };
 		1F2FFF14CE5AA60A7FAB734705446AB4 /* JSQMediaItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMediaItem.m; path = JSQMessagesViewController/Model/JSQMediaItem.m; sourceTree = "<group>"; };
 		1F31082FCA311E727EF6162F3D01C80E /* JSQMessagesToolbarContentView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JSQMessagesToolbarContentView.xib; path = JSQMessagesViewController/Views/JSQMessagesToolbarContentView.xib; sourceTree = "<group>"; };
 		1F826C759FC3834937F96C174F8ED501 /* ToJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToJSON.swift; path = Sources/ToJSON.swift; sourceTree = "<group>"; };
 		20759788B1171CE0B7BDC974E4EA54A2 /* DictionaryTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryTransform.swift; path = Sources/DictionaryTransform.swift; sourceTree = "<group>"; };
-		218A2A21A1F52A0D88888DDD41262BA8 /* ObjectMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-prefix.pch"; sourceTree = "<group>"; };
 		21DF509CC439A7C2B2EC3918641681AD /* JSQMessagesTypingIndicatorFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesTypingIndicatorFooterView.h; path = JSQMessagesViewController/Views/JSQMessagesTypingIndicatorFooterView.h; sourceTree = "<group>"; };
 		22391C57C494D8CB338E1372BA265AE4 /* JSQMessagesKeyboardController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesKeyboardController.m; path = JSQMessagesViewController/Controllers/JSQMessagesKeyboardController.m; sourceTree = "<group>"; };
-		2288D060DA87452035D8AD31E7F85034 /* Pods-Simple Chat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Simple Chat-frameworks.sh"; sourceTree = "<group>"; };
 		234CE50FF579288BE40CA987E0DDD6A6 /* JSQMessagesInputToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesInputToolbar.m; path = JSQMessagesViewController/Views/JSQMessagesInputToolbar.m; sourceTree = "<group>"; };
-		23C8CD2D431A3E953ADFFB6F8A0E68D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248CCFF4E3510E3B30146C2515BE0158 /* openweathermap-swift-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "openweathermap-swift-sdk.xcconfig"; sourceTree = "<group>"; };
 		251C8D1E8C1131DD4E8D9C77F3ADDE61 /* JSQMessagesTimestampFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesTimestampFormatter.h; path = JSQMessagesViewController/Factories/JSQMessagesTimestampFormatter.h; sourceTree = "<group>"; };
-		267C6362E23ABBC65A23AEF9824A55E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26D3D49FB634A3151D5B9E732C51128C /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewFlowLayoutInvalidationContext.h; path = JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h; sourceTree = "<group>"; };
-		28538DE3A89D577BA0DE7E944BAD1860 /* Pods-Simple Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simple Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		28A9C544E27B82161810DC5026002916 /* JSQMessagesLoadEarlierHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesLoadEarlierHeaderView.m; path = JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.m; sourceTree = "<group>"; };
 		28C33748D292C7815AB150E4D7C46CC7 /* UIDevice+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+JSQMessages.h"; path = "JSQMessagesViewController/Categories/UIDevice+JSQMessages.h"; sourceTree = "<group>"; };
-		28CBD17C61CD97866B0FF804302FAA71 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		2902EC1DFA2598ED1477EA650CB08D2D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		2B98143429B7F51FE2DC4D779DA3E03F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB736230745CA87C6D7B8171DA561E5 /* Pods-Simple Chat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simple Chat-acknowledgements.plist"; sourceTree = "<group>"; };
 		2C3E024C22C6BF42BA2F4381CD0D7903 /* UIDevice+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+JSQMessages.m"; path = "JSQMessagesViewController/Categories/UIDevice+JSQMessages.m"; sourceTree = "<group>"; };
-		2E611F58D8B879667D1967BADB0AAF03 /* OpenWeatherSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenWeatherSwift-umbrella.h"; sourceTree = "<group>"; };
-		308562943EF35393F8BC27BE30F9F303 /* JSQSystemSoundPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSQSystemSoundPlayer-prefix.pch"; sourceTree = "<group>"; };
-		322BB058F530DD1144A007F6D213195E /* OpenWeatherSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenWeatherSwift-prefix.pch"; sourceTree = "<group>"; };
+		2C7D7EB52153BB8E96FF6191E6BC9720 /* JSQSystemSoundPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSQSystemSoundPlayer-dummy.m"; sourceTree = "<group>"; };
+		2D639AB4D9E311568E076C25FBCB41D3 /* openweathermap-swift-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "openweathermap-swift-sdk-prefix.pch"; sourceTree = "<group>"; };
 		32C9DEEE95DDF864D8B267D50C989C33 /* Weather.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weather.swift; path = OpenWeatherSwift/Weather.swift; sourceTree = "<group>"; };
 		331FE543141B42E1ACC334572628F774 /* JSQMessageAvatarImageDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessageAvatarImageDataSource.h; path = JSQMessagesViewController/Model/JSQMessageAvatarImageDataSource.h; sourceTree = "<group>"; };
 		3424E873FD02B33EFABAA440283EF89F /* JSQMessagesCollectionViewCellIncoming.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JSQMessagesCollectionViewCellIncoming.xib; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCellIncoming.xib; sourceTree = "<group>"; };
 		345B99544CE2237B74F6BE31C5244136 /* JSQVideoMediaItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQVideoMediaItem.m; path = JSQMessagesViewController/Model/JSQVideoMediaItem.m; sourceTree = "<group>"; };
+		35BEE227A8817D9E73D9CFFE3071F55A /* Pods-Simple Chat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Simple Chat-acknowledgements.markdown"; sourceTree = "<group>"; };
 		35C42515367909803EF06AAA2BFE0C8A /* JSQAudioMediaViewAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQAudioMediaViewAttributes.h; path = JSQMessagesViewController/Layout/JSQAudioMediaViewAttributes.h; sourceTree = "<group>"; };
 		35D6FB03FCF56B1BFA8FDD0C656B15C5 /* UIImage+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+JSQMessages.h"; path = "JSQMessagesViewController/Categories/UIImage+JSQMessages.h"; sourceTree = "<group>"; };
-		363C1D28B1D76CA8CB63F56BD7711E16 /* Pods-Simple Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simple Chat.release.xcconfig"; sourceTree = "<group>"; };
-		379683464F403A9D501DF8A20A0EACEA /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		379683464F403A9D501DF8A20A0EACEA /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3797D6DFC281974ABF7A79D6AE840C8A /* Forecast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Forecast.swift; path = OpenWeatherSwift/Forecast.swift; sourceTree = "<group>"; };
 		386D00FE6A5ADA73D57C1DBA3245F3B3 /* UIImage+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+JSQMessages.m"; path = "JSQMessagesViewController/Categories/UIImage+JSQMessages.m"; sourceTree = "<group>"; };
-		3A0F9C3C6547D63D5A7A3A13932E7D65 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		3AD712C227F92D4A5162F560F3BAF71C /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		3AEC92A9D2D65AF0FD3F2FA800F39CC7 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		3B737D27BA0153DDC7AA8C8C19E78566 /* JSQAudioMediaItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQAudioMediaItem.h; path = JSQMessagesViewController/Model/JSQAudioMediaItem.h; sourceTree = "<group>"; };
+		3BA48A39EFF63455A45927C9B63DBCFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C9D3E31966D5303D8E8940389897196 /* Temperature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Temperature.swift; path = "openweathermap-swift-sdk/Classes/Temperature.swift"; sourceTree = "<group>"; };
 		3F1890497BBB0D93B4A2AEE9B1E48B7A /* JSQMessagesCollectionViewDelegateFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewDelegateFlowLayout.h; path = JSQMessagesViewController/Model/JSQMessagesCollectionViewDelegateFlowLayout.h; sourceTree = "<group>"; };
+		3FD5D7EB6B1AD6F2E7B4BDFEA34098E5 /* ObjectMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-prefix.pch"; sourceTree = "<group>"; };
 		4020C91D0A023F441483A4C9A238FD6B /* FromJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FromJSON.swift; path = Sources/FromJSON.swift; sourceTree = "<group>"; };
+		40CDF3D0CE4026BE8C839C4B54C83C0E /* Pods-Simple Chat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Simple Chat-frameworks.sh"; sourceTree = "<group>"; };
 		41541FBEA9F28641DEDE91D914117C03 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		41AC87C8D1F3DD1C41010308B34C806E /* JSQMessagesCollectionViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewDataSource.h; path = JSQMessagesViewController/Model/JSQMessagesCollectionViewDataSource.h; sourceTree = "<group>"; };
 		421380F1927243F01B09C92FE62AD253 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		42EDA844522AA3DADB5CFF584F16242A /* NSBundle+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+JSQMessages.h"; path = "JSQMessagesViewController/Categories/NSBundle+JSQMessages.h"; sourceTree = "<group>"; };
+		435E0F91C80438038EB75CC5F2651A1A /* JSQSystemSoundPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSQSystemSoundPlayer.modulemap; sourceTree = "<group>"; };
 		469A521846FF16CE2C4DB4656D202596 /* JSQMessagesBubblesSizeCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesBubblesSizeCalculator.h; path = JSQMessagesViewController/Layout/JSQMessagesBubblesSizeCalculator.h; sourceTree = "<group>"; };
 		47ADFE56274B0DD3E812EB17FC0EEB3D /* JSQAudioMediaViewAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQAudioMediaViewAttributes.m; path = JSQMessagesViewController/Layout/JSQAudioMediaViewAttributes.m; sourceTree = "<group>"; };
 		4904B1FAEDC4AB70FBC9D55C340D687A /* JSQMessagesBubbleImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesBubbleImage.h; path = JSQMessagesViewController/Model/JSQMessagesBubbleImage.h; sourceTree = "<group>"; };
 		4C4CCC7C489B8EFE7740B7FF5A3F6949 /* JSQMessagesToolbarContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesToolbarContentView.h; path = JSQMessagesViewController/Views/JSQMessagesToolbarContentView.h; sourceTree = "<group>"; };
-		4D7FFA26774DC5521DAEAAC36CC4AAD2 /* openweathermap-swift-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "openweathermap-swift-sdk.xcconfig"; sourceTree = "<group>"; };
-		50F9319EAE3A9EC248756E1C1D61B7B4 /* openweathermap-swift-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "openweathermap-swift-sdk-umbrella.h"; sourceTree = "<group>"; };
+		4EA2B3FEA5B00B613F1D0A547C3A4EA6 /* ObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-umbrella.h"; sourceTree = "<group>"; };
 		51052A664CBB6F663EE4F58818559684 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F7217E6D2EB630021AD8B4307E35FE /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		531C70ED39ECA17FCCE2AE534F18947F /* JSQMessagesCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewLayoutAttributes.h; path = JSQMessagesViewController/Layout/JSQMessagesCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
-		53C7BFA1BEAA3A1E18878F5589B29FF7 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		5438B83D485ECA6CA8F481E403134FD2 /* JSQMessagesCollectionViewFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewFlowLayout.h; path = JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayout.h; sourceTree = "<group>"; };
-		548CEF30D04550BEB04696787A721627 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		5648E2527AD6CE2A50AFBF7873039857 /* JSQMessageMediaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessageMediaData.h; path = JSQMessagesViewController/Model/JSQMessageMediaData.h; sourceTree = "<group>"; };
 		567D1C90183F52846B3BE14BC6B4A844 /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = Sources/TransformOf.swift; sourceTree = "<group>"; };
-		56F7B3F1EF381A514E46161E5522BD7E /* OpenWeatherSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenWeatherSwift-dummy.m"; sourceTree = "<group>"; };
 		57C9FE5E2AA69C468D22923DFD791CB7 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Sources/Map.swift; sourceTree = "<group>"; };
 		58621660E5F659E4098E776E5C28BE34 /* JSQMessagesCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCollectionView.m; path = JSQMessagesViewController/Views/JSQMessagesCollectionView.m; sourceTree = "<group>"; };
 		5B66BD523974D3A404005EFC7D15DEBF /* JSQMessagesToolbarButtonFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesToolbarButtonFactory.h; path = JSQMessagesViewController/Factories/JSQMessagesToolbarButtonFactory.h; sourceTree = "<group>"; };
 		5B7DC3155D5B44577A4EDF82D4B0BCE7 /* Coordinates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinates.swift; path = "openweathermap-swift-sdk/Classes/Coordinates.swift"; sourceTree = "<group>"; };
+		5CAD3105B6BEF2732F0E812C7F60676E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D0A4FE64DA18CE83C81E8EADAF13730 /* JSQAudioMediaItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQAudioMediaItem.m; path = JSQMessagesViewController/Model/JSQAudioMediaItem.m; sourceTree = "<group>"; };
-		5D6383B03B1964678134C513810BC601 /* JSQSystemSoundPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSQSystemSoundPlayer-dummy.m"; sourceTree = "<group>"; };
 		5EB496163A0F03A1B571CEE52999FC64 /* JSQMessagesComposerTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesComposerTextView.m; path = JSQMessagesViewController/Views/JSQMessagesComposerTextView.m; sourceTree = "<group>"; };
 		5FC02CAA94D3E529248102B6575120BC /* IntegerOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegerOperators.swift; path = Sources/IntegerOperators.swift; sourceTree = "<group>"; };
-		5FC1BEE3DE0408D87ABA0C6CA4C5F092 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		606820D799779CE9AF0F4B1AAC763EE0 /* ObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ObjectMapper.modulemap; sourceTree = "<group>"; };
-		60A8DA1FD07174E9EC572AF476FA7652 /* JSQSystemSoundPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JSQSystemSoundPlayer.modulemap; sourceTree = "<group>"; };
-		60BD8A673F7C551DA94B594138F6D6FC /* Pods_Simple_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BD8A673F7C551DA94B594138F6D6FC /* Pods_Simple_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Simple_Chat.framework; path = "Pods-Simple Chat.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6148EB371EFCCB6DFB65253ABF8EBC19 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		64C0A3F3A2D559BB2847C9439DBA68A7 /* Pods-Simple Chat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Simple Chat-resources.sh"; sourceTree = "<group>"; };
-		6567B19EE98A33E6B968AEEF4B742AE6 /* Pods-Simple Chat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simple Chat-acknowledgements.plist"; sourceTree = "<group>"; };
+		6628783E72D2A7306BB2D3081E2C6839 /* Pods-Simple Chat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Simple Chat.modulemap"; sourceTree = "<group>"; };
+		68D65150E77577A243E7FD40D4712DA8 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		6A6D4B50F410C75142457273FF3A0B01 /* Mappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mappable.swift; path = Sources/Mappable.swift; sourceTree = "<group>"; };
-		6A9F0318487B05C11F12507CEBD0BEA8 /* openweathermap_swift_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = openweathermap_swift_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A9F0318487B05C11F12507CEBD0BEA8 /* openweathermap_swift_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = openweathermap_swift_sdk.framework; path = "openweathermap-swift-sdk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD3715BC076698A2CFEC1BB9924A595 /* JSQMessagesViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesViewController.m; path = JSQMessagesViewController/Controllers/JSQMessagesViewController.m; sourceTree = "<group>"; };
 		6B5E5D970CE2F93B4930B794505F487B /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		6D15F4C167BFBD6563255447B02D053D /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		6DDEF3E5374283B4FF1E5300CC6FD85C /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		708DCE55DD9C22F20B94E68BB99B99BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E01C0CC506C79E6E314AD98AA700912 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708E1A3DCB62C504524593E49E58A00E /* OpenWeatherSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenWeatherSwift-prefix.pch"; sourceTree = "<group>"; };
 		7138EFC4F27865B071E8C24585C955B6 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = Sources/ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		72B92E64BC1507948639285DC1887969 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		730596A2D7F163DD56BF29433FF6FB51 /* JSQMessagesCollectionViewCellOutgoing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCollectionViewCellOutgoing.m; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCellOutgoing.m; sourceTree = "<group>"; };
 		731B50D8FAD313C9E94E315E35C2FF94 /* JSQSystemSoundPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQSystemSoundPlayer.m; path = JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m; sourceTree = "<group>"; };
+		73FAF0B1BA183457F69547021941F47E /* Pods-Simple Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simple Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		7401518A5F1EF05BAC3DA59065A61095 /* JSQMessagesLoadEarlierHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JSQMessagesLoadEarlierHeaderView.xib; path = JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.xib; sourceTree = "<group>"; };
 		74F13F0A3D40C6D96575E361E21112BD /* JSQMessagesTypingIndicatorFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesTypingIndicatorFooterView.m; path = JSQMessagesViewController/Views/JSQMessagesTypingIndicatorFooterView.m; sourceTree = "<group>"; };
-		778160B93557244798F4B69EC69DAE8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78203E1066144F16B4FD7F8F4AC9BD8B /* OpenWeatherMapAPIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenWeatherMapAPIError.swift; path = "openweathermap-swift-sdk/Classes/OpenWeatherMapAPIError.swift"; sourceTree = "<group>"; };
 		79E1E909C10C8FD463740AF6DF42EF7E /* JSQMessagesToolbarContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesToolbarContentView.m; path = JSQMessagesViewController/Views/JSQMessagesToolbarContentView.m; sourceTree = "<group>"; };
 		7A1679DC9CE4553570CDF1D976B3550A /* JSQMediaItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMediaItem.h; path = JSQMessagesViewController/Model/JSQMediaItem.h; sourceTree = "<group>"; };
-		7ABF0CFFCB9CC8F278EAE75499CDEE4B /* JSQMessagesViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSQMessagesViewController-umbrella.h"; sourceTree = "<group>"; };
-		7C38B9977CA9D844F4C5C996D389DA18 /* JSQMessagesViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSQMessagesViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C38B9977CA9D844F4C5C996D389DA18 /* JSQMessagesViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSQMessagesViewController.framework; path = JSQMessagesViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C448F7A7B0DEC8D7F5AE406E4665339 /* OpenWeatherSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenWeatherSwift-dummy.m"; sourceTree = "<group>"; };
+		7D27CA02290685B4077278E8B83FB55A /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		7D9B6816ED2928A64BBDBA815D92C4CE /* JSQMessagesBubbleSizeCalculating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesBubbleSizeCalculating.h; path = JSQMessagesViewController/Layout/JSQMessagesBubbleSizeCalculating.h; sourceTree = "<group>"; };
+		7E712698F711C5171E81F3AC692F696C /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		7F290915B30F1C9BAD0C1F7A8A7CCFF4 /* JSQSystemSoundPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSQSystemSoundPlayer-prefix.pch"; sourceTree = "<group>"; };
+		82A2C52D35D3FCF031F54CAA0323DBBB /* JSQMessagesViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSQMessagesViewController.modulemap; sourceTree = "<group>"; };
+		8445A62B9CD90973648BDD048B5E6315 /* ObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjectMapper-dummy.m"; sourceTree = "<group>"; };
 		8518D959D99364B9182D839705514F66 /* JSQSystemSoundPlayer+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSQSystemSoundPlayer+JSQMessages.h"; path = "JSQMessagesViewController/Categories/JSQSystemSoundPlayer+JSQMessages.h"; sourceTree = "<group>"; };
-		85D1E38E96C7724F5D0D2D10DE2991E2 /* JSQMessagesViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSQMessagesViewController-prefix.pch"; sourceTree = "<group>"; };
 		882F642782F42EB86867B122B59B74B6 /* JSQMessagesBubblesSizeCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesBubblesSizeCalculator.m; path = JSQMessagesViewController/Layout/JSQMessagesBubblesSizeCalculator.m; sourceTree = "<group>"; };
 		887051CA315411E89A01660B21AA249C /* UIView+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JSQMessages.m"; path = "JSQMessagesViewController/Categories/UIView+JSQMessages.m"; sourceTree = "<group>"; };
 		8900919F9424357160551F19AB8D3728 /* JSQMessagesAvatarImageFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesAvatarImageFactory.m; path = JSQMessagesViewController/Factories/JSQMessagesAvatarImageFactory.m; sourceTree = "<group>"; };
 		8E0365C6215DD3CCFDF3C8D19D9FE3DA /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Main.swift; path = "openweathermap-swift-sdk/Classes/Main.swift"; sourceTree = "<group>"; };
 		8FE7A0032988EC45513344742825AB8B /* Params.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Params.swift; path = "openweathermap-swift-sdk/Classes/Params.swift"; sourceTree = "<group>"; };
-		91C36359DC0CBB707F8B9CB7B759AD04 /* openweathermap-swift-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "openweathermap-swift-sdk-prefix.pch"; sourceTree = "<group>"; };
+		904F0947DF836C871630CE7D7CAD64D0 /* OpenWeatherSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenWeatherSwift-umbrella.h"; sourceTree = "<group>"; };
 		9205D8C48EABC684F2C5AD9FE65D8F35 /* JSQMessagesCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionView.h; path = JSQMessagesViewController/Views/JSQMessagesCollectionView.h; sourceTree = "<group>"; };
 		9248E041925C15B8F71F3A00B54C36F0 /* JSQMessagesAvatarImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesAvatarImage.h; path = JSQMessagesViewController/Model/JSQMessagesAvatarImage.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95CFB139D5297B3E67A8561A955B7C55 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		9653B1B085950A18AA805C998AB83E5A /* Pods-Simple Chat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Simple Chat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		984810260475172AD2A2B73A84513548 /* Pods-Simple Chat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Simple Chat-resources.sh"; sourceTree = "<group>"; };
 		9962ED3ECC612599E712DF80081A9F56 /* JSQMessagesLoadEarlierHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesLoadEarlierHeaderView.h; path = JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.h; sourceTree = "<group>"; };
 		9AF27DD3CAA2AF9DF588C701F708B06A /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = Sources/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		9BB325222365D652D8A87CCB59B784DA /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		9C401C17B19661348842A972ECE86B31 /* OpenWeatherSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenWeatherSwift.swift; path = OpenWeatherSwift/OpenWeatherSwift.swift; sourceTree = "<group>"; };
 		9C642F88714BD4689112C6DCD4A426FE /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		9E6FDC9650F842EC0D3731519C850925 /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Sources/TransformType.swift; sourceTree = "<group>"; };
 		A15B03ACF89C75A5858642F561CF3B6F /* JSQLocationMediaItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQLocationMediaItem.h; path = JSQMessagesViewController/Model/JSQLocationMediaItem.h; sourceTree = "<group>"; };
-		A1E86531A1AEABF356295BDA80BA2794 /* JSQSystemSoundPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSQSystemSoundPlayer-umbrella.h"; sourceTree = "<group>"; };
 		A54120D2D0382B23CBD0DA59E085952C /* JSQMessagesMediaPlaceholderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesMediaPlaceholderView.m; path = JSQMessagesViewController/Views/JSQMessagesMediaPlaceholderView.m; sourceTree = "<group>"; };
-		A59FCA0517AE2B94E25702452C0E4046 /* ObjectMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectMapper.xcconfig; sourceTree = "<group>"; };
 		A64A1893BD0FE396AF612E07AE938F06 /* JSQMessagesLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesLabel.m; path = JSQMessagesViewController/Views/JSQMessagesLabel.m; sourceTree = "<group>"; };
 		A79B2435FF25627A13B09F1F60E6777E /* HexColorTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = Sources/HexColorTransform.swift; sourceTree = "<group>"; };
 		A8C462A55D7BB5664BCD2441B8D011AF /* Weather.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weather.swift; path = "openweathermap-swift-sdk/Classes/Weather.swift"; sourceTree = "<group>"; };
 		A97106CE98283D017E33ACBDFF26D6C1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		AA139A2719E2CABDC3D8341B5F6BD9B6 /* Pods-Simple Chat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Simple Chat-umbrella.h"; sourceTree = "<group>"; };
 		AA8BBCCE05B66222CC48DAD3E20EC8F9 /* JSQMessagesCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCollectionViewLayoutAttributes.m; path = JSQMessagesViewController/Layout/JSQMessagesCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
 		AB34EF6C5A7F5C44B06F2289569A77B4 /* WeatherInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeatherInfo.swift; path = "openweathermap-swift-sdk/Classes/WeatherInfo.swift"; sourceTree = "<group>"; };
 		AB4BE92E74737114F2E3BC558DA7C6EC /* JSQMessageData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessageData.h; path = JSQMessagesViewController/Model/JSQMessageData.h; sourceTree = "<group>"; };
 		ABDD823596DA4515C47A431685D2DD70 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC7E1CF16CF8F9A4A7AC8E6C83371C6C /* openweathermap-swift-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "openweathermap-swift-sdk.modulemap"; sourceTree = "<group>"; };
 		ACCCD055814101DD77EAD0EBC0AA0846 /* JSQMessagesViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesViewController.h; path = JSQMessagesViewController/Controllers/JSQMessagesViewController.h; sourceTree = "<group>"; };
+		B077C3A42FF6CF4A1256FE93C79B2165 /* Pods-Simple Chat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Simple Chat-umbrella.h"; sourceTree = "<group>"; };
 		B199028003B0B68F226457B5D1798DF9 /* JSQMessagesCollectionViewCellIncoming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCollectionViewCellIncoming.m; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCellIncoming.m; sourceTree = "<group>"; };
+		B1E1AA6ABE08B44081BE23AC4A8BDC15 /* ObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjectMapper.modulemap; sourceTree = "<group>"; };
 		B2EDB0A8282B9E60FB1E50F0AEC3FDE2 /* Wind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wind.swift; path = "openweathermap-swift-sdk/Classes/Wind.swift"; sourceTree = "<group>"; };
 		B366F673F165D75FF9A0957C557B7CA7 /* JSQMessagesTypingIndicatorFooterView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JSQMessagesTypingIndicatorFooterView.xib; path = JSQMessagesViewController/Views/JSQMessagesTypingIndicatorFooterView.xib; sourceTree = "<group>"; };
 		B4D983F32325B224AD318FC9630A9080 /* UIColor+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+JSQMessages.m"; path = "JSQMessagesViewController/Categories/UIColor+JSQMessages.m"; sourceTree = "<group>"; };
 		B4EFFC4631B610D079D83F2F2BF7F09B /* WeatherArrayResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeatherArrayResult.swift; path = "openweathermap-swift-sdk/Classes/WeatherArrayResult.swift"; sourceTree = "<group>"; };
 		B5AC890EBBAC76141D20B3F4EDE989B7 /* OpenWeatherMapAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenWeatherMapAPIClient.swift; path = "openweathermap-swift-sdk/Classes/OpenWeatherMapAPIClient.swift"; sourceTree = "<group>"; };
 		B601F2922CA9CC2D601350E176C2968C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		B7AE9B1E35AB68DE5ED1FE6219FFCF36 /* JSQMessagesViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JSQMessagesViewController.modulemap; sourceTree = "<group>"; };
 		B881FE50755DE0101EA5F73CAD22ED14 /* Sys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sys.swift; path = "openweathermap-swift-sdk/Classes/Sys.swift"; sourceTree = "<group>"; };
 		B9E46343E2A21DE0C446B885C77B7773 /* JSQSystemSoundPlayer+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSQSystemSoundPlayer+JSQMessages.m"; path = "JSQMessagesViewController/Categories/JSQSystemSoundPlayer+JSQMessages.m"; sourceTree = "<group>"; };
 		BA13D486F0AC95062230FC40B3A36F39 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = Sources/EnumTransform.swift; sourceTree = "<group>"; };
 		BAC356931628744E09198204A4203C4C /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		BB16CC8EC1100D645814EBE3D3439E38 /* ObjectMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectMapper.xcconfig; sourceTree = "<group>"; };
 		BDABF9988438168B541AB6A6B8965284 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		C07844CCAFC2C4555FAE634E10446DE9 /* MapError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapError.swift; path = Sources/MapError.swift; sourceTree = "<group>"; };
 		C12B1847A7539E4A2A403ACE55125E11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -462,11 +458,11 @@
 		C14D17DD6B0052A0AF1B8A0ED95F4FAE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		C1E6878105A2BC04C1CD03E8D8D51999 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		C1FDFE170B09ECF1692DE69E2B9C6475 /* JSQMessageBubbleImageDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessageBubbleImageDataSource.h; path = JSQMessagesViewController/Model/JSQMessageBubbleImageDataSource.h; sourceTree = "<group>"; };
-		C22C7E6358FA762CA4752159B95579BA /* Pods-Simple Chat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Simple Chat.modulemap"; sourceTree = "<group>"; };
 		C31448A4328CFCCEE82B7B0F84A19A14 /* UIView+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JSQMessages.h"; path = "JSQMessagesViewController/Categories/UIView+JSQMessages.h"; sourceTree = "<group>"; };
 		C3ACFDA0FA976758D7A20211038790E1 /* BaseResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseResult.swift; path = "openweathermap-swift-sdk/Classes/BaseResult.swift"; sourceTree = "<group>"; };
 		C49897725A60A041FA6F04D2351CB6C1 /* DailyForecastWeather.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DailyForecastWeather.swift; path = "openweathermap-swift-sdk/Classes/DailyForecastWeather.swift"; sourceTree = "<group>"; };
-		C6A45F471E377877433577CEF4B3688B /* Pods-Simple Chat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Simple Chat-dummy.m"; sourceTree = "<group>"; };
+		C69BBD93E6F2AF9C827BEB627491E1BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6B3493920D5A379141A2606623CD25B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		C7AA4BF2F84EC8171B2AB0338909218F /* City.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = City.swift; path = "openweathermap-swift-sdk/Classes/City.swift"; sourceTree = "<group>"; };
 		C8445F1476978DE19852897350CFDCC8 /* JSQMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessage.h; path = JSQMessagesViewController/Model/JSQMessage.h; sourceTree = "<group>"; };
 		C9156723564419141DE1BB6416BC5689 /* JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessages.h; path = JSQMessagesViewController/JSQMessages.h; sourceTree = "<group>"; };
@@ -479,51 +475,55 @@
 		CE0AAD77B31BC4F2F2DD4EEA1EB0915D /* Precipitation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Precipitation.swift; path = "openweathermap-swift-sdk/Classes/Precipitation.swift"; sourceTree = "<group>"; };
 		D1761DD6B6586567214BB4969037AAD3 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransform.swift; path = Sources/NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
 		D1BC6801A29BCD0A7B3A32C26310922B /* JSQMessagesCollectionViewCellOutgoing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewCellOutgoing.h; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCellOutgoing.h; sourceTree = "<group>"; };
-		D212A19E743DE47A61A7C31F4F90ACB3 /* JSQSystemSoundPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSQSystemSoundPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D212A19E743DE47A61A7C31F4F90ACB3 /* JSQSystemSoundPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSQSystemSoundPlayer.framework; path = JSQSystemSoundPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3470C93283B530EF757749BB2DFEFA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = OpenWeatherSwift/Info.plist; sourceTree = "<group>"; };
 		D3FAF4CA7736D67607DF40F942C5BC05 /* JSQMessagesViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JSQMessagesViewController.xib; path = JSQMessagesViewController/Controllers/JSQMessagesViewController.xib; sourceTree = "<group>"; };
-		D4D676F8AD7AEF2A44C016DA20B25B6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4CF1FEE618FAA5239F95DD6EC69C9A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4F8248F94AF9864D93A32D04104475F /* OpenWeatherMapClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenWeatherMapClient.swift; path = "openweathermap-swift-sdk/Classes/OpenWeatherMapClient.swift"; sourceTree = "<group>"; };
+		D58FF665358CD13210750DA0A5D568E9 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		D5BF71109E81949227FC24E92B321E25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D624178F1497F4CF05ABACEFBC3EE6F8 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
-		D6BB91DB645BF01534F2888269F1D295 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		D75522C0C37A6C3C40028B2D480EA27C /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		D7DE56B2CFD92B067AB0680EBCAAB563 /* JSQSystemSoundPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSQSystemSoundPlayer.xcconfig; sourceTree = "<group>"; };
 		D7DF26B07388CDB351406C562910ECFD /* JSQSystemSoundPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSQSystemSoundPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA83639D0D78E0BB27122FC78F8551B3 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCollectionViewFlowLayoutInvalidationContext.m; path = JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayoutInvalidationContext.m; sourceTree = "<group>"; };
-		DC163036EE51CE4300C34E7C59AADA53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0E586DBFDB4DEB38530DABD7B5B62CE /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE02EEAD3BA9D35D7A58DDBFF62B89AC /* openweathermap-swift-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "openweathermap-swift-sdk-umbrella.h"; sourceTree = "<group>"; };
+		DE0ACFDB17DB93FB3DA7A220952D3A4B /* JSQSystemSoundPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSQSystemSoundPlayer-umbrella.h"; sourceTree = "<group>"; };
+		E0E586DBFDB4DEB38530DABD7B5B62CE /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13BE220DD3B5F77FB185E483E3B9915 /* JSQMessagesMediaViewBubbleImageMasker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesMediaViewBubbleImageMasker.m; path = JSQMessagesViewController/Factories/JSQMessagesMediaViewBubbleImageMasker.m; sourceTree = "<group>"; };
+		E19BA1A827FC5EF6788DA7F20140F592 /* JSQMessagesViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSQMessagesViewController-dummy.m"; sourceTree = "<group>"; };
 		E1D66ACC072FA39CCDCF508A331A6060 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = Sources/DateFormatterTransform.swift; sourceTree = "<group>"; };
+		E33F93259AF9FFC5795E40323171AA3F /* OpenWeatherSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpenWeatherSwift.modulemap; sourceTree = "<group>"; };
 		E48C4B87161BDAF46D9F9BC2C132B641 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		E7882B9A1FDE4B56E026410A70EB1F12 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7882B9A1FDE4B56E026410A70EB1F12 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjectMapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E867C077BE3355DDC69C68CC2A4BC737 /* Pods-Simple Chat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Simple Chat-dummy.m"; sourceTree = "<group>"; };
 		E88207B27146E96EE5D83C43BD7B14F0 /* JSQMessagesBubbleImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesBubbleImage.m; path = JSQMessagesViewController/Model/JSQMessagesBubbleImage.m; sourceTree = "<group>"; };
 		E95E1071A8EF5CAEA0DB738F0C96CD5E /* JSQMessagesCollectionViewCellOutgoing.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JSQMessagesCollectionViewCellOutgoing.xib; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCellOutgoing.xib; sourceTree = "<group>"; };
-		E96D3F508A8394596ABA9F90225B2A74 /* JSQSystemSoundPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSQSystemSoundPlayer.xcconfig; sourceTree = "<group>"; };
+		EA4B63EA8E9810218AE7449AD1BB2DAD /* Pods-Simple Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simple Chat.release.xcconfig"; sourceTree = "<group>"; };
 		ED1A2D9F38B3FEF608068B6879F886DC /* TransformOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOperators.swift; path = Sources/TransformOperators.swift; sourceTree = "<group>"; };
 		EEA05431087281BEA8217FC21554B327 /* JSQMessagesMediaPlaceholderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesMediaPlaceholderView.h; path = JSQMessagesViewController/Views/JSQMessagesMediaPlaceholderView.h; sourceTree = "<group>"; };
+		F0754BD3B25B8EB2398CFDB4839E3798 /* JSQMessagesViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSQMessagesViewController-umbrella.h"; sourceTree = "<group>"; };
 		F0E94F18DA75BFA221C0794A489533FA /* JSQMessagesAvatarImageFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesAvatarImageFactory.h; path = JSQMessagesViewController/Factories/JSQMessagesAvatarImageFactory.h; sourceTree = "<group>"; };
 		F1690279FBB4E35044BD73A17B3FDD70 /* JSQMessagesKeyboardController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesKeyboardController.h; path = JSQMessagesViewController/Controllers/JSQMessagesKeyboardController.h; sourceTree = "<group>"; };
 		F2778E040519ED5963C4C9ADA6919807 /* NSString+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JSQMessages.m"; path = "JSQMessagesViewController/Categories/NSString+JSQMessages.m"; sourceTree = "<group>"; };
 		F4E0A3A9FEA9BB03453DD36232BAE50C /* JSQMessagesCellTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCellTextView.m; path = JSQMessagesViewController/Views/JSQMessagesCellTextView.m; sourceTree = "<group>"; };
 		F4EBF5B7782A396F5429D2B6E85F7D88 /* NSBundle+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+JSQMessages.m"; path = "JSQMessagesViewController/Categories/NSBundle+JSQMessages.m"; sourceTree = "<group>"; };
 		F516D0F68C36A222E1B98603696396B3 /* NSString+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JSQMessages.h"; path = "JSQMessagesViewController/Categories/NSString+JSQMessages.h"; sourceTree = "<group>"; };
-		F51DD73484CB3A3B1D1DE9E050875D74 /* JSQMessagesViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSQMessagesViewController-dummy.m"; sourceTree = "<group>"; };
 		F62B62442351950692B9B6CE595674E7 /* JSQMessagesAvatarImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesAvatarImage.m; path = JSQMessagesViewController/Model/JSQMessagesAvatarImage.m; sourceTree = "<group>"; };
 		F695C2EEDBF6005D31C66D290EDEF806 /* JSQMessagesInputToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesInputToolbar.h; path = JSQMessagesViewController/Views/JSQMessagesInputToolbar.h; sourceTree = "<group>"; };
-		F6C8508BF01E850228854BA87C4A3CEB /* ObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjectMapper-dummy.m"; sourceTree = "<group>"; };
 		F6C93E6BDABCD1C3F13B70EDD2863BA6 /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = Sources/URLTransform.swift; sourceTree = "<group>"; };
 		F7EAA5E239C6F0666C44F675F1C3995C /* JSQMessagesLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesLabel.h; path = JSQMessagesViewController/Views/JSQMessagesLabel.h; sourceTree = "<group>"; };
 		F8A9FC16D47FFC7C5AE2481CF2DFEC5D /* JSQMessagesTimestampFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesTimestampFormatter.m; path = JSQMessagesViewController/Factories/JSQMessagesTimestampFormatter.m; sourceTree = "<group>"; };
-		F8DA037E339670FB14D2FCD8391041D5 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		F92EDA7D997AFDA264DCF817CAA25176 /* JSQMessagesViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSQMessagesViewController.xcconfig; sourceTree = "<group>"; };
 		F9FCA1EB04DC7A934192B9F2AC77F197 /* JSQMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessage.m; path = JSQMessagesViewController/Model/JSQMessage.m; sourceTree = "<group>"; };
 		FA584BE527CB543E84568AA899F23B4B /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		FB0CF32ECD1A6E3E1BE52458C9802937 /* OpenWeatherSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenWeatherSwift.h; path = OpenWeatherSwift/OpenWeatherSwift.h; sourceTree = "<group>"; };
 		FB4B0D90ACFC863D7444DCC0D17F4973 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		FB84022184E1D19041DA19A046FF965C /* JSQMessagesCollectionViewCellIncoming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewCellIncoming.h; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCellIncoming.h; sourceTree = "<group>"; };
 		FB9CFAD0FCC0DB51F7C86AB8EEDDFBBC /* JSQPhotoMediaItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQPhotoMediaItem.h; path = JSQMessagesViewController/Model/JSQPhotoMediaItem.h; sourceTree = "<group>"; };
-		FCB02D2441D22C54C75CF0A9B3962C29 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		FCD78B590D756F1DDA819A71F7B37D61 /* JSQLocationMediaItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQLocationMediaItem.m; path = JSQMessagesViewController/Model/JSQLocationMediaItem.m; sourceTree = "<group>"; };
+		FDF1465DE9EEB218236FD991068CF7A6 /* OpenWeatherSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenWeatherSwift.xcconfig; sourceTree = "<group>"; };
 		FE0FE968529C15224011C35869C95FC4 /* JSQMessagesBubbleImageFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesBubbleImageFactory.m; path = JSQMessagesViewController/Factories/JSQMessagesBubbleImageFactory.m; sourceTree = "<group>"; };
+		FF0D0CB868764FA51623452251D3B834 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -606,20 +606,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D254EC675E57AFFA096BF21450FF5CA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				11730C0E94DFE1D11F3E925697B194A1 /* Alamofire.modulemap */,
-				D6BB91DB645BF01534F2888269F1D295 /* Alamofire.xcconfig */,
-				53C7BFA1BEAA3A1E18878F5589B29FF7 /* Alamofire-dummy.m */,
-				3AD712C227F92D4A5162F560F3BAF71C /* Alamofire-prefix.pch */,
-				5FC1BEE3DE0408D87ABA0C6CA4C5F092 /* Alamofire-umbrella.h */,
-				DC163036EE51CE4300C34E7C59AADA53 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
 		14E8F4DFBC402E94EABA4F10E0934B04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -632,6 +618,52 @@
 				D3FAF4CA7736D67607DF40F942C5BC05 /* JSQMessagesViewController.xib */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		1ED344A258643200695532D3A5AA79FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C6B07A5186486302A2EDAB67FA5BE0B /* Info.plist */,
+				091BA023A10D10636ADDC14D5AE2B0B4 /* openweathermap-swift-sdk.modulemap */,
+				248CCFF4E3510E3B30146C2515BE0158 /* openweathermap-swift-sdk.xcconfig */,
+				0BC92F821700D3705409C80794E37718 /* openweathermap-swift-sdk-dummy.m */,
+				2D639AB4D9E311568E076C25FBCB41D3 /* openweathermap-swift-sdk-prefix.pch */,
+				DE02EEAD3BA9D35D7A58DDBFF62B89AC /* openweathermap-swift-sdk-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/openweathermap-swift-sdk";
+			sourceTree = "<group>";
+		};
+		21B1BBD555159B60F2D6DED97447E26E /* Pods-Simple Chat */ = {
+			isa = PBXGroup;
+			children = (
+				6E01C0CC506C79E6E314AD98AA700912 /* Info.plist */,
+				6628783E72D2A7306BB2D3081E2C6839 /* Pods-Simple Chat.modulemap */,
+				35BEE227A8817D9E73D9CFFE3071F55A /* Pods-Simple Chat-acknowledgements.markdown */,
+				2BB736230745CA87C6D7B8171DA561E5 /* Pods-Simple Chat-acknowledgements.plist */,
+				E867C077BE3355DDC69C68CC2A4BC737 /* Pods-Simple Chat-dummy.m */,
+				40CDF3D0CE4026BE8C839C4B54C83C0E /* Pods-Simple Chat-frameworks.sh */,
+				984810260475172AD2A2B73A84513548 /* Pods-Simple Chat-resources.sh */,
+				B077C3A42FF6CF4A1256FE93C79B2165 /* Pods-Simple Chat-umbrella.h */,
+				73FAF0B1BA183457F69547021941F47E /* Pods-Simple Chat.debug.xcconfig */,
+				EA4B63EA8E9810218AE7449AD1BB2DAD /* Pods-Simple Chat.release.xcconfig */,
+			);
+			name = "Pods-Simple Chat";
+			path = "Target Support Files/Pods-Simple Chat";
+			sourceTree = "<group>";
+		};
+		2BB7DBEEC2BDCED2CB7A3F586D8944C3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF0D0CB868764FA51623452251D3B834 /* Info.plist */,
+				B1E1AA6ABE08B44081BE23AC4A8BDC15 /* ObjectMapper.modulemap */,
+				BB16CC8EC1100D645814EBE3D3439E38 /* ObjectMapper.xcconfig */,
+				8445A62B9CD90973648BDD048B5E6315 /* ObjectMapper-dummy.m */,
+				3FD5D7EB6B1AD6F2E7B4BDFEA34098E5 /* ObjectMapper-prefix.pch */,
+				4EA2B3FEA5B00B613F1D0A547C3A4EA6 /* ObjectMapper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ObjectMapper";
 			sourceTree = "<group>";
 		};
 		38193FDCFB4081F9CA23D5EDD6DAE3D5 /* Products */ = {
@@ -669,9 +701,38 @@
 				3AEC92A9D2D65AF0FD3F2FA800F39CC7 /* TaskDelegate.swift */,
 				95CFB139D5297B3E67A8561A955B7C55 /* Timeline.swift */,
 				041CDF296917DE3526CF95AA10FC0B1B /* Validation.swift */,
-				0D254EC675E57AFFA096BF21450FF5CA /* Support Files */,
+				55471EA47A17A3479A84EB701BA3B3A0 /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		4D0187A714ACA8E6250716E2CADA4EBE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B98143429B7F51FE2DC4D779DA3E03F /* Info.plist */,
+				E33F93259AF9FFC5795E40323171AA3F /* OpenWeatherSwift.modulemap */,
+				FDF1465DE9EEB218236FD991068CF7A6 /* OpenWeatherSwift.xcconfig */,
+				7C448F7A7B0DEC8D7F5AE406E4665339 /* OpenWeatherSwift-dummy.m */,
+				708E1A3DCB62C504524593E49E58A00E /* OpenWeatherSwift-prefix.pch */,
+				904F0947DF836C871630CE7D7CAD64D0 /* OpenWeatherSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenWeatherSwift";
+			sourceTree = "<group>";
+		};
+		55471EA47A17A3479A84EB701BA3B3A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E712698F711C5171E81F3AC692F696C /* Alamofire.modulemap */,
+				72B92E64BC1507948639285DC1887969 /* Alamofire.xcconfig */,
+				11A647D4E32FC00A449B6D9E52BCDEBD /* Alamofire-dummy.m */,
+				C6B3493920D5A379141A2606623CD25B /* Alamofire-prefix.pch */,
+				D58FF665358CD13210750DA0A5D568E9 /* Alamofire-umbrella.h */,
+				D4CF1FEE618FAA5239F95DD6EC69C9A4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		5569E58EF704A336FB2F4D4765C4C621 /* iOS */ = {
@@ -715,8 +776,9 @@
 				ED1A2D9F38B3FEF608068B6879F886DC /* TransformOperators.swift */,
 				9E6FDC9650F842EC0D3731519C850925 /* TransformType.swift */,
 				F6C93E6BDABCD1C3F13B70EDD2863BA6 /* URLTransform.swift */,
-				B664247C82B1EB11EDDF8EF2FE80919C /* Support Files */,
+				2BB7DBEEC2BDCED2CB7A3F586D8944C3 /* Support Files */,
 			);
+			name = ObjectMapper;
 			path = ObjectMapper;
 			sourceTree = "<group>";
 		};
@@ -728,8 +790,9 @@
 				FB0CF32ECD1A6E3E1BE52458C9802937 /* OpenWeatherSwift.h */,
 				9C401C17B19661348842A972ECE86B31 /* OpenWeatherSwift.swift */,
 				32C9DEEE95DDF864D8B267D50C989C33 /* Weather.swift */,
-				9A90C2D245D7C1C1307E65D29E824017 /* Support Files */,
+				4D0187A714ACA8E6250716E2CADA4EBE /* Support Files */,
 			);
+			name = OpenWeatherSwift;
 			path = OpenWeatherSwift;
 			sourceTree = "<group>";
 		};
@@ -848,66 +911,21 @@
 				C31448A4328CFCCEE82B7B0F84A19A14 /* UIView+JSQMessages.h */,
 				887051CA315411E89A01660B21AA249C /* UIView+JSQMessages.m */,
 				14E8F4DFBC402E94EABA4F10E0934B04 /* Resources */,
-				9C5BB1C5ABF435269C617DDF12A3BA50 /* Support Files */,
+				C84B9A4C5DBB2A324EFAAE524BAEA23A /* Support Files */,
 			);
+			name = JSQMessagesViewController;
 			path = JSQMessagesViewController;
 			sourceTree = "<group>";
 		};
-		9A90C2D245D7C1C1307E65D29E824017 /* Support Files */ = {
+		96BF0B286397B25BC33107CE9F85B876 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				168D9CE136AF9EF3D73253FE2594622C /* Info.plist */,
-				18E0BEF0DC9FA00DB60C8D8623288B66 /* OpenWeatherSwift.modulemap */,
-				1561BC9A6AB689C807E815DB66B494B2 /* OpenWeatherSwift.xcconfig */,
-				56F7B3F1EF381A514E46161E5522BD7E /* OpenWeatherSwift-dummy.m */,
-				322BB058F530DD1144A007F6D213195E /* OpenWeatherSwift-prefix.pch */,
-				2E611F58D8B879667D1967BADB0AAF03 /* OpenWeatherSwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/OpenWeatherSwift";
-			sourceTree = "<group>";
-		};
-		9C5BB1C5ABF435269C617DDF12A3BA50 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1475AA2D744F49A3E4D36DA33904EAE9 /* Info.plist */,
-				B7AE9B1E35AB68DE5ED1FE6219FFCF36 /* JSQMessagesViewController.modulemap */,
-				F92EDA7D997AFDA264DCF817CAA25176 /* JSQMessagesViewController.xcconfig */,
-				F51DD73484CB3A3B1D1DE9E050875D74 /* JSQMessagesViewController-dummy.m */,
-				85D1E38E96C7724F5D0D2D10DE2991E2 /* JSQMessagesViewController-prefix.pch */,
-				7ABF0CFFCB9CC8F278EAE75499CDEE4B /* JSQMessagesViewController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JSQMessagesViewController";
-			sourceTree = "<group>";
-		};
-		9D2669615EFD9FBADA9B06DEDBE24F55 /* Pods-Simple Chat */ = {
-			isa = PBXGroup;
-			children = (
-				D4D676F8AD7AEF2A44C016DA20B25B6D /* Info.plist */,
-				C22C7E6358FA762CA4752159B95579BA /* Pods-Simple Chat.modulemap */,
-				9653B1B085950A18AA805C998AB83E5A /* Pods-Simple Chat-acknowledgements.markdown */,
-				6567B19EE98A33E6B968AEEF4B742AE6 /* Pods-Simple Chat-acknowledgements.plist */,
-				C6A45F471E377877433577CEF4B3688B /* Pods-Simple Chat-dummy.m */,
-				2288D060DA87452035D8AD31E7F85034 /* Pods-Simple Chat-frameworks.sh */,
-				64C0A3F3A2D559BB2847C9439DBA68A7 /* Pods-Simple Chat-resources.sh */,
-				AA139A2719E2CABDC3D8341B5F6BD9B6 /* Pods-Simple Chat-umbrella.h */,
-				28538DE3A89D577BA0DE7E944BAD1860 /* Pods-Simple Chat.debug.xcconfig */,
-				363C1D28B1D76CA8CB63F56BD7711E16 /* Pods-Simple Chat.release.xcconfig */,
-			);
-			name = "Pods-Simple Chat";
-			path = "Target Support Files/Pods-Simple Chat";
-			sourceTree = "<group>";
-		};
-		A28931B1696191B6F31FE91AED271BA8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				23C8CD2D431A3E953ADFFB6F8A0E68D5 /* Info.plist */,
-				3A0F9C3C6547D63D5A7A3A13932E7D65 /* SwiftyJSON.modulemap */,
-				F8DA037E339670FB14D2FCD8391041D5 /* SwiftyJSON.xcconfig */,
-				FCB02D2441D22C54C75CF0A9B3962C29 /* SwiftyJSON-dummy.m */,
-				28CBD17C61CD97866B0FF804302FAA71 /* SwiftyJSON-prefix.pch */,
-				548CEF30D04550BEB04696787A721627 /* SwiftyJSON-umbrella.h */,
+				3BA48A39EFF63455A45927C9B63DBCFC /* Info.plist */,
+				D75522C0C37A6C3C40028B2D480EA27C /* SwiftyJSON.modulemap */,
+				7D27CA02290685B4077278E8B83FB55A /* SwiftyJSON.xcconfig */,
+				68D65150E77577A243E7FD40D4712DA8 /* SwiftyJSON-dummy.m */,
+				18317D9A616C096CAE60DA92B3BD6BAB /* SwiftyJSON-prefix.pch */,
+				9BB325222365D652D8A87CCB59B784DA /* SwiftyJSON-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftyJSON";
@@ -923,34 +941,6 @@
 				5569E58EF704A336FB2F4D4765C4C621 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B664247C82B1EB11EDDF8EF2FE80919C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				267C6362E23ABBC65A23AEF9824A55E6 /* Info.plist */,
-				606820D799779CE9AF0F4B1AAC763EE0 /* ObjectMapper.modulemap */,
-				A59FCA0517AE2B94E25702452C0E4046 /* ObjectMapper.xcconfig */,
-				F6C8508BF01E850228854BA87C4A3CEB /* ObjectMapper-dummy.m */,
-				218A2A21A1F52A0D88888DDD41262BA8 /* ObjectMapper-prefix.pch */,
-				1949324482C84500EEC2F26034E3E6CF /* ObjectMapper-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ObjectMapper";
-			sourceTree = "<group>";
-		};
-		B9C83F851295B75E4F9274291967C30D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				778160B93557244798F4B69EC69DAE8E /* Info.plist */,
-				60A8DA1FD07174E9EC572AF476FA7652 /* JSQSystemSoundPlayer.modulemap */,
-				E96D3F508A8394596ABA9F90225B2A74 /* JSQSystemSoundPlayer.xcconfig */,
-				5D6383B03B1964678134C513810BC601 /* JSQSystemSoundPlayer-dummy.m */,
-				308562943EF35393F8BC27BE30F9F303 /* JSQSystemSoundPlayer-prefix.pch */,
-				A1E86531A1AEABF356295BDA80BA2794 /* JSQSystemSoundPlayer-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JSQSystemSoundPlayer";
 			sourceTree = "<group>";
 		};
 		C2C95055FA94A75C900CFBD4EADFEB45 /* openweathermap-swift-sdk */ = {
@@ -974,38 +964,54 @@
 				B4EFFC4631B610D079D83F2F2BF7F09B /* WeatherArrayResult.swift */,
 				AB34EF6C5A7F5C44B06F2289569A77B4 /* WeatherInfo.swift */,
 				B2EDB0A8282B9E60FB1E50F0AEC3FDE2 /* Wind.swift */,
-				D7EC6198B1EB309BEAAE382DBB7E4FCB /* Support Files */,
+				1ED344A258643200695532D3A5AA79FB /* Support Files */,
 			);
+			name = "openweathermap-swift-sdk";
 			path = "openweathermap-swift-sdk";
+			sourceTree = "<group>";
+		};
+		C84B9A4C5DBB2A324EFAAE524BAEA23A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CAD3105B6BEF2732F0E812C7F60676E /* Info.plist */,
+				82A2C52D35D3FCF031F54CAA0323DBBB /* JSQMessagesViewController.modulemap */,
+				1BB8C1BB1316AC3825B03BAE071810A7 /* JSQMessagesViewController.xcconfig */,
+				E19BA1A827FC5EF6788DA7F20140F592 /* JSQMessagesViewController-dummy.m */,
+				1EA362F471431D49418FF08A7BAC8A13 /* JSQMessagesViewController-prefix.pch */,
+				F0754BD3B25B8EB2398CFDB4839E3798 /* JSQMessagesViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSQMessagesViewController";
 			sourceTree = "<group>";
 		};
 		D46ECE13A2EC7ED650F304D2E0C6D119 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
 				A97106CE98283D017E33ACBDFF26D6C1 /* SwiftyJSON.swift */,
-				A28931B1696191B6F31FE91AED271BA8 /* Support Files */,
+				96BF0B286397B25BC33107CE9F85B876 /* Support Files */,
 			);
+			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
-		D7EC6198B1EB309BEAAE382DBB7E4FCB /* Support Files */ = {
+		E8077CB0E6CD4D077001D336C4A24BF2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				708DCE55DD9C22F20B94E68BB99B99BB /* Info.plist */,
-				AC7E1CF16CF8F9A4A7AC8E6C83371C6C /* openweathermap-swift-sdk.modulemap */,
-				4D7FFA26774DC5521DAEAAC36CC4AAD2 /* openweathermap-swift-sdk.xcconfig */,
-				0F48614808CE1CA6F397E13BB4EB7C92 /* openweathermap-swift-sdk-dummy.m */,
-				91C36359DC0CBB707F8B9CB7B759AD04 /* openweathermap-swift-sdk-prefix.pch */,
-				50F9319EAE3A9EC248756E1C1D61B7B4 /* openweathermap-swift-sdk-umbrella.h */,
+				C69BBD93E6F2AF9C827BEB627491E1BF /* Info.plist */,
+				435E0F91C80438038EB75CC5F2651A1A /* JSQSystemSoundPlayer.modulemap */,
+				D7DE56B2CFD92B067AB0680EBCAAB563 /* JSQSystemSoundPlayer.xcconfig */,
+				2C7D7EB52153BB8E96FF6191E6BC9720 /* JSQSystemSoundPlayer-dummy.m */,
+				7F290915B30F1C9BAD0C1F7A8A7CCFF4 /* JSQSystemSoundPlayer-prefix.pch */,
+				DE0ACFDB17DB93FB3DA7A220952D3A4B /* JSQSystemSoundPlayer-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/openweathermap-swift-sdk";
+			path = "../Target Support Files/JSQSystemSoundPlayer";
 			sourceTree = "<group>";
 		};
 		EBA71200D982EB897ADC344DDA6D3DE2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9D2669615EFD9FBADA9B06DEDBE24F55 /* Pods-Simple Chat */,
+				21B1BBD555159B60F2D6DED97447E26E /* Pods-Simple Chat */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -1015,8 +1021,9 @@
 			children = (
 				0BBDE855E035E0ECE9B4601504361F53 /* JSQSystemSoundPlayer.h */,
 				731B50D8FAD313C9E94E315E35C2FF94 /* JSQSystemSoundPlayer.m */,
-				B9C83F851295B75E4F9274291967C30D /* Support Files */,
+				E8077CB0E6CD4D077001D336C4A24BF2 /* Support Files */,
 			);
+			name = JSQSystemSoundPlayer;
 			path = JSQSystemSoundPlayer;
 			sourceTree = "<group>";
 		};
@@ -1294,8 +1301,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1584,9 +1591,165 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E0068E9A2F5576715A46D2992436DF0 /* Debug */ = {
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8DA037E339670FB14D2FCD8391041D5 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2A31C3CCC59FF258B41620F6E8DAA9B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D27CA02290685B4077278E8B83FB55A /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CA634F55170952F5A255BEB5A2A5505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF1465DE9EEB218236FD991068CF7A6 /* OpenWeatherSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenWeatherSwift/OpenWeatherSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenWeatherSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OpenWeatherSwift/OpenWeatherSwift.modulemap";
+				PRODUCT_NAME = OpenWeatherSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		329D74EF09B46F92E8F25F4221333E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA4B63EA8E9810218AE7449AD1BB2DAD /* Pods-Simple Chat.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simple Chat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simple Chat/Pods-Simple Chat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Simple_Chat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A1FA39910404EA2C7BD8CB77E2CF45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D27CA02290685B4077278E8B83FB55A /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1608,16 +1771,16 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		2992CC1BBC47E65C38A714901D875D7B /* Debug */ = {
+		5EC1D22FA7BCEAB210379BA300B4F990 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28538DE3A89D577BA0DE7E944BAD1860 /* Pods-Simple Chat.debug.xcconfig */;
+			baseConfigurationReference = FDF1465DE9EEB218236FD991068CF7A6 /* OpenWeatherSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1628,30 +1791,89 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Simple Chat/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenWeatherSwift/OpenWeatherSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenWeatherSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Simple Chat/Pods-Simple Chat.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Simple_Chat;
+				MODULEMAP_FILE = "Target Support Files/OpenWeatherSwift/OpenWeatherSwift.modulemap";
+				PRODUCT_NAME = OpenWeatherSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		53DF481CEE74E5639A21FB9731E43336 /* Debug */ = {
+		6CD2CF3CB56F8D2390B8CD744515AD17 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A59FCA0517AE2B94E25702452C0E4046 /* ObjectMapper.xcconfig */;
+			baseConfigurationReference = 72B92E64BC1507948639285DC1887969 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C771030F1F7C67BCF6D0C3BF1CE56BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DE56B2CFD92B067AB0680EBCAAB563 /* JSQSystemSoundPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSQSystemSoundPlayer/JSQSystemSoundPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSQSystemSoundPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSQSystemSoundPlayer/JSQSystemSoundPlayer.modulemap";
+				PRODUCT_NAME = JSQSystemSoundPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84AEB6B5FC9C49CC2544619475CCF7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB16CC8EC1100D645814EBE3D3439E38 /* ObjectMapper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1680,157 +1902,9 @@
 			};
 			name = Debug;
 		};
-		5AA4B5CA6203792DC26227D049CD28F2 /* Release */ = {
+		8B1AA1029BA0DD86997B35BF9DC3EB34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8DA037E339670FB14D2FCD8391041D5 /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		621AB785940626574F07364CB14760E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		649C997D2E0D4CEDE516A67A7E6FED61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E96D3F508A8394596ABA9F90225B2A74 /* JSQSystemSoundPlayer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JSQSystemSoundPlayer/JSQSystemSoundPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JSQSystemSoundPlayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JSQSystemSoundPlayer/JSQSystemSoundPlayer.modulemap";
-				PRODUCT_NAME = JSQSystemSoundPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6B4E1E432CE0BDCFB7D004B439FA2D67 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F92EDA7D997AFDA264DCF817CAA25176 /* JSQMessagesViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JSQMessagesViewController/JSQMessagesViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JSQMessagesViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JSQMessagesViewController/JSQMessagesViewController.modulemap";
-				PRODUCT_NAME = JSQMessagesViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		817529D6D0056933E1F5E412F691B3CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D7FFA26774DC5521DAEAAC36CC4AAD2 /* openweathermap-swift-sdk.xcconfig */;
+			baseConfigurationReference = 248CCFF4E3510E3B30146C2515BE0158 /* openweathermap-swift-sdk.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1851,48 +1925,18 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		92B1E374898BA5B96F9358E3B07D4A18 /* Debug */ = {
+		972BD31D68F98035DE59A64D32AC1F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1561BC9A6AB689C807E815DB66B494B2 /* OpenWeatherSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OpenWeatherSwift/OpenWeatherSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OpenWeatherSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OpenWeatherSwift/OpenWeatherSwift.modulemap";
-				PRODUCT_NAME = OpenWeatherSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0F5F1530D3F4E518BE2B1A52F98487A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6BB91DB645BF01534F2888269F1D295 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 72B92E64BC1507948639285DC1887969 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1914,14 +1958,140 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		B57C09D404C607DDE283C5C44183B2A1 /* Debug */ = {
+		999B806A1B7604C4009FA782AFB21784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DE56B2CFD92B067AB0680EBCAAB563 /* JSQSystemSoundPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSQSystemSoundPlayer/JSQSystemSoundPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSQSystemSoundPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSQSystemSoundPlayer/JSQSystemSoundPlayer.modulemap";
+				PRODUCT_NAME = JSQSystemSoundPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A99592CF0D8E5721E5F579F96824DF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB8C1BB1316AC3825B03BAE071810A7 /* JSQMessagesViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSQMessagesViewController/JSQMessagesViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSQMessagesViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSQMessagesViewController/JSQMessagesViewController.modulemap";
+				PRODUCT_NAME = JSQMessagesViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C31303829A031837B3E66FB07C9884D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73FAF0B1BA183457F69547021941F47E /* Pods-Simple Chat.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simple Chat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simple Chat/Pods-Simple Chat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Simple_Chat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3EA8E77F8A4D500511335A3C8823312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB8C1BB1316AC3825B03BAE071810A7 /* JSQMessagesViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSQMessagesViewController/JSQMessagesViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSQMessagesViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSQMessagesViewController/JSQMessagesViewController.modulemap";
+				PRODUCT_NAME = JSQMessagesViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1931,10 +2101,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1942,6 +2114,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1970,7 +2143,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1981,71 +2154,9 @@
 			};
 			name = Debug;
 		};
-		B8CA02655A4B738D82484691EE8CA58F /* Release */ = {
+		E438BC4D366A3407F5509D73D3C6CCCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6BB91DB645BF01534F2888269F1D295 /* Alamofire.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C08BD0603B0650DA52E6968F93931A6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E96D3F508A8394596ABA9F90225B2A74 /* JSQSystemSoundPlayer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JSQSystemSoundPlayer/JSQSystemSoundPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JSQSystemSoundPlayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JSQSystemSoundPlayer/JSQSystemSoundPlayer.modulemap";
-				PRODUCT_NAME = JSQSystemSoundPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C43E88AB294B5850790C56391ADB7CD8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A59FCA0517AE2B94E25702452C0E4046 /* ObjectMapper.xcconfig */;
+			baseConfigurationReference = BB16CC8EC1100D645814EBE3D3439E38 /* ObjectMapper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2075,75 +2186,9 @@
 			};
 			name = Release;
 		};
-		DB8D6BB498FBE15F24C0C53069F966B3 /* Release */ = {
+		FF729F01BE0B44A26C1AF2838D7B8FA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 363C1D28B1D76CA8CB63F56BD7711E16 /* Pods-Simple Chat.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Simple Chat/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Simple Chat/Pods-Simple Chat.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Simple_Chat;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DFD675592BA16E2292CF920BBE2F72AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1561BC9A6AB689C807E815DB66B494B2 /* OpenWeatherSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OpenWeatherSwift/OpenWeatherSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OpenWeatherSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OpenWeatherSwift/OpenWeatherSwift.modulemap";
-				PRODUCT_NAME = OpenWeatherSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EB431FF1BCE6F1A3657E247F37152C22 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D7FFA26774DC5521DAEAAC36CC4AAD2 /* openweathermap-swift-sdk.xcconfig */;
+			baseConfigurationReference = 248CCFF4E3510E3B30146C2515BE0158 /* openweathermap-swift-sdk.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2164,45 +2209,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		FE9D65A29CF3075D5897C282A8891674 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F92EDA7D997AFDA264DCF817CAA25176 /* JSQMessagesViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JSQMessagesViewController/JSQMessagesViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JSQMessagesViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JSQMessagesViewController/JSQMessagesViewController.modulemap";
-				PRODUCT_NAME = JSQMessagesViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -2210,8 +2223,8 @@
 		1F667698FA6F084AEB077EB13AC4DDE7 /* Build configuration list for PBXNativeTarget "JSQSystemSoundPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C08BD0603B0650DA52E6968F93931A6D /* Debug */,
-				649C997D2E0D4CEDE516A67A7E6FED61 /* Release */,
+				7C771030F1F7C67BCF6D0C3BF1CE56BC /* Debug */,
+				999B806A1B7604C4009FA782AFB21784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2219,8 +2232,8 @@
 		22875D8CB72E6638316D331F0BA4A4DE /* Build configuration list for PBXNativeTarget "OpenWeatherSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92B1E374898BA5B96F9358E3B07D4A18 /* Debug */,
-				DFD675592BA16E2292CF920BBE2F72AE /* Release */,
+				5EC1D22FA7BCEAB210379BA300B4F990 /* Debug */,
+				2CA634F55170952F5A255BEB5A2A5505 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2228,8 +2241,8 @@
 		23CFD86DE455F2B998EC09D589DA285D /* Build configuration list for PBXNativeTarget "ObjectMapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53DF481CEE74E5639A21FB9731E43336 /* Debug */,
-				C43E88AB294B5850790C56391ADB7CD8 /* Release */,
+				84AEB6B5FC9C49CC2544619475CCF7EA /* Debug */,
+				E438BC4D366A3407F5509D73D3C6CCCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2237,8 +2250,8 @@
 		261EF46E3E84B0EDD3FAA4B93CAC4384 /* Build configuration list for PBXNativeTarget "openweathermap-swift-sdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				817529D6D0056933E1F5E412F691B3CC /* Debug */,
-				EB431FF1BCE6F1A3657E247F37152C22 /* Release */,
+				FF729F01BE0B44A26C1AF2838D7B8FA4 /* Debug */,
+				8B1AA1029BA0DD86997B35BF9DC3EB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2246,8 +2259,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B57C09D404C607DDE283C5C44183B2A1 /* Debug */,
-				621AB785940626574F07364CB14760E1 /* Release */,
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2255,8 +2268,8 @@
 		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0F5F1530D3F4E518BE2B1A52F98487A /* Debug */,
-				B8CA02655A4B738D82484691EE8CA58F /* Release */,
+				972BD31D68F98035DE59A64D32AC1F3A /* Debug */,
+				6CD2CF3CB56F8D2390B8CD744515AD17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2264,8 +2277,8 @@
 		B491338F3238E95136C2AA5E3EF95BD6 /* Build configuration list for PBXNativeTarget "Pods-Simple Chat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2992CC1BBC47E65C38A714901D875D7B /* Debug */,
-				DB8D6BB498FBE15F24C0C53069F966B3 /* Release */,
+				C31303829A031837B3E66FB07C9884D3 /* Debug */,
+				329D74EF09B46F92E8F25F4221333E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2273,8 +2286,8 @@
 		BE8C1112CD12048057BCAA94BB8CB817 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E0068E9A2F5576715A46D2992436DF0 /* Debug */,
-				5AA4B5CA6203792DC26227D049CD28F2 /* Release */,
+				5A1FA39910404EA2C7BD8CB77E2CF45C /* Debug */,
+				2A31C3CCC59FF258B41620F6E8DAA9B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2282,8 +2295,8 @@
 		EF4840F49250B389B9C61B64707D6C6B /* Build configuration list for PBXNativeTarget "JSQMessagesViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B4E1E432CE0BDCFB7D004B439FA2D67 /* Debug */,
-				FE9D65A29CF3075D5897C282A8891674 /* Release */,
+				D3EA8E77F8A4D500511335A3C8823312 /* Debug */,
+				A99592CF0D8E5721E5F579F96824DF17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
