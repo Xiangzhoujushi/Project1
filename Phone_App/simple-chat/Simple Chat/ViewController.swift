@@ -123,16 +123,11 @@ extension ViewController {
         var text = response.output.text.joined()
         if ((response.intents.count > 0) && (response.intents[0].intent == "weather")){
             text = getWeather()
-            let when = DispatchTime.now() + 5 // change 2 to desired number of seconds
+            /*
+            let when = DispatchTime.now() + 2 // change 2 to desired number of seconds
             DispatchQueue.main.asyncAfter(deadline : when) {
                 print(text)
-            }
-            /*
-            for index in 1...1000000{
-                var i = index + 1
-            }
-            */
-            //print("something")
+            }*/
         }else{
             
         }
@@ -162,8 +157,13 @@ extension ViewController {
     func getWeather( )-> String {
         
         struct weatheroutput{static var text:String = ""}
+        
+        let str = self.speech
+        let split = str.characters.split(separator: " ")
+        let last    = String(split.suffix(1).joined(separator: [" "]))
+        
         let client = OpenWeatherSwift(apiKey: "7b8549d466776ab3a8f573f8a00eaf52", temperatureFormat: .Celsius)
-        client.currentWeatherByCity(name: "London") {
+        client.currentWeatherByCity(name: last) {
             
             (results) in
             let weather = Weather2.init(data: results)
@@ -174,6 +174,7 @@ extension ViewController {
 //            print(weatheroutput.text)
         }
 //        print(weatheroutput.text)
+        
         return weatheroutput.text
     }
     
