@@ -25,6 +25,7 @@ import SpeechToTextV1
 import TextToSpeechV1
 
 
+
 class ViewController: JSQMessagesViewController {
     
     var messages = [JSQMessage]()
@@ -40,6 +41,9 @@ class ViewController: JSQMessagesViewController {
     var context: Context?
     
     var speech = ""
+    var city = ""
+    var weatheroutput = ""
+    //var output = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -105,27 +109,28 @@ extension ViewController {
         return result
     }*/
     
-   func getWeather() -> String {
-        var output = ""
-        let client = OpenWeatherSwift(apiKey: "ed9049dc12e1698ee3b17de097abadaa", temperatureFormat: .Celsius)
-        client.currentWeatherByCity(name: "London") {results in
-            let weather = Weather2.init(data: results)
-            output = "The Temperature is " + (String) (weather.temperature) + "celsius"
-        }
-        return output
-    }
-    
+
     /// Present a conversation reply and speak it to the user
     func presentResponse(_ response: MessageResponse) {
         
         if ((response.intents.count > 0) && (response.intents[0].intent == "weather")){
-            
+           //getWeather()
         }
         
         //var tmp = getWeather()
         
-        
-        let text = response.output.text.joined()
+        /* delay here for */
+        var text = response.output.text.joined()
+        if ((response.intents.count > 0) && (response.intents[0].intent == "weather")){
+            text = getWeather()
+            /*
+            let when = DispatchTime.now() + 2 // change 2 to desired number of seconds
+            DispatchQueue.main.asyncAfter(deadline : when) {
+                print(text)
+            }*/
+        }else{
+            
+        }
         context = response.context // save context to continue conversation
         
         // synthesize and speak the response
@@ -149,10 +154,39 @@ extension ViewController {
         }
     }
     
+    func getWeather( )-> String {
+        
+        struct weatheroutput{static var text:String = ""}
+        
+        let str = self.speech
+        let split = str.characters.split(separator: " ")
+        let last    = String(split.suffix(1).joined(separator: [" "]))
+        
+        let client = OpenWeatherSwift(apiKey: "7b8549d466776ab3a8f573f8a00eaf52", temperatureFormat: .Celsius)
+        client.currentWeatherByCity(name: last) {
+            
+            (results) in
+            let weather = Weather2.init(data: results)
+            var output : String = ""
+            output = "The Temperature is " + (String) (weather.temperature) + " Celsius"
+            
+            weatheroutput.text = output
+//            print(weatheroutput.text)
+        }
+//        print(weatheroutput.text)
+        
+        return weatheroutput.text
+    }
+    
     /// Start transcribing microphone audio
     @objc func startTranscribing() {
         audioPlayer?.stop()
         self.speech = ""
+        
+        /*
+        while(true){
+            print(self.getWeather())
+        }*/
         var settings = RecognitionSettings(contentType: .opus)
         settings.interimResults = true
         speechToText.recognizeMicrophone(settings: settings, failure: failure) { results in

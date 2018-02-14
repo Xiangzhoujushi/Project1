@@ -21,7 +21,11 @@
   "iOS" : [
     {
       "name" : "Starscream",
+<<<<<<< HEAD
       "hash" : "e0474e572437b75f42eb2ecbfe0caf2525c9c95408243bf29048acda198e92d5"
+=======
+      "hash" : "87d5c72275216ecb99dd1aae4cf039add006bd214a92a5e217cb1bbc899b137d"
+>>>>>>> 8f1a0d67088a620841b1a4539f6da8f02ab8ff48
     }
   ]
 }
