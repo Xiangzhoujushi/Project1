@@ -9,5 +9,4 @@ target 'Simple Chat' do
   pod 'JSQMessagesViewController'
   pod 'openweathermap-swift-sdk'
   pod 'OpenWeatherSwift'
-  
 end
