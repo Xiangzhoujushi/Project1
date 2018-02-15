@@ -22,6 +22,7 @@
 		6815751E1EE219EC00E2F476 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815751D1EE219EC00E2F476 /* Credentials.swift */; };
 		681575201EE219F800E2F476 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815751F1EE219F800E2F476 /* User.swift */; };
 		681AE98D200FCF060005C5C2 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681AE98C200FCF050005C5C2 /* Starscream.framework */; };
+		80BAF6A72035202600371E53 /* IMG_0362.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 80BAF6962035202600371E53 /* IMG_0362.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +162,7 @@
 		6815751F1EE219F800E2F476 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		681AE98C200FCF050005C5C2 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		6F98792ECF89344B50C77911 /* Pods_Simple_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BAF6962035202600371E53 /* IMG_0362.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0362.JPG; path = Assets.xcassets/Pictures/IMG_0362.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +263,7 @@
 				5228FE3B201AD47600A312EA /* Podfile */,
 				6800B9251EE218EC00F2BD7C /* Main.storyboard */,
 				6800B9281EE218EC00F2BD7C /* Assets.xcassets */,
+				80BAF6962035202600371E53 /* IMG_0362.JPG */,
 				6800B92A1EE218EC00F2BD7C /* LaunchScreen.storyboard */,
 				6800B92D1EE218EC00F2BD7C /* Info.plist */,
 				52B46C5C202CDC4E0001C009 /* WeatherPart.swift */,
@@ -457,6 +460,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80BAF6A72035202600371E53 /* IMG_0362.JPG in Resources */,
 				6800B92C1EE218EC00F2BD7C /* LaunchScreen.storyboard in Resources */,
 				6800B9291EE218EC00F2BD7C /* Assets.xcassets in Resources */,
 				5228FE3C201AD47600A312EA /* Podfile in Resources */,
