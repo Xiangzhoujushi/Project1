@@ -12,5 +12,4 @@ target 'Simple Chat' do
   pod 'SwiftyJSON'
   pod 'Alamofire'
   pod 'ObjectMapper'
-  
 end
