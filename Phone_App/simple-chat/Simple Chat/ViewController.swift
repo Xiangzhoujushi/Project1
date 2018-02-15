@@ -42,9 +42,7 @@ class ViewController: JSQMessagesViewController {
     var context: Context?
     
     var speech = ""
-    var city = ""
-    var weatheroutput = ""
-    //var output = ""
+    var output = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -97,40 +95,44 @@ extension ViewController {
         )
     }
     
-    /*func getWeather() -> String {
-        var result = ""
-
-        OpenWeatherMapClient.client(appID: "ed9049dc12e1698ee3b17de097abadaa")
-        print (OpenWeatherMapClient.accessibilityActivate())
-        OpenWeatherMapAPIClient.client.getWeather(cityName: "") { (weatherData, error) in
-            if error == nil && weatherData!.code == "200" {
-                print(weatherData!.code)
+    
+    func getWeather(_ location: String)-> String {
+        
+        //struct weatheroutput{static var text:String = ""}
+        var output =  ""
+        let client = OpenWeatherSwift(apiKey: "ed9049dc12e1698ee3b17de097abadaa", temperatureFormat: .Celsius)
+        if (location == "Columbus"){
+            let myLocation = CLLocation(latitude: 39.96, longitude: -83)
+            client.currentWeatherByCoordinates(coords: myLocation.coordinate){results in
+                let weather = Weather2.init(data: results)
+                output = "In " + location + " The Temperature is " + (String) (weather.temperature) + " celsius. The weather condition is " + (String)(weather.condition) + ". Visibility is " + (String)(weather.visibility) + " meters."
+            }
+        }else{
+            client.currentWeatherByCity(name: location){results in
+                let weather = Weather2.init(data: results)
+                output = "In " + location + " The Temperature is " + (String) (weather.temperature) + " celsius. The weather condition is " + (String)(weather.condition) + ". Visibility is " + (String)(weather.visibility) + " meter."
             }
         }
-        return result
-    }*/
+        usleep(470000)
+        print(output)
+        return output
+    }
     
 
     /// Present a conversation reply and speak it to the user
     func presentResponse(_ response: MessageResponse) {
         
-        if ((response.intents.count > 0) && (response.intents[0].intent == "weather")){
-           //getWeather()
-        }
         
-        //var tmp = getWeather()
-        
-        /* delay here for */
         var text = response.output.text.joined()
         if ((response.intents.count > 0) && (response.intents[0].intent == "weather")){
-            text = getWeather()
-            /*
-            let when = DispatchTime.now() + 2 // change 2 to desired number of seconds
-            DispatchQueue.main.asyncAfter(deadline : when) {
-                print(text)
-            }*/
-        }else{
-            
+
+            if (response.entities.count == 0){
+                text = getWeather("Columbus")
+                print("try")
+            }else{
+                text = getWeather(response.entities[0].value)
+                print("catch")
+            }
         }
         context = response.context // save context to continue conversation
         
@@ -153,30 +155,6 @@ extension ViewController {
             self.messages.append(message)
             DispatchQueue.main.async { self.finishSendingMessage() }
         }
-    }
-    
-    func getWeather( )-> String {
-        
-        struct weatheroutput{static var text:String = ""}
-        
-        let str = self.speech
-        let split = str.characters.split(separator: " ")
-        let last    = String(split.suffix(1).joined(separator: [" "]))
-        
-        let client = OpenWeatherSwift(apiKey: "7b8549d466776ab3a8f573f8a00eaf52", temperatureFormat: .Celsius)
-        client.currentWeatherByCity(name: last) {
-            
-            (results) in
-            let weather = Weather2.init(data: results)
-            var output : String = ""
-            output = "The Temperature is " + (String) (weather.temperature) + " Celsius"
-            
-            weatheroutput.text = output
-//            print(weatheroutput.text)
-        }
-//        print(weatheroutput.text)
-        
-        return weatheroutput.text
     }
     
     /// Start transcribing microphone audio

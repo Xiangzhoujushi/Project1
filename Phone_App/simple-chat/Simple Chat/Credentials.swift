@@ -15,9 +15,9 @@
  **/
  
 public struct Credentials {
-    public static let ConversationUsername = "aeb5c095-658c-4026-a173-053e57f94f40"
-    public static let ConversationPassword = "lhz8GIw08tkb"
-    public static let ConversationWorkspace = "32fc159d-8eeb-4b7d-bf44-c09d571e12fd"
+    public static let ConversationUsername = "82565f4f-cefc-4100-9503-1f327d3444c5"
+    public static let ConversationPassword = "uH3nFrePgmVv"
+    public static let ConversationWorkspace = "7040ba35-8821-47b9-9353-ba7f05ec7dac"
     public static let SpeechToTextUsername = "5f323c3c-b9b2-406e-8a47-4bce928dfa46"
     public static let SpeechToTextPassword = "5IVmSFyqIBjR"
     public static let TextToSpeechUsername = "c3a02360-ac58-4ec2-a6dc-f3687ba21a43"
