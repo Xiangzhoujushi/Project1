@@ -14,7 +14,7 @@
  * limitations under the License.
  **/
 
-
+import CoreData
 import UIKit
 import JSQMessagesViewController
 //import OpenWeatherSwift

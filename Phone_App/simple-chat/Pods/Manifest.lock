@@ -10,6 +10,9 @@ PODS:
   - OpenWeatherSwift (1.0.1):
     - Alamofire
     - SwiftyJSON
+  - SQLite.swift (0.11.4):
+    - SQLite.swift/standard (= 0.11.4)
+  - SQLite.swift/standard (0.11.4)
   - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
@@ -18,6 +21,7 @@ DEPENDENCIES:
   - ObjectMapper
   - openweathermap-swift-sdk
   - OpenWeatherSwift
+  - SQLite.swift (~> 0.11.4)
   - SwiftyJSON
 
 SPEC CHECKSUMS:
@@ -27,8 +31,9 @@ SPEC CHECKSUMS:
   ObjectMapper: 63cfe41bc6f8e7c8f44344c49901b8ae7de14c52
   openweathermap-swift-sdk: a3d43005ee6ed0e11c9ec62f9f5f4d737d42545e
   OpenWeatherSwift: 2bce687b07f7f663b30c1947176346508c5963a7
+  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: a6fadb9a16f694370f9b6b8ab494964aa6466753
+PODFILE CHECKSUM: 522b7bcd593d9e075ac492ffd0e72dc4958f5b6f
 
 COCOAPODS: 1.4.0

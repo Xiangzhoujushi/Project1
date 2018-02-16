@@ -12,4 +12,5 @@ target 'Simple Chat' do
   pod 'SwiftyJSON'
   pod 'Alamofire'
   pod 'ObjectMapper'
+  pod 'SQLite.swift', '~> 0.11.4'
 end

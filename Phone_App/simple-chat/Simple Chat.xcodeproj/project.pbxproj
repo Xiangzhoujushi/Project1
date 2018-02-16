@@ -22,6 +22,7 @@
 		6815751E1EE219EC00E2F476 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815751D1EE219EC00E2F476 /* Credentials.swift */; };
 		681575201EE219F800E2F476 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815751F1EE219F800E2F476 /* User.swift */; };
 		681AE98D200FCF060005C5C2 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681AE98C200FCF050005C5C2 /* Starscream.framework */; };
+		8028ED0D2037323C00336AA0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8028ED0B2037323C00336AA0 /* Model.xcdatamodeld */; };
 		80BAF6A72035202600371E53 /* IMG_0362.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 80BAF6962035202600371E53 /* IMG_0362.JPG */; };
 /* End PBXBuildFile section */
 
@@ -138,6 +139,20 @@
 			remoteGlobalIDString = 379683464F403A9D501DF8A20A0EACEA;
 			remoteInfo = SwiftyJSON;
 		};
+		8028ED172037323D00336AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3635D880C49EC90369787D8CCAA0E469;
+			remoteInfo = SQLite.swift;
+		};
+		8028ED222037323D00336AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE4B201ADEB000A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3635D880C49EC90369787D8CCAA0E469;
+			remoteInfo = SQLite.swift;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +177,7 @@
 		6815751F1EE219F800E2F476 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		681AE98C200FCF050005C5C2 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		6F98792ECF89344B50C77911 /* Pods_Simple_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8028ED0C2037323C00336AA0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		80BAF6962035202600371E53 /* IMG_0362.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0362.JPG; path = Assets.xcassets/Pictures/IMG_0362.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,6 +231,7 @@
 				52B46C4F202CB3720001C009 /* openweathermap_swift_sdk.framework */,
 				52B46C69202D0A540001C009 /* OpenWeatherSwift.framework */,
 				5228FE4A201ADE9D00A312EA /* Pods_Simple_Chat.framework */,
+				8028ED182037323D00336AA0 /* SQLite.framework */,
 				52B46C6B202D0A540001C009 /* SwiftyJSON.framework */,
 			);
 			name = Products;
@@ -230,6 +247,7 @@
 				52B46C5B202CB3720001C009 /* openweathermap_swift_sdk.framework */,
 				52B46C75202D0A540001C009 /* OpenWeatherSwift.framework */,
 				5228FE56201ADEB000A312EA /* Pods_Simple_Chat.framework */,
+				8028ED232037323D00336AA0 /* SQLite.framework */,
 				52B46C77202D0A540001C009 /* SwiftyJSON.framework */,
 			);
 			name = Products;
@@ -267,6 +285,7 @@
 				6800B92A1EE218EC00F2BD7C /* LaunchScreen.storyboard */,
 				6800B92D1EE218EC00F2BD7C /* Info.plist */,
 				52B46C5C202CDC4E0001C009 /* WeatherPart.swift */,
+				8028ED0B2037323C00336AA0 /* Model.xcdatamodeld */,
 			);
 			path = "Simple Chat";
 			sourceTree = "<group>";
@@ -307,7 +326,7 @@
 				TargetAttributes = {
 					6800B91D1EE218EC00F2BD7C = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = D4H4XEG39N;
+						DevelopmentTeam = 7Z62E59NM8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -453,6 +472,20 @@
 			remoteRef = 52B46C76202D0A540001C009 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		8028ED182037323D00336AA0 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 8028ED172037323D00336AA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8028ED232037323D00336AA0 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 8028ED222037323D00336AA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -516,6 +549,7 @@
 				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/OpenWeatherSwift/OpenWeatherSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/openweathermap-swift-sdk/openweathermap_swift_sdk.framework",
 			);
@@ -526,6 +560,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenWeatherSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openweathermap_swift_sdk.framework",
 			);
@@ -564,6 +599,7 @@
 				6800B9241EE218EC00F2BD7C /* ViewController.swift in Sources */,
 				6800B9221EE218EC00F2BD7C /* AppDelegate.swift in Sources */,
 				52B46C5D202CDC4E0001C009 /* WeatherPart.swift in Sources */,
+				8028ED0D2037323C00336AA0 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,7 +727,7 @@
 			baseConfigurationReference = 0C4EF683FECFFA3B813651AA /* Pods-Simple Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = D4H4XEG39N;
+				DEVELOPMENT_TEAM = 7Z62E59NM8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -710,7 +746,7 @@
 			baseConfigurationReference = 661949F74760477C68416846 /* Pods-Simple Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = D4H4XEG39N;
+				DEVELOPMENT_TEAM = 7Z62E59NM8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -746,6 +782,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8028ED0B2037323C00336AA0 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8028ED0C2037323C00336AA0 /* Model.xcdatamodel */,
+			);
+			currentVersion = 8028ED0C2037323C00336AA0 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6800B9161EE218EC00F2BD7C /* Project object */;
 }
