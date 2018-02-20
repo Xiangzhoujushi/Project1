@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import openweathermap_swift_sdk
+
 
 public class Weather {
     

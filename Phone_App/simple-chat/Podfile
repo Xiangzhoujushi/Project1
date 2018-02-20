@@ -7,10 +7,11 @@ target 'Simple Chat' do
 
   # Pods for Simple Chat
   pod 'JSQMessagesViewController'
-  pod 'openweathermap-swift-sdk'
+  #pod 'openweathermap-swift-sdk'
   pod 'OpenWeatherSwift'
-  pod 'SwiftyJSON'
-  pod 'Alamofire'
-  pod 'ObjectMapper'
+  # pod 'SwiftyJSON'
+  #pod 'Alamofire'
+  #pod 'ObjectMapper'
   pod 'SQLite.swift', '~> 0.11.4'
+  pod 'PopupDialog'
 end

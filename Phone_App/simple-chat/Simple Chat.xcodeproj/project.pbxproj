@@ -24,6 +24,8 @@
 		681AE98D200FCF060005C5C2 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681AE98C200FCF050005C5C2 /* Starscream.framework */; };
 		8028ED0D2037323C00336AA0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8028ED0B2037323C00336AA0 /* Model.xcdatamodeld */; };
 		80BAF6A72035202600371E53 /* IMG_0362.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 80BAF6962035202600371E53 /* IMG_0362.JPG */; };
+		80F64421203CCB7A0079A993 /* LanguageTranslatorV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F64406203CCB7A0079A993 /* LanguageTranslatorV2.framework */; };
+		80F64437203CD0A60079A993 /* TranslatorImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F64424203CD0A60079A993 /* TranslatorImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,40 +78,12 @@
 			remoteGlobalIDString = ADCF7061CF0C2C5BBCE0DD51CF39BF74;
 			remoteInfo = Alamofire;
 		};
-		52B46C4C202CB3720001C009 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 14E7C398FDC7A63D2F22537579A3B463;
-			remoteInfo = ObjectMapper;
-		};
-		52B46C4E202CB3720001C009 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BD15D04DE2A1DAC8F90D51B545AA5380;
-			remoteInfo = "openweathermap-swift-sdk";
-		};
 		52B46C56202CB3720001C009 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5228FE4B201ADEB000A312EA /* Pods.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = ADCF7061CF0C2C5BBCE0DD51CF39BF74;
 			remoteInfo = Alamofire;
-		};
-		52B46C58202CB3720001C009 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5228FE4B201ADEB000A312EA /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 14E7C398FDC7A63D2F22537579A3B463;
-			remoteInfo = ObjectMapper;
-		};
-		52B46C5A202CB3720001C009 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5228FE4B201ADEB000A312EA /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BD15D04DE2A1DAC8F90D51B545AA5380;
-			remoteInfo = "openweathermap-swift-sdk";
 		};
 		52B46C68202D0A540001C009 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -153,6 +127,34 @@
 			remoteGlobalIDString = 3635D880C49EC90369787D8CCAA0E469;
 			remoteInfo = SQLite.swift;
 		};
+		80F64410203CCB7A0079A993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6395BBCC79C80705369AFEA28A7B3FDC;
+			remoteInfo = DynamicBlurView;
+		};
+		80F64412203CCB7A0079A993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45068A61F10955639A5BBB53E1C7263A;
+			remoteInfo = PopupDialog;
+		};
+		80F6441D203CCB7A0079A993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE4B201ADEB000A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6395BBCC79C80705369AFEA28A7B3FDC;
+			remoteInfo = DynamicBlurView;
+		};
+		80F6441F203CCB7A0079A993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE4B201ADEB000A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45068A61F10955639A5BBB53E1C7263A;
+			remoteInfo = PopupDialog;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -179,6 +181,8 @@
 		6F98792ECF89344B50C77911 /* Pods_Simple_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8028ED0C2037323C00336AA0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		80BAF6962035202600371E53 /* IMG_0362.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0362.JPG; path = Assets.xcassets/Pictures/IMG_0362.JPG; sourceTree = "<group>"; };
+		80F64406203CCB7A0079A993 /* LanguageTranslatorV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LanguageTranslatorV2.framework; path = Carthage/Build/iOS/LanguageTranslatorV2.framework; sourceTree = "<group>"; };
+		80F64424203CD0A60079A993 /* TranslatorImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TranslatorImage.png; path = ../../../../../../../Downloads/TranslatorImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +190,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F64421203CCB7A0079A993 /* LanguageTranslatorV2.framework in Frameworks */,
 				681AE98D200FCF060005C5C2 /* Starscream.framework in Frameworks */,
 				6815751C1EE219C500E2F476 /* TextToSpeechV1.framework in Frameworks */,
 				681575191EE219C500E2F476 /* ConversationV1.framework in Frameworks */,
@@ -209,6 +214,7 @@
 		0C0EFA4E2492FE6BEF29F089 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				80F64406203CCB7A0079A993 /* LanguageTranslatorV2.framework */,
 				5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */,
 				5228FE4B201ADEB000A312EA /* Pods.xcodeproj */,
 				5228FE3D201ADDF800A312EA /* Pods */,
@@ -225,12 +231,12 @@
 			isa = PBXGroup;
 			children = (
 				52B46C4B202CB3720001C009 /* Alamofire.framework */,
+				80F64411203CCB7A0079A993 /* DynamicBlurView.framework */,
 				5228FE46201ADE9D00A312EA /* JSQMessagesViewController.framework */,
 				5228FE48201ADE9D00A312EA /* JSQSystemSoundPlayer.framework */,
-				52B46C4D202CB3720001C009 /* ObjectMapper.framework */,
-				52B46C4F202CB3720001C009 /* openweathermap_swift_sdk.framework */,
 				52B46C69202D0A540001C009 /* OpenWeatherSwift.framework */,
 				5228FE4A201ADE9D00A312EA /* Pods_Simple_Chat.framework */,
+				80F64413203CCB7A0079A993 /* PopupDialog.framework */,
 				8028ED182037323D00336AA0 /* SQLite.framework */,
 				52B46C6B202D0A540001C009 /* SwiftyJSON.framework */,
 			);
@@ -241,12 +247,12 @@
 			isa = PBXGroup;
 			children = (
 				52B46C57202CB3720001C009 /* Alamofire.framework */,
+				80F6441E203CCB7A0079A993 /* DynamicBlurView.framework */,
 				5228FE52201ADEB000A312EA /* JSQMessagesViewController.framework */,
 				5228FE54201ADEB000A312EA /* JSQSystemSoundPlayer.framework */,
-				52B46C59202CB3720001C009 /* ObjectMapper.framework */,
-				52B46C5B202CB3720001C009 /* openweathermap_swift_sdk.framework */,
 				52B46C75202D0A540001C009 /* OpenWeatherSwift.framework */,
 				5228FE56201ADEB000A312EA /* Pods_Simple_Chat.framework */,
+				80F64420203CCB7A0079A993 /* PopupDialog.framework */,
 				8028ED232037323D00336AA0 /* SQLite.framework */,
 				52B46C77202D0A540001C009 /* SwiftyJSON.framework */,
 			);
@@ -274,6 +280,7 @@
 		6800B9201EE218EC00F2BD7C /* Simple Chat */ = {
 			isa = PBXGroup;
 			children = (
+				80F64424203CD0A60079A993 /* TranslatorImage.png */,
 				6800B9211EE218EC00F2BD7C /* AppDelegate.swift */,
 				6800B9231EE218EC00F2BD7C /* ViewController.swift */,
 				6815751F1EE219F800E2F476 /* User.swift */,
@@ -409,39 +416,11 @@
 			remoteRef = 52B46C4A202CB3720001C009 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		52B46C4D202CB3720001C009 /* ObjectMapper.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ObjectMapper.framework;
-			remoteRef = 52B46C4C202CB3720001C009 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		52B46C4F202CB3720001C009 /* openweathermap_swift_sdk.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = openweathermap_swift_sdk.framework;
-			remoteRef = 52B46C4E202CB3720001C009 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		52B46C57202CB3720001C009 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Alamofire.framework;
 			remoteRef = 52B46C56202CB3720001C009 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		52B46C59202CB3720001C009 /* ObjectMapper.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ObjectMapper.framework;
-			remoteRef = 52B46C58202CB3720001C009 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		52B46C5B202CB3720001C009 /* openweathermap_swift_sdk.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = openweathermap_swift_sdk.framework;
-			remoteRef = 52B46C5A202CB3720001C009 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		52B46C69202D0A540001C009 /* OpenWeatherSwift.framework */ = {
@@ -486,6 +465,34 @@
 			remoteRef = 8028ED222037323D00336AA0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		80F64411203CCB7A0079A993 /* DynamicBlurView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DynamicBlurView.framework;
+			remoteRef = 80F64410203CCB7A0079A993 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80F64413203CCB7A0079A993 /* PopupDialog.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PopupDialog.framework;
+			remoteRef = 80F64412203CCB7A0079A993 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80F6441E203CCB7A0079A993 /* DynamicBlurView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DynamicBlurView.framework;
+			remoteRef = 80F6441D203CCB7A0079A993 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80F64420203CCB7A0079A993 /* PopupDialog.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PopupDialog.framework;
+			remoteRef = 80F6441F203CCB7A0079A993 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -499,6 +506,7 @@
 				5228FE3C201AD47600A312EA /* Podfile in Resources */,
 				5228FE3E201ADDF800A312EA /* Pods in Resources */,
 				6800B9271EE218EC00F2BD7C /* Main.storyboard in Resources */,
+				80F64437203CD0A60079A993 /* TranslatorImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +523,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/SpeechToTextV1.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ConversationV1.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/LanguageTranslatorV2.framework",
 			);
 			outputPaths = (
 			);
@@ -545,24 +554,24 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Simple Chat/Pods-Simple Chat-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
 				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/OpenWeatherSwift/OpenWeatherSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/openweathermap-swift-sdk/openweathermap_swift_sdk.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenWeatherSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openweathermap_swift_sdk.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

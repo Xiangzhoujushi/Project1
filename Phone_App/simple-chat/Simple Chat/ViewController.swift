@@ -16,15 +16,16 @@
 
 import CoreData
 import UIKit
+import UIKit
 import JSQMessagesViewController
-//import OpenWeatherSwift
+import PopupDialog
 import OpenWeatherSwift
-//import openweathermap_swift_sdk
+import PopupDialog
 import AVFoundation
 import ConversationV1
 import SpeechToTextV1
 import TextToSpeechV1
-
+import LanguageTranslatorV2
 
 
 class ViewController: JSQMessagesViewController {
@@ -36,19 +37,26 @@ class ViewController: JSQMessagesViewController {
     var conversation: Conversation!
     var speechToText: SpeechToText!
     var textToSpeech: TextToSpeech!
-    
+    var languageTranslator:LanguageTranslator!
     var audioPlayer: AVAudioPlayer?
     var workspace = Credentials.ConversationWorkspace
     var context: Context?
     
     var speech = ""
-    var output = ""
+//    var output = ""
+    
+    var translate = ""
+    //var weatherOutput = ""
+    var spanishId = ""
+    
+    var popup = PopupDialog(title: "", message: "", image: UIImage(named: "TranslatorImage.png"))
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupInterface()
         setupSender()
         setupWatsonServices()
+        setupTranslation()
         startConversation()
     }
 }
@@ -70,6 +78,11 @@ extension ViewController {
         textToSpeech = TextToSpeech(
             username: Credentials.TextToSpeechUsername,
             password: Credentials.TextToSpeechPassword
+        )
+        
+        languageTranslator = LanguageTranslator(
+            username: Credentials.LanguageTranslatorUsername,
+            password: Credentials.LanguageTranslatorPassword
         )
     }
     
@@ -96,44 +109,51 @@ extension ViewController {
     }
     
     
-    func getWeather(_ location: String)-> String {
-        
-        //struct weatheroutput{static var text:String = ""}
-        var output =  ""
+    
+    func getWeather(_ location: String) -> String{
+        var result = ""
+        //print(location)
         let client = OpenWeatherSwift(apiKey: "ed9049dc12e1698ee3b17de097abadaa", temperatureFormat: .Celsius)
+        let semaphore = DispatchSemaphore(value: 0)
         if (location == "Columbus"){
             let myLocation = CLLocation(latitude: 39.96, longitude: -83)
             client.currentWeatherByCoordinates(coords: myLocation.coordinate){results in
                 let weather = Weather2.init(data: results)
-                output = "In " + location + " The Temperature is " + (String) (weather.temperature) + " celsius. The weather condition is " + (String)(weather.condition) + ". Visibility is " + (String)(weather.visibility) + " meters."
+                result = "In " + location + " The Temperature is " + (String) (weather.temperature) + " celsius. The weather condition is " + (String)(weather.condition) + ". Visibility is " + (String)(weather.visibility) + " meters."
+                semaphore.signal()
             }
         }else{
             client.currentWeatherByCity(name: location){results in
                 let weather = Weather2.init(data: results)
-                output = "In " + location + " The Temperature is " + (String) (weather.temperature) + " celsius. The weather condition is " + (String)(weather.condition) + ". Visibility is " + (String)(weather.visibility) + " meter."
+                result = "In " + location + " The Temperature is " + (String) (weather.temperature) + " celsius. The weather condition is " + (String)(weather.condition) + ". Visibility is " + (String)(weather.visibility) + " meter."
+                semaphore.signal()
             }
         }
-        usleep(470000)
-        print(output)
-        return output
+        semaphore.wait()
+        print (result)
+        return result
     }
     
 
     /// Present a conversation reply and speak it to the user
     func presentResponse(_ response: MessageResponse) {
-        
-        
         var text = response.output.text.joined()
         if ((response.intents.count > 0) && (response.intents[0].intent == "weather")){
-
             if (response.entities.count == 0){
                 text = getWeather("Columbus")
-                print("try")
             }else{
                 text = getWeather(response.entities[0].value)
-                print("catch")
             }
         }
+        
+        if ((response.intents.count > 0) && (response.output.text[0] == "Okay! Start Translating..."))
+        {
+            popup = PopupDialog(title: "", message: "", image: UIImage(named: "TranslatorImage.png"))
+            setupTranslation()
+            self.present(popup, animated: true, completion: nil)
+        }
+        
+        //self.present(popup, animated: true, completion: nil)
         context = response.context // save context to continue conversation
         
         // synthesize and speak the response
@@ -161,11 +181,6 @@ extension ViewController {
     @objc func startTranscribing() {
         audioPlayer?.stop()
         self.speech = ""
-        
-        /*
-        while(true){
-            print(self.getWeather())
-        }*/
         var settings = RecognitionSettings(contentType: .opus)
         settings.interimResults = true
         speechToText.recognizeMicrophone(settings: settings, failure: failure) { results in
@@ -190,6 +205,90 @@ extension ViewController {
             failure: failure,
             success: presentResponse
         )
+    }
+}
+
+extension ViewController {
+    
+    func setupTranslation(){
+        let buttonOne = DefaultButton(title: "ME", dismissOnTap: false) {
+        }
+        let buttonTwo = DefaultButton(title: "OTHER", dismissOnTap: false) {
+        }
+        popup.buttonAlignment = .horizontal
+        
+        buttonOne.addTarget(self, action: #selector(meStartTranscribing), for: .touchDown)
+        buttonOne.addTarget(self, action: #selector(meStopTranscribing), for: .touchUpInside)
+        buttonOne.addTarget(self, action: #selector(meStopTranscribing), for: .touchUpOutside)
+        
+        buttonTwo.addTarget(self, action: #selector(otherStartTranscribing), for: .touchDown)
+        buttonTwo.addTarget(self, action: #selector(otherStopTranscribing), for: .touchUpInside)
+        buttonTwo.addTarget(self, action: #selector(otherStopTranscribing), for: .touchUpOutside)
+        
+        // Add buttons to dialog
+        popup.addButtons([buttonOne, buttonTwo])
+    }
+    
+    @objc func meStartTranscribing(){
+        audioPlayer?.stop()
+        self.translate = ""
+        let vc = self.popup.viewController as! PopupDialogDefaultViewController
+        var settings = RecognitionSettings(contentType: .opus)
+        settings.interimResults = true
+        speechToText.recognizeMicrophone(settings: settings, failure: failure) { results in
+            self.translate = results.bestTranscript
+            vc.titleText = self.translate
+            print(results.bestTranscript)
+        }
+    }
+    
+    @objc func meStopTranscribing(){
+        speechToText.stopRecognizeMicrophone()
+        let vc = self.popup.viewController as! PopupDialogDefaultViewController
+        languageTranslator.translate(self.translate, from: "en", to: "es", failure: failure) {
+            translation in
+            DispatchQueue.main.async {
+                self.translate = translation.translations[0].translation
+                vc.messageText = self.translate
+                self.textToSpeech.synthesize(self.translate, failure: self.failure) { audio in
+                    self.audioPlayer = try! AVAudioPlayer(data: audio)
+                    self.audioPlayer?.prepareToPlay()
+                    self.audioPlayer?.play()
+                }
+            }
+        }
+    }
+    
+    
+    @objc func otherStartTranscribing(){
+        audioPlayer?.stop()
+        self.translate = ""
+        let vc = self.popup.viewController as! PopupDialogDefaultViewController
+        var settings = RecognitionSettings(contentType: .opus)
+        settings.interimResults = true
+        //speechToText.resetCustomization(withID: self.spanishId)
+        speechToText.recognizeMicrophone(settings: settings, model: "es-ES_NarrowbandModel",failure: failure) { results in
+            self.translate = results.bestTranscript
+            vc.titleText = self.translate
+            print(results.bestTranscript)
+        }
+    }
+    
+    @objc func otherStopTranscribing(){
+        speechToText.stopRecognizeMicrophone()
+        let vc = self.popup.viewController as! PopupDialogDefaultViewController
+        languageTranslator.translate(self.translate, from: "es", to: "en", failure: failure) {
+            translation in
+            DispatchQueue.main.async {
+                self.translate = translation.translations[0].translation
+                vc.messageText = self.translate
+                self.textToSpeech.synthesize(self.translate, failure: self.failure) { audio in
+                    self.audioPlayer = try! AVAudioPlayer(data: audio)
+                    self.audioPlayer?.prepareToPlay()
+                    self.audioPlayer?.play()
+                }
+            }
+        }
     }
 }
 
@@ -223,36 +322,6 @@ extension ViewController {
         senderId = User.me.rawValue
         senderDisplayName = User.getName(User.me)
     }
-    
-    /*override func didPressSend(
-        _ button: UIButton!,
-        withMessageText text: String!,
-        senderId: String!,
-        senderDisplayName: String!,
-        date: Date!)
-    {
-        let message = JSQMessage(
-            senderId: User.me.rawValue,
-            senderDisplayName: User.getName(User.me),
-            date: date,
-            text: text
-        )
-        
-        if let message = message {
-            self.messages.append(message)
-            self.finishSendingMessage(animated: true)
-        }
-        
-        // send text to conversation service
-        let input = InputData(text: text)
-        let request = MessageRequest(input: input, context: context)
-        conversation.message(
-            workspaceID: workspace,
-            request: request,
-            failure: failure,
-            success: presentResponse
-        )
-    }*/
     
     override func didPressAccessoryButton(_ sender: UIButton!) {
         // required by super class
@@ -314,3 +383,4 @@ extension ViewController {
         return jsqCell
     }
 }
+
