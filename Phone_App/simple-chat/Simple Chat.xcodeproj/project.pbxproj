@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52280C9C20422CAF008ED9D0 /* DiscoveryV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52280C8920422CAF008ED9D0 /* DiscoveryV1.framework */; };
 		5228FE3C201AD47600A312EA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5228FE3B201AD47600A312EA /* Podfile */; };
 		5228FE3E201ADDF800A312EA /* Pods in Resources */ = {isa = PBXBuildFile; fileRef = 5228FE3D201ADDF800A312EA /* Pods */; };
 		52B46C5D202CDC4E0001C009 /* WeatherPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B46C5C202CDC4E0001C009 /* WeatherPart.swift */; };
@@ -25,7 +26,6 @@
 		8028ED0D2037323C00336AA0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8028ED0B2037323C00336AA0 /* Model.xcdatamodeld */; };
 		80BAF6A72035202600371E53 /* IMG_0362.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 80BAF6962035202600371E53 /* IMG_0362.JPG */; };
 		80F64421203CCB7A0079A993 /* LanguageTranslatorV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F64406203CCB7A0079A993 /* LanguageTranslatorV2.framework */; };
-		80F64437203CD0A60079A993 /* TranslatorImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F64424203CD0A60079A993 /* TranslatorImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +159,7 @@
 
 /* Begin PBXFileReference section */
 		0C4EF683FECFFA3B813651AA /* Pods-Simple Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Chat/Pods-Simple Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		52280C8920422CAF008ED9D0 /* DiscoveryV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiscoveryV1.framework; path = Carthage/Build/iOS/DiscoveryV1.framework; sourceTree = "<group>"; };
 		5228FE3B201AD47600A312EA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5228FE3D201ADDF800A312EA /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
 		5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
@@ -182,7 +183,6 @@
 		8028ED0C2037323C00336AA0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		80BAF6962035202600371E53 /* IMG_0362.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0362.JPG; path = Assets.xcassets/Pictures/IMG_0362.JPG; sourceTree = "<group>"; };
 		80F64406203CCB7A0079A993 /* LanguageTranslatorV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LanguageTranslatorV2.framework; path = Carthage/Build/iOS/LanguageTranslatorV2.framework; sourceTree = "<group>"; };
-		80F64424203CD0A60079A993 /* TranslatorImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TranslatorImage.png; path = ../../../../../../../Downloads/TranslatorImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +190,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52280C9C20422CAF008ED9D0 /* DiscoveryV1.framework in Frameworks */,
 				80F64421203CCB7A0079A993 /* LanguageTranslatorV2.framework in Frameworks */,
 				681AE98D200FCF060005C5C2 /* Starscream.framework in Frameworks */,
 				6815751C1EE219C500E2F476 /* TextToSpeechV1.framework in Frameworks */,
@@ -214,6 +215,7 @@
 		0C0EFA4E2492FE6BEF29F089 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52280C8920422CAF008ED9D0 /* DiscoveryV1.framework */,
 				80F64406203CCB7A0079A993 /* LanguageTranslatorV2.framework */,
 				5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */,
 				5228FE4B201ADEB000A312EA /* Pods.xcodeproj */,
@@ -280,7 +282,6 @@
 		6800B9201EE218EC00F2BD7C /* Simple Chat */ = {
 			isa = PBXGroup;
 			children = (
-				80F64424203CD0A60079A993 /* TranslatorImage.png */,
 				6800B9211EE218EC00F2BD7C /* AppDelegate.swift */,
 				6800B9231EE218EC00F2BD7C /* ViewController.swift */,
 				6815751F1EE219F800E2F476 /* User.swift */,
@@ -506,7 +507,6 @@
 				5228FE3C201AD47600A312EA /* Podfile in Resources */,
 				5228FE3E201ADDF800A312EA /* Pods in Resources */,
 				6800B9271EE218EC00F2BD7C /* Main.storyboard in Resources */,
-				80F64437203CD0A60079A993 /* TranslatorImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +524,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/ConversationV1.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/LanguageTranslatorV2.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/DiscoveryV1.framework",
 			);
 			outputPaths = (
 			);
