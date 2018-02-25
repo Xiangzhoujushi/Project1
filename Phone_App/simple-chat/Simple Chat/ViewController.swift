@@ -25,6 +25,7 @@ import AVFoundation
 import ConversationV1
 import SpeechToTextV1
 import TextToSpeechV1
+import DiscoveryV1
 import LanguageTranslatorV2
 
 
@@ -37,17 +38,14 @@ class ViewController: JSQMessagesViewController {
     var conversation: Conversation!
     var speechToText: SpeechToText!
     var textToSpeech: TextToSpeech!
-    var languageTranslator:LanguageTranslator!
+    var languageTranslator: LanguageTranslator!
+    var discovery:Discovery!
     var audioPlayer: AVAudioPlayer?
     var workspace = Credentials.ConversationWorkspace
     var context: Context?
     
     var speech = ""
-//    var output = ""
-    
     var translate = ""
-    //var weatherOutput = ""
-    var spanishId = ""
     
     var popup = PopupDialog(title: "", message: "", image: UIImage(named: "TranslatorImage.png"))
     
@@ -84,6 +82,10 @@ extension ViewController {
             username: Credentials.LanguageTranslatorUsername,
             password: Credentials.LanguageTranslatorPassword
         )
+        discovery = Discovery(
+            username: Credentials.DiscoveryUsername,
+            password: Credentials.DiscoveryPassword,
+            version: "2018-02-24")
     }
     
     /// Present an error message
@@ -107,8 +109,6 @@ extension ViewController {
             success: presentResponse
         )
     }
-    
-    
     
     func getWeather(_ location: String) -> String{
         var result = ""
