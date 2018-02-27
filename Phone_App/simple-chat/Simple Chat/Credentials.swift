@@ -26,4 +26,15 @@ public struct Credentials {
     public static let LanguageTranslatorPassword = "3URHtqQl4Qe4"
     public static let DiscoveryUsername = "5793d8fc-fa89-4196-8d18-5916153e6820"
     public static let DiscoveryPassword = "Qa2TM2YcobYa"
+   /* public static let ConversationUsername = ""
+    public static let ConversationPassword = ""
+    public static let ConversationWorkspace = ""
+    public static let SpeechToTextUsername = ""
+    public static let SpeechToTextPassword = ""
+    public static let TextToSpeechUsername = ""
+    public static let TextToSpeechPassword = ""
+    public static let LanguageTranslatorUsername = ""
+    public static let LanguageTranslatorPassword = ""
+    public static let DiscoveryUsername = ""
+    public static let DiscoveryPassword = ""*/
 }

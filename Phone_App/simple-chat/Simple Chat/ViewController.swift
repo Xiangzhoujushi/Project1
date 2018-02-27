@@ -27,6 +27,8 @@ import SpeechToTextV1
 import TextToSpeechV1
 import DiscoveryV1
 import LanguageTranslatorV2
+import CDYelpFusionKit
+
 
 
 class ViewController: JSQMessagesViewController {
@@ -77,7 +79,6 @@ extension ViewController {
             username: Credentials.TextToSpeechUsername,
             password: Credentials.TextToSpeechPassword
         )
-        
         languageTranslator = LanguageTranslator(
             username: Credentials.LanguageTranslatorUsername,
             password: Credentials.LanguageTranslatorPassword
@@ -134,6 +135,41 @@ extension ViewController {
         return result
     }
     
+    
+    func  getRestaurants() -> String {
+        let yelpAPIClient = CDYelpAPIClient(apiKey: "JvDNq2ZH1KAEgrKhn1yoznmecpeT2ma-rXoBRkyWd3pXvS3yIIAo3Ne-g7ng51LFkAdWWsM3CeM3orEe-KzuulxofyTyyKPvyGJdxh9u1MrdcSIRVm68H0AkshGTWnYx")
+        let semaphore = DispatchSemaphore(value: 0)
+        var result = ""
+        //let longitude = -83.015911
+        //let latitude = 40.002323
+        yelpAPIClient.searchBusinesses(byTerm: "Food",
+                                       location: nil,
+                                       latitude: 40.002323,
+                                       longitude: -83.015911,
+                                       radius: 10000,
+                                       categories: [.activeLife, .food],
+                                       locale: .english_unitedStates,
+                                       limit: 5,
+                                       offset: 0,
+                                       sortBy: .rating,
+                                       priceTiers: [.oneDollarSign, .twoDollarSigns],
+                                       openNow: true,
+                                       openAt: nil,
+                                       attributes: nil)
+        { (response) in
+            if  let response = response,
+                let businesses = response.businesses,
+                businesses.count > 0 {
+                    result = "I have found some good restaurants: \n"
+                    result += businesses[0].name! + "\n"
+                    result += businesses[1].name! + "\n"
+                    result += businesses[2].name!
+                    semaphore.signal()
+            }
+        }
+        semaphore.wait()
+        return result
+    }
 
     /// Present a conversation reply and speak it to the user
     func presentResponse(_ response: MessageResponse) {

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		52280C9C20422CAF008ED9D0 /* DiscoveryV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52280C8920422CAF008ED9D0 /* DiscoveryV1.framework */; };
+		52280CEC2043B8A6008ED9D0 /* CDYelpFusionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52280CCD2043B8A6008ED9D0 /* CDYelpFusionKit.framework */; };
+		52280D022043B97D008ED9D0 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52280CEF2043B97D008ED9D0 /* AlamofireObjectMapper.framework */; };
+		52280D042043B98F008ED9D0 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52280D032043B98F008ED9D0 /* ObjectMapper.framework */; };
 		5228FE3C201AD47600A312EA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5228FE3B201AD47600A312EA /* Podfile */; };
 		5228FE3E201ADDF800A312EA /* Pods in Resources */ = {isa = PBXBuildFile; fileRef = 5228FE3D201ADDF800A312EA /* Pods */; };
 		52B46C5D202CDC4E0001C009 /* WeatherPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B46C5C202CDC4E0001C009 /* WeatherPart.swift */; };
@@ -160,6 +163,9 @@
 /* Begin PBXFileReference section */
 		0C4EF683FECFFA3B813651AA /* Pods-Simple Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Chat/Pods-Simple Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		52280C8920422CAF008ED9D0 /* DiscoveryV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiscoveryV1.framework; path = Carthage/Build/iOS/DiscoveryV1.framework; sourceTree = "<group>"; };
+		52280CCD2043B8A6008ED9D0 /* CDYelpFusionKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CDYelpFusionKit.framework; path = Carthage/Build/iOS/CDYelpFusionKit.framework; sourceTree = "<group>"; };
+		52280CEF2043B97D008ED9D0 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		52280D032043B98F008ED9D0 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
 		5228FE3B201AD47600A312EA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5228FE3D201ADDF800A312EA /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
 		5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
@@ -190,6 +196,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52280D042043B98F008ED9D0 /* ObjectMapper.framework in Frameworks */,
+				52280D022043B97D008ED9D0 /* AlamofireObjectMapper.framework in Frameworks */,
+				52280CEC2043B8A6008ED9D0 /* CDYelpFusionKit.framework in Frameworks */,
 				52280C9C20422CAF008ED9D0 /* DiscoveryV1.framework in Frameworks */,
 				80F64421203CCB7A0079A993 /* LanguageTranslatorV2.framework in Frameworks */,
 				681AE98D200FCF060005C5C2 /* Starscream.framework in Frameworks */,
@@ -215,6 +224,9 @@
 		0C0EFA4E2492FE6BEF29F089 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52280D032043B98F008ED9D0 /* ObjectMapper.framework */,
+				52280CEF2043B97D008ED9D0 /* AlamofireObjectMapper.framework */,
+				52280CCD2043B8A6008ED9D0 /* CDYelpFusionKit.framework */,
 				52280C8920422CAF008ED9D0 /* DiscoveryV1.framework */,
 				80F64406203CCB7A0079A993 /* LanguageTranslatorV2.framework */,
 				5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */,
@@ -525,6 +537,9 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/LanguageTranslatorV2.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/DiscoveryV1.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CDYelpFusionKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireObjectMapper.framework",
 			);
 			outputPaths = (
 			);
@@ -747,7 +762,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hzwuhaozheng-icloud.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -766,7 +781,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hzwuhaozheng-icloud.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
