@@ -45,6 +45,7 @@ class ViewController: JSQMessagesViewController {
     var audioPlayer: AVAudioPlayer?
     var workspace = Credentials.ConversationWorkspace
     var context: Context?
+    var allBusiness: [CDYelpBusiness]?
     
     var speech = ""
     var translate = ""
@@ -157,22 +158,40 @@ extension ViewController {
                                        openAt: nil,
                                        attributes: nil)
         { (response) in
-            if  let response = response,
-                let businesses = response.businesses,
-                businesses.count > 0 {
-                    result = "I have found some good restaurants: \n"
-                    result += businesses[0].name! + "\n"
-                    result += businesses[1].name! + "\n"
-                    result += businesses[2].name!
-                    semaphore.signal()
+            if let response = response, let businesses = response.businesses, businesses.count > 0 {
+                self.allBusiness = response.businesses
+                result = "I have found some good restaurants: \n"
+                result += businesses[0].name! + "\n"
+                result += businesses[1].name! + "\n"
+                result += businesses[2].name!
+                semaphore.signal()
             }
         }
         semaphore.wait()
         return result
     }
+    
+    
+    func getReview(_ num: Int) -> String{
+        var result = ""
+        let business = allBusiness![num - 1]
+        let yelpAPIClient = CDYelpAPIClient(apiKey: "JvDNq2ZH1KAEgrKhn1yoznmecpeT2ma-rXoBRkyWd3pXvS3yIIAo3Ne-g7ng51LFkAdWWsM3CeM3orEe-KzuulxofyTyyKPvyGJdxh9u1MrdcSIRVm68H0AkshGTWnYx")
+        yelpAPIClient.fetchReviews(forBusinessId: business.id , locale: nil) { (response) in
+            if let response = response, let reviews = response.reviews,reviews.count > 0 {
+                result = reviews[0].text!
+            }
+        }
+        return result
+    }
 
     /// Present a conversation reply and speak it to the user
     func presentResponse(_ response: MessageResponse) {
+         if ((response.intents.count > 0) && (response.intents[0].intent == "locate_amenity")){
+        print(response.entities[1].value)
+    }
+        if ((response.intents.count > 0) && (response.intents[0].intent == "review")){
+            print(response.entities[0].value)
+        }
         var text = response.output.text.joined()
         if ((response.intents.count > 0) && (response.intents[0].intent == "weather")){
             if (response.entities.count == 0){
@@ -181,6 +200,8 @@ extension ViewController {
                 text = getWeather(response.entities[0].value)
             }
         }
+        
+        
         
         if ((response.intents.count > 0) && (response.output.text[0] == "Okay! Start Translating..."))
         {
