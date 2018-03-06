@@ -28,10 +28,12 @@ import TextToSpeechV1
 import DiscoveryV1
 import LanguageTranslatorV2
 import CDYelpFusionKit
+import SafariServices
+import MapKit
 
 
 
-class ViewController: JSQMessagesViewController {
+class ViewController: JSQMessagesViewController, CLLocationManagerDelegate {
     
     var messages = [JSQMessage]()
     var incomingBubble: JSQMessagesBubbleImage!
@@ -51,6 +53,9 @@ class ViewController: JSQMessagesViewController {
     var translate = ""
     
     var popup = PopupDialog(title: "", message: "", image: UIImage(named: "TranslatorImage.png"))
+    let locationManager = CLLocationManager()
+    var currentCoordinate : CLLocationCoordinate2D?
+    var restaurants = [CLLocationCoordinate2D]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,6 +64,16 @@ class ViewController: JSQMessagesViewController {
         setupWatsonServices()
         setupTranslation()
         startConversation()
+        
+        locationManager.requestAlwaysAuthorization()
+        locationManager.requestWhenInUseAuthorization()
+        
+        if CLLocationManager.locationServicesEnabled(){
+            locationManager.delegate = self
+            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            locationManager.startUpdatingLocation()
+        }
+        currentCoordinate = locationManager.location?.coordinate
     }
 }
 
@@ -112,41 +127,18 @@ extension ViewController {
         )
     }
     
-    func getWeather(_ location: String) -> String{
-        var result = ""
-        //print(location)
-        let client = OpenWeatherSwift(apiKey: "ed9049dc12e1698ee3b17de097abadaa", temperatureFormat: .Celsius)
-        let semaphore = DispatchSemaphore(value: 0)
-        if (location == "Columbus"){
-            let myLocation = CLLocation(latitude: 39.96, longitude: -83)
-            client.currentWeatherByCoordinates(coords: myLocation.coordinate){results in
-                let weather = Weather2.init(data: results)
-                result = "In " + location + " The Temperature is " + (String) (weather.temperature) + " celsius. The weather condition is " + (String)(weather.condition) + ". Visibility is " + (String)(weather.visibility) + " meters."
-                semaphore.signal()
-            }
-        }else{
-            client.currentWeatherByCity(name: location){results in
-                let weather = Weather2.init(data: results)
-                result = "In " + location + " The Temperature is " + (String) (weather.temperature) + " celsius. The weather condition is " + (String)(weather.condition) + ". Visibility is " + (String)(weather.visibility) + " meter."
-                semaphore.signal()
-            }
-        }
-        semaphore.wait()
-        print (result)
-        return result
-    }
     
-    
-    func  getRestaurants() -> String {
+    func  getRestaurants(coordinate: CLLocationCoordinate2D) -> (String, [CLLocationCoordinate2D]) {
         let yelpAPIClient = CDYelpAPIClient(apiKey: "JvDNq2ZH1KAEgrKhn1yoznmecpeT2ma-rXoBRkyWd3pXvS3yIIAo3Ne-g7ng51LFkAdWWsM3CeM3orEe-KzuulxofyTyyKPvyGJdxh9u1MrdcSIRVm68H0AkshGTWnYx")
         let semaphore = DispatchSemaphore(value: 0)
         var result = ""
+        var result1 = [CLLocationCoordinate2D]()
         //let longitude = -83.015911
         //let latitude = 40.002323
         yelpAPIClient.searchBusinesses(byTerm: "Food",
                                        location: nil,
-                                       latitude: 40.002323,
-                                       longitude: -83.015911,
+                                       latitude: coordinate.latitude,
+                                       longitude:  coordinate.longitude,
                                        radius: 10000,
                                        categories: [.activeLife, .food],
                                        locale: .english_unitedStates,
@@ -161,54 +153,102 @@ extension ViewController {
             if let response = response, let businesses = response.businesses, businesses.count > 0 {
                 self.allBusiness = response.businesses
                 result = "I have found some good restaurants: \n"
-                result += businesses[0].name! + "\n"
-                result += businesses[1].name! + "\n"
+                result += businesses[0].name! + ", \n"
+                result += businesses[1].name! + ", \n"
                 result += businesses[2].name!
+                result1.append(CLLocationCoordinate2D(latitude: (businesses[1].coordinates?.latitude)!, longitude: businesses[1].coordinates!.longitude!))
+                result1.append(CLLocationCoordinate2D(latitude: (businesses[1].coordinates?.latitude)!, longitude: businesses[1].coordinates!.longitude!))
+                result1.append(CLLocationCoordinate2D(latitude: (businesses[1].coordinates?.latitude)!, longitude: businesses[1].coordinates!.longitude!))
+                semaphore.signal()
+            }
+        }
+        semaphore.wait()
+        return (result, result1)
+    }
+    
+    
+    func getReview(_ num: Int) -> String{
+        var result = ""
+        let semaphore = DispatchSemaphore(value: 0)
+        let business = allBusiness![num - 1]
+        let yelpAPIClient = CDYelpAPIClient(apiKey: "JvDNq2ZH1KAEgrKhn1yoznmecpeT2ma-rXoBRkyWd3pXvS3yIIAo3Ne-g7ng51LFkAdWWsM3CeM3orEe-KzuulxofyTyyKPvyGJdxh9u1MrdcSIRVm68H0AkshGTWnYx")
+        yelpAPIClient.fetchReviews(forBusinessId: business.id , locale: nil) { (response) in
+            if let response = response, let reviews = response.reviews,reviews.count > 0 {
+                result = reviews[0].text!
+                let svc = SFSafariViewController(url: reviews[0].url!, entersReaderIfAvailable: true)
+                self.present(svc, animated: true, completion: nil)
                 semaphore.signal()
             }
         }
         semaphore.wait()
         return result
     }
-    
-    
-    func getReview(_ num: Int) -> String{
-        var result = ""
-        let business = allBusiness![num - 1]
-        let yelpAPIClient = CDYelpAPIClient(apiKey: "JvDNq2ZH1KAEgrKhn1yoznmecpeT2ma-rXoBRkyWd3pXvS3yIIAo3Ne-g7ng51LFkAdWWsM3CeM3orEe-KzuulxofyTyyKPvyGJdxh9u1MrdcSIRVm68H0AkshGTWnYx")
-        yelpAPIClient.fetchReviews(forBusinessId: business.id , locale: nil) { (response) in
-            if let response = response, let reviews = response.reviews,reviews.count > 0 {
-                result = reviews[0].text!
-            }
-        }
-        return result
-    }
 
     /// Present a conversation reply and speak it to the user
     func presentResponse(_ response: MessageResponse) {
-         if ((response.intents.count > 0) && (response.intents[0].intent == "locate_amenity")){
-        print(response.entities[1].value)
-    }
-        if ((response.intents.count > 0) && (response.intents[0].intent == "review")){
-            print(response.entities[0].value)
-        }
+        currentCoordinate = locationManager.location?.coordinate
         var text = response.output.text.joined()
+//        饭店
+        if ((response.intents.count > 0) && (response.intents[0].intent == "locate_amenity")){
+            
+            let semaphore = DispatchSemaphore(value: 0)
+            print(response.entities.count)
+            if (response.entities.count>1){
+                var coord:CLLocationCoordinate2D?
+                Navigation().getCoordinate(addressString: response.entities[1].value){ coordinate, error in
+                    coord = coordinate
+                    print(coord)
+                    print(coordinate)
+                    semaphore.signal()
+                }
+                semaphore.wait()
+                let (recommend, res) = getRestaurants(coordinate: coord!)
+                text = String(recommend)
+                restaurants = res
+            }else{
+                let (recommend, res) = getRestaurants(coordinate: currentCoordinate!)
+                text = String(recommend)
+                restaurants = res
+            }
+        }
+//        反馈
+        if ((response.intents.count > 0) && (response.intents[0].intent == "review")){
+            text = "opening review"
+            print(Int(response.entities[0].value)!)
+            getReview(Int(response.entities[0].value)!)
+            
+        }
+//        天气
         if ((response.intents.count > 0) && (response.intents[0].intent == "weather")){
             if (response.entities.count == 0){
-                text = getWeather("Columbus")
+                text = WeatherPart().getWeather("Columbus")
             }else{
-                text = getWeather(response.entities[0].value)
+                text = WeatherPart().getWeather(response.entities[0].value)
+            }
+        }
+//        导航
+        if ((response.intents.count > 0) && (response.intents[0].intent == "navigation")){
+            print(Int(response.entities[0].value)!)
+            if (Int(response.entities[0].value)! < 4) {
+                text = "Start routing"
+                print(restaurants)
+                print(Int(response.entities[0].value)!)
+                Navigation().openMap_cor(coordinate: restaurants[Int(response.entities[0].value)!-1])
+            }else{
+                text = "Start routing"
+                Navigation().openMap(address: response.entities[0].value)
+                }
+        }
+//        翻译
+        if ((response.intents.count > 0) && (response.intents[0].intent == "language"))
+        {
+            if(response.output.text[0] == "Okay! Start Translating..."){
+                popup = PopupDialog(title: "", message: "", image: UIImage(named: "TranslatorImage.png"))
+                setupTranslation()
+                self.present(popup, animated: true, completion: nil)
             }
         }
         
-        
-        
-        if ((response.intents.count > 0) && (response.output.text[0] == "Okay! Start Translating..."))
-        {
-            popup = PopupDialog(title: "", message: "", image: UIImage(named: "TranslatorImage.png"))
-            setupTranslation()
-            self.present(popup, animated: true, completion: nil)
-        }
         
         //self.present(popup, animated: true, completion: nil)
         context = response.context // save context to continue conversation

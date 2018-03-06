@@ -11,6 +11,7 @@
 		52280CEC2043B8A6008ED9D0 /* CDYelpFusionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52280CCD2043B8A6008ED9D0 /* CDYelpFusionKit.framework */; };
 		52280D022043B97D008ED9D0 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52280CEF2043B97D008ED9D0 /* AlamofireObjectMapper.framework */; };
 		52280D042043B98F008ED9D0 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52280D032043B98F008ED9D0 /* ObjectMapper.framework */; };
+		52280D062049F29E008ED9D0 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52280D052049F29E008ED9D0 /* Navigation.swift */; };
 		5228FE3C201AD47600A312EA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5228FE3B201AD47600A312EA /* Podfile */; };
 		5228FE3E201ADDF800A312EA /* Pods in Resources */ = {isa = PBXBuildFile; fileRef = 5228FE3D201ADDF800A312EA /* Pods */; };
 		52B46C5D202CDC4E0001C009 /* WeatherPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B46C5C202CDC4E0001C009 /* WeatherPart.swift */; };
@@ -166,6 +167,7 @@
 		52280CCD2043B8A6008ED9D0 /* CDYelpFusionKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CDYelpFusionKit.framework; path = Carthage/Build/iOS/CDYelpFusionKit.framework; sourceTree = "<group>"; };
 		52280CEF2043B97D008ED9D0 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
 		52280D032043B98F008ED9D0 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		52280D052049F29E008ED9D0 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		5228FE3B201AD47600A312EA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5228FE3D201ADDF800A312EA /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
 		5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 				6800B92D1EE218EC00F2BD7C /* Info.plist */,
 				52B46C5C202CDC4E0001C009 /* WeatherPart.swift */,
 				8028ED0B2037323C00336AA0 /* Model.xcdatamodeld */,
+				52280D052049F29E008ED9D0 /* Navigation.swift */,
 			);
 			path = "Simple Chat";
 			sourceTree = "<group>";
@@ -346,7 +349,7 @@
 				TargetAttributes = {
 					6800B91D1EE218EC00F2BD7C = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 7Z62E59NM8;
+						DevelopmentTeam = 3F472A7D5S;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -621,6 +624,7 @@
 			files = (
 				681575201EE219F800E2F476 /* User.swift in Sources */,
 				6815751E1EE219EC00E2F476 /* Credentials.swift in Sources */,
+				52280D062049F29E008ED9D0 /* Navigation.swift in Sources */,
 				6800B9241EE218EC00F2BD7C /* ViewController.swift in Sources */,
 				6800B9221EE218EC00F2BD7C /* AppDelegate.swift in Sources */,
 				52B46C5D202CDC4E0001C009 /* WeatherPart.swift in Sources */,
@@ -752,7 +756,7 @@
 			baseConfigurationReference = 0C4EF683FECFFA3B813651AA /* Pods-Simple Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7Z62E59NM8;
+				DEVELOPMENT_TEAM = 3F472A7D5S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -760,7 +764,7 @@
 				INFOPLIST_FILE = "Simple Chat/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "hzwuhaozheng-icloud.com";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhenyang.simple-chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -771,7 +775,7 @@
 			baseConfigurationReference = 661949F74760477C68416846 /* Pods-Simple Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7Z62E59NM8;
+				DEVELOPMENT_TEAM = 3F472A7D5S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -779,7 +783,7 @@
 				INFOPLIST_FILE = "Simple Chat/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "hzwuhaozheng-icloud.com";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhenyang.simple-chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
