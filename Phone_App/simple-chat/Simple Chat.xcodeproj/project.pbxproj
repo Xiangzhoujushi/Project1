@@ -30,6 +30,7 @@
 		8028ED0D2037323C00336AA0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8028ED0B2037323C00336AA0 /* Model.xcdatamodeld */; };
 		80BAF6A72035202600371E53 /* IMG_0362.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 80BAF6962035202600371E53 /* IMG_0362.JPG */; };
 		80F64421203CCB7A0079A993 /* LanguageTranslatorV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F64406203CCB7A0079A993 /* LanguageTranslatorV2.framework */; };
+		9A203C952050CCFF00D80A94 /* restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A203C942050CCFF00D80A94 /* restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,6 +192,7 @@
 		8028ED0C2037323C00336AA0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		80BAF6962035202600371E53 /* IMG_0362.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0362.JPG; path = Assets.xcassets/Pictures/IMG_0362.JPG; sourceTree = "<group>"; };
 		80F64406203CCB7A0079A993 /* LanguageTranslatorV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LanguageTranslatorV2.framework; path = Carthage/Build/iOS/LanguageTranslatorV2.framework; sourceTree = "<group>"; };
+		9A203C942050CCFF00D80A94 /* restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +311,7 @@
 				52B46C5C202CDC4E0001C009 /* WeatherPart.swift */,
 				8028ED0B2037323C00336AA0 /* Model.xcdatamodeld */,
 				52280D052049F29E008ED9D0 /* Navigation.swift */,
+				9A203C942050CCFF00D80A94 /* restaurant.swift */,
 			);
 			path = "Simple Chat";
 			sourceTree = "<group>";
@@ -626,6 +629,7 @@
 				6815751E1EE219EC00E2F476 /* Credentials.swift in Sources */,
 				52280D062049F29E008ED9D0 /* Navigation.swift in Sources */,
 				6800B9241EE218EC00F2BD7C /* ViewController.swift in Sources */,
+				9A203C952050CCFF00D80A94 /* restaurant.swift in Sources */,
 				6800B9221EE218EC00F2BD7C /* AppDelegate.swift in Sources */,
 				52B46C5D202CDC4E0001C009 /* WeatherPart.swift in Sources */,
 				8028ED0D2037323C00336AA0 /* Model.xcdatamodeld in Sources */,

@@ -57,6 +57,14 @@ class ViewController: JSQMessagesViewController, CLLocationManagerDelegate {
     var currentCoordinate : CLLocationCoordinate2D?
     var restaurants = [CLLocationCoordinate2D]()
     
+    
+//    discovery
+    var environmentID = "6905356d-a4ef-4e0e-bd98-abebee8b0bc8"
+    var collectionID = "217b915f-21ac-42ad-8df6-eb006869260f"
+    var failWithError = ""
+    ///"6905356d-a4ef-4e0e-bd98-abebee8b0bc8"
+    var res = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupInterface()
@@ -184,6 +192,57 @@ extension ViewController {
         return result
     }
 
+    
+    func getShopping()->String{
+        
+        
+        /// String to search for within the documents.
+        let query = "enriched_text.entities.disambiguation.subtype:'ShoppingCenter'"
+        let failure = {(error:Error) in print(error)}
+        ///var res = ""
+        /// Find the max sentiment score for entities within the enriched text.
+        let aggregation = ""
+        ///"max(enriched_text.entities.sentiment.score)"
+        var message = ""
+        /// Specify which portion of the document hierarchy to return.
+        let returnHierarchies = "results"
+        let semaphore = DispatchSemaphore(value: 0)
+        var num = 0
+        let discovery = Discovery(
+            username: Credentials.DiscoveryUsername,
+            password: Credentials.DiscoveryPassword,
+            version: "2018-03-05")
+        discovery.queryDocumentsInCollection(
+            withEnvironmentID: environmentID,
+            withCollectionID: collectionID,
+            withQuery: query,
+            withAggregation: aggregation,
+            ///return: returnHierarchies,
+            failure: failure)
+        {
+            queryResponse in
+            if let results = queryResponse.results {
+                for result in results {
+                    //result.entities
+                    for text in  (result.enrichedTitle?.entities)!{
+                        if(num<3){
+                            message += text.text! + "\n"
+                            num+=1
+                        }else{
+                            break
+                        }
+                    }
+                    semaphore.signal()
+                }
+            }
+        }
+        semaphore.wait()
+        return message
+    }
+    
+    
+    
+    
     /// Present a conversation reply and speak it to the user
     func presentResponse(_ response: MessageResponse) {
         currentCoordinate = locationManager.location?.coordinate
@@ -218,6 +277,10 @@ extension ViewController {
             getReview(Int(response.entities[0].value)!)
             
         }
+        
+        if ((response.intents.count > 0) && (response.intents[0].intent == "shopping")){
+            text = getShopping()
+        }
 //        天气
         if ((response.intents.count > 0) && (response.intents[0].intent == "weather")){
             if (response.entities.count == 0){
@@ -228,16 +291,17 @@ extension ViewController {
         }
 //        导航
         if ((response.intents.count > 0) && (response.intents[0].intent == "navigation")){
-            print(Int(response.entities[0].value)!)
-            if (Int(response.entities[0].value)! < 4) {
-                text = "Start routing"
-                print(restaurants)
-                print(Int(response.entities[0].value)!)
-                Navigation().openMap_cor(coordinate: restaurants[Int(response.entities[0].value)!-1])
-            }else{
-                text = "Start routing"
-                Navigation().openMap(address: response.entities[0].value)
-                }
+            if (response.entities.count > 0){
+                if(Int(response.entities[0].value) != nil && Int(response.entities[0].value)! < 4) {
+                    text = "Start routing"
+                    print(restaurants)
+                    print(Int(response.entities[0].value)!)
+                    Navigation().openMap_cor(coordinate: restaurants[Int(response.entities[0].value)!-1])
+                }else{
+                    text = "Start routing"
+                    Navigation().openMap(address: response.entities[0].value)
+                    }
+            }
         }
 //        翻译
         if ((response.intents.count > 0) && (response.intents[0].intent == "language"))
