@@ -35,6 +35,7 @@ import MapKit
 
 class ViewController: JSQMessagesViewController, CLLocationManagerDelegate {
     
+    
     var messages = [JSQMessage]()
     var incomingBubble: JSQMessagesBubbleImage!
     var outgoingBubble: JSQMessagesBubbleImage!
@@ -56,6 +57,7 @@ class ViewController: JSQMessagesViewController, CLLocationManagerDelegate {
     let locationManager = CLLocationManager()
     var currentCoordinate : CLLocationCoordinate2D?
     var restaurants = [CLLocationCoordinate2D]()
+    var shopping = [String]()
     
     
 //    discovery
@@ -164,9 +166,9 @@ extension ViewController {
                 result += businesses[0].name! + ", \n"
                 result += businesses[1].name! + ", \n"
                 result += businesses[2].name!
+                result1.append(CLLocationCoordinate2D(latitude: (businesses[0].coordinates?.latitude)!, longitude: businesses[1].coordinates!.longitude!))
                 result1.append(CLLocationCoordinate2D(latitude: (businesses[1].coordinates?.latitude)!, longitude: businesses[1].coordinates!.longitude!))
-                result1.append(CLLocationCoordinate2D(latitude: (businesses[1].coordinates?.latitude)!, longitude: businesses[1].coordinates!.longitude!))
-                result1.append(CLLocationCoordinate2D(latitude: (businesses[1].coordinates?.latitude)!, longitude: businesses[1].coordinates!.longitude!))
+                result1.append(CLLocationCoordinate2D(latitude: (businesses[2].coordinates?.latitude)!, longitude: businesses[1].coordinates!.longitude!))
                 semaphore.signal()
             }
         }
@@ -193,17 +195,65 @@ extension ViewController {
     }
 
     
-    func getShopping()->String{
+//    func getShopping()->String{
+//
+//
+//        /// String to search for within the documents.
+//        let query = "enriched_text.entities.disambiguation.subtype:'ShoppingCenter'"
+//        let failure = {(error:Error) in print(error)}
+//        ///var res = ""
+//        /// Find the max sentiment score for entities within the enriched text.
+//        let aggregation = ""
+//        ///"max(enriched_text.entities.sentiment.score)"
+//        var message = ""
+//        /// Specify which portion of the document hierarchy to return.
+//        let returnHierarchies = "results"
+//        let semaphore = DispatchSemaphore(value: 0)
+//        var num = 0
+//        let discovery = Discovery(
+//            username: Credentials.DiscoveryUsername,
+//            password: Credentials.DiscoveryPassword,
+//            version: "2018-03-05")
+//        discovery.queryDocumentsInCollection(
+//            withEnvironmentID: environmentID,
+//            withCollectionID: collectionID,
+//            withQuery: query,
+//            withAggregation: aggregation,
+//            ///return: returnHierarchies,
+//            failure: failure)
+//        {
+//            queryResponse in
+//            if let results = queryResponse.results {
+//                for result in results {
+//                    //result.entities
+//                    for text in  (result.enrichedTitle?.entities)!{
+//                        if(num<3){
+//                            message += text.text! + "\n"
+//                            num+=1
+//                        }else{
+//                            break
+//                        }
+//                    }
+//                    semaphore.signal()
+//                }
+//            }
+//        }
+//        semaphore.wait()
+//        return message
+//    }
+//
+    
+    func getShopping(_ location: String)->(String, [String]){
         
-        
+        var result2 = [String]()
         /// String to search for within the documents.
-        let query = "enriched_text.entities.disambiguation.subtype:'ShoppingCenter'"
+        let query = location
         let failure = {(error:Error) in print(error)}
         ///var res = ""
         /// Find the max sentiment score for entities within the enriched text.
         let aggregation = ""
         ///"max(enriched_text.entities.sentiment.score)"
-        var message = ""
+        var message = "Here are the shopping centers I found in " + location+":\n"
         /// Specify which portion of the document hierarchy to return.
         let returnHierarchies = "results"
         let semaphore = DispatchSemaphore(value: 0)
@@ -223,10 +273,15 @@ extension ViewController {
             queryResponse in
             if let results = queryResponse.results {
                 for result in results {
-                    //result.entities
                     for text in  (result.enrichedTitle?.entities)!{
                         if(num<3){
+                            
+                            message += String(num+1)
+                            message += ". "
+                            //if(text.text)
                             message += text.text! + "\n"
+                            result2.append(text.text!)
+                            
                             num+=1
                         }else{
                             break
@@ -237,11 +292,8 @@ extension ViewController {
             }
         }
         semaphore.wait()
-        return message
+        return (message, result2)
     }
-    
-    
-    
     
     /// Present a conversation reply and speak it to the user
     func presentResponse(_ response: MessageResponse) {
@@ -275,11 +327,13 @@ extension ViewController {
             text = "opening review"
             print(Int(response.entities[0].value)!)
             getReview(Int(response.entities[0].value)!)
-            
         }
-        
+//        购物
         if ((response.intents.count > 0) && (response.intents[0].intent == "shopping")){
-            text = getShopping()
+            let (shop_rec, shop_res) = getShopping(response.entities[1].value)
+            text = String(shop_rec)
+            shopping = shop_res
+            print(shopping)
         }
 //        天气
         if ((response.intents.count > 0) && (response.intents[0].intent == "weather")){
@@ -292,11 +346,18 @@ extension ViewController {
 //        导航
         if ((response.intents.count > 0) && (response.intents[0].intent == "navigation")){
             if (response.entities.count > 0){
-                if(Int(response.entities[0].value) != nil && Int(response.entities[0].value)! < 4) {
+                if(Int(response.entities[1].value) != nil && response.entities[0].value == "restaurant" ) {
                     text = "Start routing"
                     print(restaurants)
-                    print(Int(response.entities[0].value)!)
-                    Navigation().openMap_cor(coordinate: restaurants[Int(response.entities[0].value)!-1])
+                    print(response.entities[0].value)
+                    print(restaurants[Int(response.entities[1].value)!-1])
+                    Navigation().openMap_cor(coordinate: restaurants[Int(response.entities[1].value)!-1])
+                }else if (response.entities[0].value == "shopping mall"){
+                    text = "Start routing"
+                    print(shopping[Int(response.entities[1].value)!-1])
+                    print(shopping[Int(response.entities[1].value)!-1])
+                    Navigation().openMap(address: shopping[Int(response.entities[1].value)!-1])
+                    
                 }else{
                     text = "Start routing"
                     Navigation().openMap(address: response.entities[0].value)
