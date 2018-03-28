@@ -52,6 +52,9 @@ class ViewController: JSQMessagesViewController, CLLocationManagerDelegate {
     
     var speech = ""
     var translate = ""
+    var translateLang = ""
+    var langToTranslator : [String: String] = ["spanish":"es", "french":"fr", "japanese":"ja", "korean":"ko"]
+    var langToSpeech : [String: String] = ["spanish":"es-ES_BroadbandModel", "french":"fr-FR_BroadbandModel", "japanese":"ja-JP_BroadbandModel", "korean":"ko-KR_BroadbandModel" ]
     
     var popup = PopupDialog(title: "", message: "", image: UIImage(named: "TranslatorImage.png"))
     let locationManager = CLLocationManager()
@@ -193,55 +196,6 @@ extension ViewController {
         semaphore.wait()
         return result
     }
-
-    
-//    func getShopping()->String{
-//
-//
-//        /// String to search for within the documents.
-//        let query = "enriched_text.entities.disambiguation.subtype:'ShoppingCenter'"
-//        let failure = {(error:Error) in print(error)}
-//        ///var res = ""
-//        /// Find the max sentiment score for entities within the enriched text.
-//        let aggregation = ""
-//        ///"max(enriched_text.entities.sentiment.score)"
-//        var message = ""
-//        /// Specify which portion of the document hierarchy to return.
-//        let returnHierarchies = "results"
-//        let semaphore = DispatchSemaphore(value: 0)
-//        var num = 0
-//        let discovery = Discovery(
-//            username: Credentials.DiscoveryUsername,
-//            password: Credentials.DiscoveryPassword,
-//            version: "2018-03-05")
-//        discovery.queryDocumentsInCollection(
-//            withEnvironmentID: environmentID,
-//            withCollectionID: collectionID,
-//            withQuery: query,
-//            withAggregation: aggregation,
-//            ///return: returnHierarchies,
-//            failure: failure)
-//        {
-//            queryResponse in
-//            if let results = queryResponse.results {
-//                for result in results {
-//                    //result.entities
-//                    for text in  (result.enrichedTitle?.entities)!{
-//                        if(num<3){
-//                            message += text.text! + "\n"
-//                            num+=1
-//                        }else{
-//                            break
-//                        }
-//                    }
-//                    semaphore.signal()
-//                }
-//            }
-//        }
-//        semaphore.wait()
-//        return message
-//    }
-//
     
     func getShopping(_ location: String)->(String, [String]){
         
@@ -255,7 +209,7 @@ extension ViewController {
         ///"max(enriched_text.entities.sentiment.score)"
         var message = "Here are the shopping centers I found in " + location+":\n"
         /// Specify which portion of the document hierarchy to return.
-        let returnHierarchies = "results"
+        //let returnHierarchies = "results"
         let semaphore = DispatchSemaphore(value: 0)
         var num = 0
         let discovery = Discovery(
@@ -368,6 +322,7 @@ extension ViewController {
         if ((response.intents.count > 0) && (response.intents[0].intent == "language"))
         {
             if(response.output.text[0] == "Okay! Start Translating..."){
+                self.translateLang = response.entities[0].value
                 popup = PopupDialog(title: "", message: "", image: UIImage(named: "TranslatorImage.png"))
                 setupTranslation()
                 self.present(popup, animated: true, completion: nil)
@@ -379,11 +334,12 @@ extension ViewController {
         context = response.context // save context to continue conversation
         
         // synthesize and speak the response
-        textToSpeech.synthesize(text, failure: failure) { audio in
+        textToSpeech.synthesize(text: text, accept: "audio/wav", failure: failure) { audio in
             self.audioPlayer = try! AVAudioPlayer(data: audio)
             self.audioPlayer?.prepareToPlay()
             self.audioPlayer?.play()
         }
+        
         
         // create message
         let message = JSQMessage(
@@ -467,12 +423,13 @@ extension ViewController {
     @objc func meStopTranscribing(){
         speechToText.stopRecognizeMicrophone()
         let vc = self.popup.viewController as! PopupDialogDefaultViewController
-        languageTranslator.translate(self.translate, from: "en", to: "es", failure: failure) {
+        let translateRequest = TranslateRequest.init(text: [self.translate], source: "en", target: self.langToTranslator[self.translateLang]!)
+        languageTranslator.translate(request: translateRequest, failure: failure) {
             translation in
             DispatchQueue.main.async {
-                self.translate = translation.translations[0].translation
+                self.translate = translation.translations[0].translationOutput
                 vc.messageText = self.translate
-                self.textToSpeech.synthesize(self.translate, failure: self.failure) { audio in
+                self.textToSpeech.synthesize(text: self.translate, accept: "audio/wav", failure: self.failure) { audio in
                     self.audioPlayer = try! AVAudioPlayer(data: audio)
                     self.audioPlayer?.prepareToPlay()
                     self.audioPlayer?.play()
@@ -489,7 +446,7 @@ extension ViewController {
         var settings = RecognitionSettings(contentType: .opus)
         settings.interimResults = true
         //speechToText.resetCustomization(withID: self.spanishId)
-        speechToText.recognizeMicrophone(settings: settings, model: "es-ES_NarrowbandModel",failure: failure) { results in
+        speechToText.recognizeMicrophone(settings: settings, model: self.langToSpeech[self.translateLang],failure: failure) { results in
             self.translate = results.bestTranscript
             vc.titleText = self.translate
             print(results.bestTranscript)
@@ -499,12 +456,13 @@ extension ViewController {
     @objc func otherStopTranscribing(){
         speechToText.stopRecognizeMicrophone()
         let vc = self.popup.viewController as! PopupDialogDefaultViewController
-        languageTranslator.translate(self.translate, from: "es", to: "en", failure: failure) {
+        let translateRequest = TranslateRequest.init(text: [self.translate], source: self.langToTranslator[self.translateLang]!, target: "en")
+        languageTranslator.translate(request: translateRequest, failure: failure) {
             translation in
             DispatchQueue.main.async {
-                self.translate = translation.translations[0].translation
+                self.translate = translation.translations[0].translationOutput
                 vc.messageText = self.translate
-                self.textToSpeech.synthesize(self.translate, failure: self.failure) { audio in
+                self.textToSpeech.synthesize(text: self.translate, accept: "audio/wav", failure: self.failure) { audio in
                     self.audioPlayer = try! AVAudioPlayer(data: audio)
                     self.audioPlayer?.prepareToPlay()
                     self.audioPlayer?.play()

@@ -1,5 +1,5 @@
 /**
- * Copyright IBM Corporation 2017
+ * Copyright IBM Corporation 2018
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ import Foundation
 /** The pagination data for the returned objects. */
 public struct LogPagination {
 
-    /// The URL that will return the next page of results.
+    /// The URL that will return the next page of results, if any.
     public var nextUrl: String?
 
     /// Reserved for future use.
@@ -28,7 +28,7 @@ public struct LogPagination {
     /**
      Initialize a `LogPagination` with member variables.
 
-     - parameter nextUrl: The URL that will return the next page of results.
+     - parameter nextUrl: The URL that will return the next page of results, if any.
      - parameter matched: Reserved for future use.
 
      - returns: An initialized `LogPagination`.

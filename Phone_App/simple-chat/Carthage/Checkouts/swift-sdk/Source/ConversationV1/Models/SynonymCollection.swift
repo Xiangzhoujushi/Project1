@@ -1,5 +1,5 @@
 /**
- * Copyright IBM Corporation 2017
+ * Copyright IBM Corporation 2018
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,14 +22,14 @@ public struct SynonymCollection {
     /// An array of synonyms.
     public var synonyms: [Synonym]
 
-    /// An object defining the pagination data for the returned objects.
+    /// The pagination data for the returned objects.
     public var pagination: Pagination
 
     /**
      Initialize a `SynonymCollection` with member variables.
 
      - parameter synonyms: An array of synonyms.
-     - parameter pagination: An object defining the pagination data for the returned objects.
+     - parameter pagination: The pagination data for the returned objects.
 
      - returns: An initialized `SynonymCollection`.
     */

@@ -1,5 +1,5 @@
 /**
- * Copyright IBM Corporation 2017
+ * Copyright IBM Corporation 2018
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,16 +16,16 @@
 
 import Foundation
 
-/** An object defining the user input. */
+/** The user input. */
 public struct InputData {
 
-    /// The text of the user input.
+    /// The text of the user input. This string cannot contain carriage return, newline, or tab characters, and it must be no longer than 2048 characters.
     public var text: String
 
     /**
      Initialize a `InputData` with member variables.
 
-     - parameter text: The text of the user input.
+     - parameter text: The text of the user input. This string cannot contain carriage return, newline, or tab characters, and it must be no longer than 2048 characters.
 
      - returns: An initialized `InputData`.
     */

@@ -1,6 +1,44 @@
 Change Log
 ==========
 
+## Version 0.23.1
+_2018-03-22_
+
+This release fixes a bug with `created` and `updated` dates when using the `2018-02-16` version of Assistant or Conversation.
+
+## Version 0.23.0
+_2018-03-20_
+
+This update adds Apple Core ML support for Visual Recognition. With Core ML you can download a trained classifier model and use it for offline image classification.
+
+## Version 0.22.0
+_2018-03-16_
+
+This update adds the Assistant service.
+
+In addition, the following services have been updated to support their latest release. Note that some APIs have changed in order to improve uniformity between the Watson SDKs.
+
+- Conversation
+- Language Translator
+- Natural Language Classifier
+- Natural Language Understanding
+- Personality Insights
+- Text to Speech
+- Tone Analyzer
+- Visual Recognition
+
+The following deprecated services have also been removed from the SDK:
+
+- AlchemyDataNewsV1
+- AlchemyLanguageV1
+- AlchemyVisionV1
+- DialogV1
+- DocumentConversionV1
+- PersonalityInsightsV2
+- RelationshipExtractionV1Beta
+- RetrieveAndRankV1
+- TradeoffAnalyticsV1
+
 ## Version 0.21.0
 _2018-02-01_
 

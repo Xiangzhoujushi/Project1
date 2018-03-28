@@ -1,5 +1,5 @@
 /**
- * Copyright IBM Corporation 2017
+ * Copyright IBM Corporation 2018
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,13 +19,13 @@ import Foundation
 /** CreateExample. */
 public struct CreateExample {
 
-    /// The text of a user input example.
+    /// The text of a user input example. This string must conform to the following restrictions:  - It cannot contain carriage return, newline, or tab characters.  - It cannot consist of only whitespace characters.  - It must be no longer than 1024 characters.
     public var text: String
 
     /**
      Initialize a `CreateExample` with member variables.
 
-     - parameter text: The text of a user input example.
+     - parameter text: The text of a user input example. This string must conform to the following restrictions:  - It cannot contain carriage return, newline, or tab characters.  - It cannot consist of only whitespace characters.  - It must be no longer than 1024 characters.
 
      - returns: An initialized `CreateExample`.
     */

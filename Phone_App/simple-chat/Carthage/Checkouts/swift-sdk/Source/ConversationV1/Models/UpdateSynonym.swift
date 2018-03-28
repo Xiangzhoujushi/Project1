@@ -1,5 +1,5 @@
 /**
- * Copyright IBM Corporation 2017
+ * Copyright IBM Corporation 2018
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,13 +19,13 @@ import Foundation
 /** UpdateSynonym. */
 public struct UpdateSynonym {
 
-    /// The text of the synonym.
+    /// The text of the synonym. This string must conform to the following restrictions:  - It cannot contain carriage return, newline, or tab characters.  - It cannot consist of only whitespace characters.  - It must be no longer than 64 characters.
     public var synonym: String?
 
     /**
      Initialize a `UpdateSynonym` with member variables.
 
-     - parameter synonym: The text of the synonym.
+     - parameter synonym: The text of the synonym. This string must conform to the following restrictions:  - It cannot contain carriage return, newline, or tab characters.  - It cannot consist of only whitespace characters.  - It must be no longer than 64 characters.
 
      - returns: An initialized `UpdateSynonym`.
     */

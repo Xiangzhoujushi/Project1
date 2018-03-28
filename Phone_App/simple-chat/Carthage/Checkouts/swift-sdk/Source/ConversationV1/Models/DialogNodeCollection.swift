@@ -1,5 +1,5 @@
 /**
- * Copyright IBM Corporation 2017
+ * Copyright IBM Corporation 2018
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,19 +16,20 @@
 
 import Foundation
 
-/** DialogNodeCollection. */
+/** An array of dialog nodes. */
 public struct DialogNodeCollection {
 
+    /// An array of objects describing the dialog nodes defined for the workspace.
     public var dialogNodes: [DialogNode]
 
-    /// An object defining the pagination data for the returned objects.
+    /// The pagination data for the returned objects.
     public var pagination: Pagination
 
     /**
      Initialize a `DialogNodeCollection` with member variables.
 
-     - parameter dialogNodes:
-     - parameter pagination: An object defining the pagination data for the returned objects.
+     - parameter dialogNodes: An array of objects describing the dialog nodes defined for the workspace.
+     - parameter pagination: The pagination data for the returned objects.
 
      - returns: An initialized `DialogNodeCollection`.
     */

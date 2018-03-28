@@ -1,5 +1,5 @@
 /**
- * Copyright IBM Corporation 2017
+ * Copyright IBM Corporation 2018
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,10 +19,10 @@ import Foundation
 /** UpdateWorkspace. */
 public struct UpdateWorkspace {
 
-    /// The name of the workspace.
+    /// The name of the workspace. This string cannot contain carriage return, newline, or tab characters, and it must be no longer than 64 characters.
     public var name: String?
 
-    /// The description of the workspace.
+    /// The description of the workspace. This string cannot contain carriage return, newline, or tab characters, and it must be no longer than 128 characters.
     public var description: String?
 
     /// The language of the workspace.
@@ -49,8 +49,8 @@ public struct UpdateWorkspace {
     /**
      Initialize a `UpdateWorkspace` with member variables.
 
-     - parameter name: The name of the workspace.
-     - parameter description: The description of the workspace.
+     - parameter name: The name of the workspace. This string cannot contain carriage return, newline, or tab characters, and it must be no longer than 64 characters.
+     - parameter description: The description of the workspace. This string cannot contain carriage return, newline, or tab characters, and it must be no longer than 128 characters.
      - parameter language: The language of the workspace.
      - parameter intents: An array of objects defining the intents for the workspace.
      - parameter entities: An array of objects defining the entities for the workspace.
