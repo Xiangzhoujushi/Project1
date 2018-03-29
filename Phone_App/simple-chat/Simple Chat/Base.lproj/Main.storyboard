@@ -20,19 +20,13 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0266" translatesAutoresizingMaskIntoConstraints="NO" id="brG-to-bRW">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Watson" id="c3D-LP-c61"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2899" y="765"/>
+            <point key="canvasLocation" x="2898.75" y="764.78873239436621"/>
         </scene>
         <!--Login-->
         <scene sceneID="2PW-ab-xB6">
@@ -270,7 +264,7 @@
             </objects>
             <point key="canvasLocation" x="2096" y="765"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Title-->
         <scene sceneID="c2w-LO-YyR">
             <objects>
                 <tableViewController id="8m6-qY-sxY" customClass="TableViewController" customModule="Simple_Chat" customModuleProvider="target" sceneMemberID="viewController">
@@ -278,9 +272,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="TJC-PD-7eD">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <items>
+                                <navigationItem title="DISCOVERY" id="OpH-OA-Bvl">
+                                    <barButtonItem key="leftBarButtonItem" title="BACK" id="6Sy-2k-w3E">
+                                        <connections>
+                                            <segue destination="Q0p-zj-D7Y" kind="presentation" id="VKG-Ul-wE2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </navigationItem>
+                            </items>
+                        </navigationBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="500" id="7aQ-XE-dmj" customClass="Cell" customModule="Simple_Chat" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="320" height="500"/>
+                                <rect key="frame" x="0.0" y="72" width="320" height="500"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7aQ-XE-dmj" id="JQL-Sx-bLS">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="499.5"/>
@@ -336,6 +343,7 @@
                             <outlet property="delegate" destination="8m6-qY-sxY" id="oKL-Hd-bDI"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Title" id="R4a-o8-52v"/>
                     <connections>
                         <outlet property="tableviews" destination="Gt1-yN-MOg" id="WvL-e3-sZv"/>
                     </connections>
@@ -351,7 +359,7 @@
         <image name="Image-1" width="4032" height="3024"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3T4-Y1-O9J"/>
-        <segue reference="zMw-Kn-z9Z"/>
+        <segue reference="VKG-Ul-wE2"/>
+        <segue reference="ZX8-DT-TYZ"/>
     </inferredMetricsTieBreakers>
 </document>

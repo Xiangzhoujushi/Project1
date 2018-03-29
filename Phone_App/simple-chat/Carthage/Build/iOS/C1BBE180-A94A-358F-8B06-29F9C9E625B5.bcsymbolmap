@@ -127,14 +127,14 @@ __T0s37_HashableTypedNativeDictionaryStorageCyS2SGML
 ___swift_reflection_version
 _objc_classes
 Apple LLVM version 9.0.0 (clang-900.0.39.2)
--emit-bc /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpAPIClient.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpAutoCompleteResponse.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/String+CDYelpFusionKit.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpBusiness.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpBusinessResponse.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpCategory.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpCenter.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpConstants.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpCoordinates.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpEnums.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpError.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpEvent.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpEventsResponse.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpHour.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpLocation.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDImage.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpOpen.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpRegion.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpReview.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpReviewsResponse.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpRouter.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpSearchResponse.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpTerm.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpUser.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/Parameters+CDYelpFusionKit.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/UIColor+CDYelpFusionKit.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDColor.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/UIImage+CDYelpFusionKit.swift /Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/URL+CDYelpFusionKit.swift -target armv7-apple-ios8.0 -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -I "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/BuildProductsPath/Release-iphoneos" -F "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/BuildProductsPath/Release-iphoneos" -application-extension -g -import-underlying-module -module-cache-path /Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/ModuleCache -swift-version 3 -disable-swift3-objc-inference -serialize-debugging-options -report-errors-to-debugger -Xcc "-I/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/swift-overrides.hmap" -Xcc -iquote -Xcc "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/CDYelpFusionKit-generated-files.hmap" -Xcc "-I/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/CDYelpFusionKit-own-target-headers.hmap" -Xcc "-I/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/CDYelpFusionKit-all-non-framework-target-headers.hmap" -Xcc -ivfsoverlay -Xcc "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/all-product-headers.yaml" -Xcc -iquote -Xcc "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/CDYelpFusionKit-project-headers.hmap" -Xcc "-I/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/BuildProductsPath/Release-iphoneos/include" -Xcc "-I/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/DerivedSources/armv7" -Xcc "-I/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/DerivedSources" -Xcc -ivfsoverlay -Xcc "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/unextended-module-overlay.yaml" -Xcc -working-directory/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit -emit-module-doc-path "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpFusionKit.swiftdoc" -serialize-diagnostics-path "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpAPIClient.dia" -O -module-name CDYelpFusionKit -emit-module-path "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpFusionKit.swiftmodule" -emit-objc-header-path "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpFusionKit-Swift.h" -emit-dependencies-path "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpAPIClient.d" -num-threads 4 -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpAPIClient.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpAutoCompleteResponse.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/String+CDYelpFusionKit.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpBusiness.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpBusinessResponse.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpCategory.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpCenter.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpConstants.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpCoordinates.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpEnums.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpError.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpEvent.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpEventsResponse.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpHour.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpLocation.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDImage.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpOpen.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpRegion.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpReview.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpReviewsResponse.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpRouter.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpSearchResponse.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpTerm.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpUser.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/Parameters+CDYelpFusionKit.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/UIColor+CDYelpFusionKit.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDColor.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/UIImage+CDYelpFusionKit.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/URL+CDYelpFusionKit.bc" -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+-emit-bc /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpAPIClient.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpAutoCompleteResponse.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/String+CDYelpFusionKit.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpBusiness.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpBusinessResponse.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpCategory.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpCenter.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpConstants.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpCoordinates.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpEnums.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpError.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpEvent.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpEventsResponse.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpHour.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpLocation.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDImage.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpOpen.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpRegion.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpReview.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpReviewsResponse.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpRouter.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpSearchResponse.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpTerm.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpUser.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/Parameters+CDYelpFusionKit.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/UIColor+CDYelpFusionKit.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDColor.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/UIImage+CDYelpFusionKit.swift /Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/URL+CDYelpFusionKit.swift -target armv7-apple-ios8.0 -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -I "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/BuildProductsPath/Release-iphoneos" -F "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/BuildProductsPath/Release-iphoneos" -application-extension -g -import-underlying-module -module-cache-path /Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/ModuleCache -swift-version 3 -disable-swift3-objc-inference -serialize-debugging-options -report-errors-to-debugger -Xcc "-I/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/swift-overrides.hmap" -Xcc -iquote -Xcc "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/CDYelpFusionKit-generated-files.hmap" -Xcc "-I/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/CDYelpFusionKit-own-target-headers.hmap" -Xcc "-I/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/CDYelpFusionKit-all-non-framework-target-headers.hmap" -Xcc -ivfsoverlay -Xcc "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/all-product-headers.yaml" -Xcc -iquote -Xcc "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/CDYelpFusionKit-project-headers.hmap" -Xcc "-I/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/BuildProductsPath/Release-iphoneos/include" -Xcc "-I/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/DerivedSources/armv7" -Xcc "-I/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/DerivedSources" -Xcc -ivfsoverlay -Xcc "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/unextended-module-overlay.yaml" -Xcc -working-directory/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit -emit-module-doc-path "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpFusionKit.swiftdoc" -serialize-diagnostics-path "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpAPIClient.dia" -O -module-name CDYelpFusionKit -emit-module-path "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpFusionKit.swiftmodule" -emit-objc-header-path "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpFusionKit-Swift.h" -emit-dependencies-path "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpAPIClient.d" -num-threads 4 -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpAPIClient.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpAutoCompleteResponse.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/String+CDYelpFusionKit.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpBusiness.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpBusinessResponse.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpCategory.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpCenter.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpConstants.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpCoordinates.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpEnums.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpError.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpEvent.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpEventsResponse.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpHour.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpLocation.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDImage.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpOpen.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpRegion.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpReview.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpReviewsResponse.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpRouter.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpSearchResponse.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpTerm.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDYelpUser.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/Parameters+CDYelpFusionKit.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/UIColor+CDYelpFusionKit.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/CDColor.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/UIImage+CDYelpFusionKit.bc" -o "/Users/yu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/CDYelpFusionKit/1.5.0/Build/Intermediates.noindex/ArchiveIntermediates/CDYelpFusionKit iOS/IntermediateBuildFilesPath/CDYelpFusionKit.build/Release-iphoneos/CDYelpFusionKit iOS.build/Objects-normal/armv7/URL+CDYelpFusionKit.bc" -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
 <swift-imported-modules>
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit
 Apple Swift version 4.0.3 effective-3.2.3 (swiftlang-900.0.74.1 clang-900.0.39.2)
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpAPIClient.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpAPIClient.swift
 __swift_project_boxed_opaque_existential_1
 CDYelpAPIClient.swift
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source
 __swift_destroy_boxed_opaque_existential_0
 get_field_types_CDYelpAPIClient
 _T09Alamofire14SessionManagerCSgMa
@@ -381,7 +381,7 @@ __T0Say15CDYelpFusionKit0A8BusinessCGML
 __T0Say15CDYelpFusionKit0A8CategoryCGSgML
 __T0Say15CDYelpFusionKit0A8CategoryCGML
 __T015CDYelpFusionKit0A5ErrorCSgML
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpAutoCompleteResponse.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpAutoCompleteResponse.swift
 get_field_types_CDYelpAutoCompleteResponse
 CDYelpAutoCompleteResponse.swift
 _T015CDYelpFusionKit0A5ErrorCSgMa
@@ -412,7 +412,7 @@ __T0s11_StringCoreV13_copyElementsySv_Si15srcElementWidthSv8dstStartSi0hfG0Si5co
 __T0s8SequencePsE8containsS2b7ElementQzKc5where_tKFSRys6UInt16VG_Tgq505_T0s6E37VSbs5Error_pIxydzo_ABSbsAC_pIxidzo_TRAHSbs0H0_pIxydzo_Tfq1cn_nTfq4ng_n
 __T0SS15CDYelpFusionKitE14searchLinkPathS2SSg8withTerm_AA0A22BusinessCategoryFilterOSg8categoryAC8locationtFZTf4gngd_n
 __T0SS15CDYelpFusionKitE16businessLinkPathSSSQySSG5forId_tFZTf4gd_n
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/String+CDYelpFusionKit.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/String+CDYelpFusionKit.swift
 businessLinkPath
 String+CDYelpFusionKit.swift
 +=
@@ -443,7 +443,7 @@ __T0SdSgML
 __T0SiSgML
 __T015CDYelpFusionKit0A11CoordinatesCSgML
 __T015CDYelpFusionKit0A8LocationCSgML
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpBusiness.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpBusiness.swift
 get_field_types_CDYelpBusiness
 CDYelpBusiness.swift
 _T015CDYelpFusionKit0A8LocationCSgMa
@@ -514,7 +514,7 @@ __T015CDYelpFusionKit0A16BusinessResponseCML
 __T015CDYelpFusionKit0A16BusinessResponseCMf
 __T015CDYelpFusionKit0A16BusinessResponseCMF
 __T015CDYelpFusionKit0A8BusinessCSgML
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpBusinessResponse.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpBusinessResponse.swift
 get_field_types_CDYelpBusinessResponse
 CDYelpBusinessResponse.swift
 _T015CDYelpFusionKit0A8BusinessCSgMa
@@ -529,7 +529,7 @@ __T015CDYelpFusionKit0A8CategoryC12ObjectMapper12BaseMappableAadEP7mappingyAD3Ma
 __T015CDYelpFusionKit0A8CategoryCML
 __T015CDYelpFusionKit0A8CategoryCMf
 __T015CDYelpFusionKit0A8CategoryCMF
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpCategory.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpCategory.swift
 get_field_types_CDYelpCategory
 CDYelpCategory.swift
 _T015CDYelpFusionKit0A8CategoryC12ObjectMapper12BaseMappableAAWa
@@ -546,7 +546,7 @@ __T015CDYelpFusionKit0A6CenterC12ObjectMapper12BaseMappableAadEP7mappingyAD3MapC
 __T015CDYelpFusionKit0A6CenterCML
 __T015CDYelpFusionKit0A6CenterCMf
 __T015CDYelpFusionKit0A6CenterCMF
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpCenter.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpCenter.swift
 get_field_types_CDYelpCenter
 CDYelpCenter.swift
 _T015CDYelpFusionKit0A6CenterC12ObjectMapper12BaseMappableAAWa
@@ -571,7 +571,7 @@ __T015CDYelpFusionKit0A8DefaultsV11accessTokenSSvZ
 __T015CDYelpFusionKit0A8DefaultsV9expiresInSSvZ
 __T015CDYelpFusionKit0A3URLVMF
 __T015CDYelpFusionKit0A8DefaultsVMF
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpConstants.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpConstants.swift
 globalinit_33_9D98E6E04B596AF75973102D2348619A_func4
 CDYelpConstants.swift
 globalinit_33_9D98E6E04B596AF75973102D2348619A_func3
@@ -582,7 +582,7 @@ __T015CDYelpFusionKit0A11CoordinatesC12ObjectMapper12BaseMappableAadEP7mappingyA
 __T015CDYelpFusionKit0A11CoordinatesCML
 __T015CDYelpFusionKit0A11CoordinatesCMf
 __T015CDYelpFusionKit0A11CoordinatesCMF
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpCoordinates.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpCoordinates.swift
 get_field_types_CDYelpCoordinates
 CDYelpCoordinates.swift
 _T015CDYelpFusionKit0A11CoordinatesC12ObjectMapper12BaseMappableAAWa
@@ -775,7 +775,7 @@ __T015CDYelpFusionKit0A9PriceTierOs16RawRepresentableAAMA
 __T015CDYelpFusionKit0A5StarsOs16RawRepresentableAAMA
 __T015CDYelpFusionKit0A9StarsSizeOs16RawRepresentableAAMA
 __T015CDYelpFusionKit0A15TransactionTypeOs16RawRepresentableAAMA
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpEnums.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpEnums.swift
 _T015CDYelpFusionKit0A15TransactionTypeOMa
 CDYelpEnums.swift
 get_field_types_CDYelpTransactionType
@@ -899,7 +899,7 @@ __T015CDYelpFusionKit0A5ErrorC12ObjectMapper12BaseMappableAadEP7mappingyAD3MapC3
 __T015CDYelpFusionKit0A5ErrorCML
 __T015CDYelpFusionKit0A5ErrorCMf
 __T015CDYelpFusionKit0A5ErrorCMF
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpError.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpError.swift
 get_field_types_CDYelpError
 CDYelpError.swift
 _T015CDYelpFusionKit0A5ErrorC12ObjectMapper12BaseMappableAAWa
@@ -922,7 +922,7 @@ __T015CDYelpFusionKit0A5EventCML
 __T015CDYelpFusionKit0A5EventCMf
 __T015CDYelpFusionKit0A5EventCMF
 __T010Foundation4DateVSgML
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpEvent.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpEvent.swift
 get_field_types_CDYelpEvent
 CDYelpEvent.swift
 _T010Foundation4DateVSgMa
@@ -975,7 +975,7 @@ __T015CDYelpFusionKit0A14EventsResponseCMf
 __T015CDYelpFusionKit0A14EventsResponseCMF
 __T0Say15CDYelpFusionKit0A5EventCGSgML
 __T0Say15CDYelpFusionKit0A5EventCGML
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpEventsResponse.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpEventsResponse.swift
 get_field_types_CDYelpEventsResponse
 CDYelpEventsResponse.swift
 _T0Say15CDYelpFusionKit0A5EventCGSgMa
@@ -996,7 +996,7 @@ __T015CDYelpFusionKit0A4HourCMf
 __T015CDYelpFusionKit0A4HourCMF
 __T0Say15CDYelpFusionKit0A4OpenCGSgML
 __T0Say15CDYelpFusionKit0A4OpenCGML
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpHour.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpHour.swift
 get_field_types_CDYelpHour
 CDYelpHour.swift
 _T0Say15CDYelpFusionKit0A4OpenCGSgMa
@@ -1020,7 +1020,7 @@ __T015CDYelpFusionKit0A8LocationC7mappingy12ObjectMapper3MapC3map_tFTf4gn_n
 __T015CDYelpFusionKit0A8LocationCML
 __T015CDYelpFusionKit0A8LocationCMf
 __T015CDYelpFusionKit0A8LocationCMF
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpLocation.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpLocation.swift
 get_field_types_CDYelpLocation
 CDYelpLocation.swift
 _T015CDYelpFusionKit0A8LocationC12ObjectMapper12BaseMappableAAWa
@@ -1058,13 +1058,13 @@ __swift_FORCE_LOAD_$_swiftCoreGraphics_$_CDYelpFusionKit
 __swift_FORCE_LOAD_$_swiftCoreImage_$_CDYelpFusionKit
 __swift_FORCE_LOAD_$_swiftMetal_$_CDYelpFusionKit
 __swift_FORCE_LOAD_$_swiftQuartzCore_$_CDYelpFusionKit
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDImage.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDImage.swift
 __T015CDYelpFusionKit0A4OpenC12ObjectMapper8MappableAadEPxSgAD3MapC3map_tcfCTW
 __T015CDYelpFusionKit0A4OpenC12ObjectMapper12BaseMappableAadEP7mappingyAD3MapC3map_tFTW
 __T015CDYelpFusionKit0A4OpenCML
 __T015CDYelpFusionKit0A4OpenCMf
 __T015CDYelpFusionKit0A4OpenCMF
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpOpen.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpOpen.swift
 get_field_types_CDYelpOpen
 CDYelpOpen.swift
 _T015CDYelpFusionKit0A4OpenC12ObjectMapper12BaseMappableAAWa
@@ -1088,7 +1088,7 @@ __T015CDYelpFusionKit0A6RegionCML
 __T015CDYelpFusionKit0A6RegionCMf
 __T015CDYelpFusionKit0A6RegionCMF
 __T015CDYelpFusionKit0A6CenterCSgML
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpRegion.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpRegion.swift
 get_field_types_CDYelpRegion
 CDYelpRegion.swift
 _T015CDYelpFusionKit0A6CenterCSgMa
@@ -1105,7 +1105,7 @@ __T015CDYelpFusionKit0A6ReviewCML
 __T015CDYelpFusionKit0A6ReviewCMf
 __T015CDYelpFusionKit0A6ReviewCMF
 __T015CDYelpFusionKit0A4UserCSgML
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpReview.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpReview.swift
 get_field_types_CDYelpReview
 CDYelpReview.swift
 _T015CDYelpFusionKit0A4UserCSgMa
@@ -1128,7 +1128,7 @@ __T015CDYelpFusionKit0A15ReviewsResponseCMf
 __T015CDYelpFusionKit0A15ReviewsResponseCMF
 __T0Say15CDYelpFusionKit0A6ReviewCGSgML
 __T0Say15CDYelpFusionKit0A6ReviewCGML
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpReviewsResponse.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpReviewsResponse.swift
 get_field_types_CDYelpReviewsResponse
 CDYelpReviewsResponse.swift
 _T0Say15CDYelpFusionKit0A6ReviewCGSgMa
@@ -1175,7 +1175,7 @@ __T0s10DictionaryVySSypGML
 __T0SS4type_s10DictionaryVySSypG10parameterstML
 __T0SS2id_s10DictionaryVySSypG10parameterstML
 __T015CDYelpFusionKit0A6RouterOMB
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpRouter.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpRouter.swift
 _T015CDYelpFusionKit0A6RouterO9Alamofire21URLRequestConvertibleAAWa
 CDYelpRouter.swift
 asURLRequest
@@ -1213,7 +1213,7 @@ __T015CDYelpFusionKit0A14SearchResponseCML
 __T015CDYelpFusionKit0A14SearchResponseCMf
 __T015CDYelpFusionKit0A14SearchResponseCMF
 __T015CDYelpFusionKit0A6RegionCSgML
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpSearchResponse.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpSearchResponse.swift
 get_field_types_CDYelpSearchResponse
 CDYelpSearchResponse.swift
 _T015CDYelpFusionKit0A6RegionCSgMa
@@ -1228,7 +1228,7 @@ __T015CDYelpFusionKit0A4TermC12ObjectMapper12BaseMappableAadEP7mappingyAD3MapC3m
 __T015CDYelpFusionKit0A4TermCML
 __T015CDYelpFusionKit0A4TermCMf
 __T015CDYelpFusionKit0A4TermCMF
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpTerm.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpTerm.swift
 get_field_types_CDYelpTerm
 CDYelpTerm.swift
 _T015CDYelpFusionKit0A4TermC12ObjectMapper12BaseMappableAAWa
@@ -1239,7 +1239,7 @@ __T015CDYelpFusionKit0A4UserC12ObjectMapper12BaseMappableAadEP7mappingyAD3MapC3m
 __T015CDYelpFusionKit0A4UserCML
 __T015CDYelpFusionKit0A4UserCMf
 __T015CDYelpFusionKit0A4UserCMF
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpUser.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDYelpUser.swift
 get_field_types_CDYelpUser
 CDYelpUser.swift
 _T015CDYelpFusionKit0A4UserC12ObjectMapper12BaseMappableAAWa
@@ -1268,7 +1268,7 @@ __T0SS5indexSS5IndexVAC6before_tFTfq41xx_n
 __T0s37_HashableTypedNativeDictionaryStorageCySSypGML
 __T0s17_HeapBufferHeaderVys07_StringB5IVarsVGML
 __T0s13ManagedBufferCys05_HeapB6HeaderVys07_StringB5IVarsVGs6UInt16VGML
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/Parameters+CDYelpFusionKit.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/Parameters+CDYelpFusionKit.swift
 Parameters+CDYelpFusionKit.swift
 _T0s10DictionaryVAByxq_GSayx_q_tG17dictionaryLiterald_tcfCTfq4gn_nSS_ypTg5
 _T0s23_NativeDictionaryBufferVss8HashableRzr0_lE9fromArrayAByxq_GSayx_q_tGFZTfq4gn_nSS_ypTg5
@@ -1355,12 +1355,12 @@ _T0s24_VariantDictionaryBufferO018ensureUniqueNativeC0Sb11reallocated_Sb15capaci
 _T0s24_VariantDictionaryBufferO17nativeUpdateValueq_Sgq__x6forKeytFSS_ypTg5
 _T0s7UnicodeO5UTF16O6encodes11_UIntBufferVys6UInt32Vs6UInt16VGSgAB6ScalarVFZTfq4nd_n
 _T0s13_StringBufferVABSi8capacity_Si11initialSizeSi12elementWidthtcfCTfq4nnnd_n
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/UIColor+CDYelpFusionKit.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/UIColor+CDYelpFusionKit.swift
 yelpFiveStarRed
 UIColor+CDYelpFusionKit.swift
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDColor.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/CDColor.swift
 __T0So7UIImageC15CDYelpFusionKitE16yelpBurstLogoRedABSgyFZTm
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/UIImage+CDYelpFusionKit.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/UIImage+CDYelpFusionKit.swift
 _T0s27_toStringReadOnlyStreamableSSxs010TextOutputE0RzlFTfq4g_nSS_Tg5Tf4n_g
 UIImage+CDYelpFusionKit.swift
 _T0SSs20TextOutputStreamablessAAP5writeyqd__z2to_ts0aB6StreamRd__lFTWSS_Tg5
@@ -1372,7 +1372,7 @@ yelpBurstLogoRed
 __T010Foundation3URLV15CDYelpFusionKitE18yelpSearchDeepLinkACSgSSSg8withTerm_AD0C22BusinessCategoryFilterOSg8categoryAG8locationtFZTm
 __T010Foundation3URLV15CDYelpFusionKitE20yelpBusinessDeepLinkACSgSQySSG5forId_tFZTm
 __T010Foundation3URLV15CDYelpFusionKitE9addScheme33_323CB21EF56A3408511E5929A92A1451LLACSgSS6toPath_Sb6forWebtFZTf4gXnd_n
-/Users/yu/Desktop/CSE5914v2/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/URL+CDYelpFusionKit.swift
+/Users/yu/Desktop/CSE5914v3/Phone_App/simple-chat/Carthage/Checkouts/CDYelpFusionKit/Source/URL+CDYelpFusionKit.swift
 addScheme
 URL+CDYelpFusionKit.swift
 yelpURL
