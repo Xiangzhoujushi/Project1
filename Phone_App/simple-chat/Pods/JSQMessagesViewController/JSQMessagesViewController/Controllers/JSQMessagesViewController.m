@@ -133,6 +133,7 @@ JSQMessagesKeyboardControllerDelegate>
 @property (assign, nonatomic) BOOL jsq_isObserving;
 
 @property (strong, nonatomic) NSIndexPath *selectedIndexPathForMenu;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *back;
 
 @property (weak, nonatomic) UIGestureRecognizer *currentInteractivePopGestureRecognizer;
 

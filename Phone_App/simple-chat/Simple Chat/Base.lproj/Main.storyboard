@@ -209,7 +209,7 @@
         <!--Direction View Controller-->
         <scene sceneID="IZv-z5-h6M">
             <objects>
-                <viewController id="Q0p-zj-D7Y" customClass="DirectionViewController" customModule="Simple_Chat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DirectionView" id="Q0p-zj-D7Y" customClass="DirectionViewController" customModule="Simple_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tVY-9l-7kE"/>
                         <viewControllerLayoutGuide type="bottom" id="h4R-dj-D2c"/>
@@ -359,6 +359,7 @@
         <image name="Image-1" width="4032" height="3024"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="UOf-eU-dFX"/>
         <segue reference="VKG-Ul-wE2"/>
         <segue reference="ZX8-DT-TYZ"/>
     </inferredMetricsTieBreakers>

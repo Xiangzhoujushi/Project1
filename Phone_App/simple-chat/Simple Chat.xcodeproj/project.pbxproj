@@ -768,6 +768,7 @@
 			baseConfigurationReference = 0C4EF683FECFFA3B813651AA /* Pods-Simple Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3F472A7D5S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -787,6 +788,7 @@
 			baseConfigurationReference = 661949F74760477C68416846 /* Pods-Simple Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3F472A7D5S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
