@@ -12,6 +12,7 @@ PODS:
   - SQLite.swift (0.11.4):
     - SQLite.swift/standard (= 0.11.4)
   - SQLite.swift/standard (0.11.4)
+  - SwiftGifOrigin (1.6.1)
   - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
@@ -19,6 +20,7 @@ DEPENDENCIES:
   - OpenWeatherSwift
   - PopupDialog
   - SQLite.swift (~> 0.11.4)
+  - SwiftGifOrigin (~> 1.6.1)
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
@@ -28,8 +30,9 @@ SPEC CHECKSUMS:
   OpenWeatherSwift: 2bce687b07f7f663b30c1947176346508c5963a7
   PopupDialog: 4abc6db5b22b7c8029e2162bde8891ee6aa4b6c8
   SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 1a1e2978290f7cc546be555a607e7242d0fced6f
+PODFILE CHECKSUM: 956889079dbf9334d1254e210e0d5abbd53ff8dd
 
 COCOAPODS: 1.4.0

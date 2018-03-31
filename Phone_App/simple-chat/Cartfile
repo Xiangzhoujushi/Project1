@@ -1,3 +1,4 @@
 github "watson-developer-cloud/swift-sdk"
 github "stephencelis/SQLite.swift" ~> 0.11.4
 github "chrisdhaan/CDYelpFusionKit" == 1.5.0
+github "bahlo/SwiftGif" ~> 1.6.1

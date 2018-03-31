@@ -27,7 +27,13 @@
 		6815751E1EE219EC00E2F476 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815751D1EE219EC00E2F476 /* Credentials.swift */; };
 		681575201EE219F800E2F476 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815751F1EE219F800E2F476 /* User.swift */; };
 		681AE98D200FCF060005C5C2 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681AE98C200FCF050005C5C2 /* Starscream.framework */; };
+		80172054206D822100A8CC8C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80172052206D822100A8CC8C /* LoginViewController.swift */; };
+		80172055206D822100A8CC8C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80172053206D822100A8CC8C /* LoginViewController.xib */; };
 		8028ED0D2037323C00336AA0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8028ED0B2037323C00336AA0 /* Model.xcdatamodeld */; };
+		8086BFD8206D949D00045241 /* ezgif.com-video-to-gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8086BFC5206D949C00045241 /* ezgif.com-video-to-gif.gif */; };
+		8086BFDB206D982200045241 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8086BFD9206D982200045241 /* LaunchViewController.swift */; };
+		8086BFDC206D982200045241 /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8086BFDA206D982200045241 /* LaunchViewController.xib */; };
+		8086BFE0206D9BA700045241 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8086BFDF206D9BA700045241 /* Swift+Gif.swift */; };
 		80BAF6A72035202600371E53 /* IMG_0362.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 80BAF6962035202600371E53 /* IMG_0362.JPG */; };
 		80F64421203CCB7A0079A993 /* LanguageTranslatorV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F64406203CCB7A0079A993 /* LanguageTranslatorV2.framework */; };
 		9A0AF9C22051B20C0087DBEA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AF9C12051B20C0087DBEA /* TableViewController.swift */; };
@@ -134,6 +140,20 @@
 			remoteGlobalIDString = 3635D880C49EC90369787D8CCAA0E469;
 			remoteInfo = SQLite.swift;
 		};
+		8086BFEB206D9BAD00045241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 77D7349D47CCAB3A790C28975E01EF94;
+			remoteInfo = SwiftGifOrigin;
+		};
+		8086BFF7206D9BAD00045241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228FE4B201ADEB000A312EA /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 77D7349D47CCAB3A790C28975E01EF94;
+			remoteInfo = SwiftGifOrigin;
+		};
 		80F64410203CCB7A0079A993 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */;
@@ -191,7 +211,13 @@
 		6815751F1EE219F800E2F476 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		681AE98C200FCF050005C5C2 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		6F98792ECF89344B50C77911 /* Pods_Simple_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80172052206D822100A8CC8C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		80172053206D822100A8CC8C /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		8028ED0C2037323C00336AA0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		8086BFC5206D949C00045241 /* ezgif.com-video-to-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "ezgif.com-video-to-gif.gif"; path = "Assets.xcassets/Pictures/ezgif.com-video-to-gif.gif"; sourceTree = "<group>"; };
+		8086BFD9206D982200045241 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		8086BFDA206D982200045241 /* LaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
+		8086BFDF206D9BA700045241 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 		80BAF6962035202600371E53 /* IMG_0362.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0362.JPG; path = Assets.xcassets/Pictures/IMG_0362.JPG; sourceTree = "<group>"; };
 		80F64406203CCB7A0079A993 /* LanguageTranslatorV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LanguageTranslatorV2.framework; path = Carthage/Build/iOS/LanguageTranslatorV2.framework; sourceTree = "<group>"; };
 		9A0AF9C12051B20C0087DBEA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -260,6 +286,7 @@
 				5228FE4A201ADE9D00A312EA /* Pods_Simple_Chat.framework */,
 				80F64413203CCB7A0079A993 /* PopupDialog.framework */,
 				8028ED182037323D00336AA0 /* SQLite.framework */,
+				8086BFEC206D9BAD00045241 /* SwiftGifOrigin.framework */,
 				52B46C6B202D0A540001C009 /* SwiftyJSON.framework */,
 			);
 			name = Products;
@@ -276,6 +303,7 @@
 				5228FE56201ADEB000A312EA /* Pods_Simple_Chat.framework */,
 				80F64420203CCB7A0079A993 /* PopupDialog.framework */,
 				8028ED232037323D00336AA0 /* SQLite.framework */,
+				8086BFF8206D9BAD00045241 /* SwiftGifOrigin.framework */,
 				52B46C77202D0A540001C009 /* SwiftyJSON.framework */,
 			);
 			name = Products;
@@ -302,15 +330,21 @@
 		6800B9201EE218EC00F2BD7C /* Simple Chat */ = {
 			isa = PBXGroup;
 			children = (
+				80172052206D822100A8CC8C /* LoginViewController.swift */,
+				80172053206D822100A8CC8C /* LoginViewController.xib */,
 				6800B9211EE218EC00F2BD7C /* AppDelegate.swift */,
 				6800B9231EE218EC00F2BD7C /* ViewController.swift */,
 				6815751F1EE219F800E2F476 /* User.swift */,
 				6815751D1EE219EC00E2F476 /* Credentials.swift */,
 				5228FE3B201AD47600A312EA /* Podfile */,
 				6800B9251EE218EC00F2BD7C /* Main.storyboard */,
+				8086BFDF206D9BA700045241 /* Swift+Gif.swift */,
+				8086BFC5206D949C00045241 /* ezgif.com-video-to-gif.gif */,
 				6800B9281EE218EC00F2BD7C /* Assets.xcassets */,
 				80BAF6962035202600371E53 /* IMG_0362.JPG */,
 				6800B92A1EE218EC00F2BD7C /* LaunchScreen.storyboard */,
+				8086BFD9206D982200045241 /* LaunchViewController.swift */,
+				8086BFDA206D982200045241 /* LaunchViewController.xib */,
 				6800B92D1EE218EC00F2BD7C /* Info.plist */,
 				52B46C5C202CDC4E0001C009 /* WeatherPart.swift */,
 				8028ED0B2037323C00336AA0 /* Model.xcdatamodeld */,
@@ -490,6 +524,20 @@
 			remoteRef = 8028ED222037323D00336AA0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		8086BFEC206D9BAD00045241 /* SwiftGifOrigin.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftGifOrigin.framework;
+			remoteRef = 8086BFEB206D9BAD00045241 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8086BFF8206D9BAD00045241 /* SwiftGifOrigin.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftGifOrigin.framework;
+			remoteRef = 8086BFF7206D9BAD00045241 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		80F64411203CCB7A0079A993 /* DynamicBlurView.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -528,9 +576,12 @@
 				80BAF6A72035202600371E53 /* IMG_0362.JPG in Resources */,
 				6800B92C1EE218EC00F2BD7C /* LaunchScreen.storyboard in Resources */,
 				6800B9291EE218EC00F2BD7C /* Assets.xcassets in Resources */,
+				8086BFDC206D982200045241 /* LaunchViewController.xib in Resources */,
 				5228FE3C201AD47600A312EA /* Podfile in Resources */,
 				5228FE3E201ADDF800A312EA /* Pods in Resources */,
+				80172055206D822100A8CC8C /* LoginViewController.xib in Resources */,
 				6800B9271EE218EC00F2BD7C /* Main.storyboard in Resources */,
+				8086BFD8206D949D00045241 /* ezgif.com-video-to-gif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +639,7 @@
 				"${BUILT_PRODUCTS_DIR}/OpenWeatherSwift/OpenWeatherSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -599,6 +651,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenWeatherSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -635,12 +688,15 @@
 				6815751E1EE219EC00E2F476 /* Credentials.swift in Sources */,
 				52280D062049F29E008ED9D0 /* Navigation.swift in Sources */,
 				6800B9241EE218EC00F2BD7C /* ViewController.swift in Sources */,
+				8086BFE0206D9BA700045241 /* Swift+Gif.swift in Sources */,
 				9A203C952050CCFF00D80A94 /* restaurant.swift in Sources */,
 				6800B9221EE218EC00F2BD7C /* AppDelegate.swift in Sources */,
 				9A0AF9D62051B2DC0087DBEA /* DirectionViewController.swift in Sources */,
+				8086BFDB206D982200045241 /* LaunchViewController.swift in Sources */,
 				52B46C5D202CDC4E0001C009 /* WeatherPart.swift in Sources */,
 				9A0AF9C22051B20C0087DBEA /* TableViewController.swift in Sources */,
 				8028ED0D2037323C00336AA0 /* Model.xcdatamodeld in Sources */,
+				80172054206D822100A8CC8C /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

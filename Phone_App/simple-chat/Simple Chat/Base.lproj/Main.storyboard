@@ -37,7 +37,7 @@
         <!--Login-->
         <scene sceneID="2PW-ab-xB6">
             <objects>
-                <viewController title="Login" id="AmV-Vc-29f" sceneMemberID="viewController">
+                <viewController title="Login" id="AmV-Vc-29f" customClass="LoginViewController" customModule="Simple_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0ml-fj-yR3"/>
                         <viewControllerLayoutGuide type="bottom" id="pFb-d0-FVY"/>
@@ -46,9 +46,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0362.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="nlK-cc-qzF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ezgif.com-video-to-gif.gif" translatesAutoresizingMaskIntoConstraints="NO" id="nlK-cc-qzF">
                                 <rect key="frame" x="0.0" y="1" width="320" height="567"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" startsMediaSession="YES"/>
+                                </accessibility>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="udB-h3-m4f">
                                 <rect key="frame" x="97" y="84" width="126" height="30"/>
@@ -94,6 +97,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="KCK-2d-N9n"/>
+                    <connections>
+                        <outlet property="GifView" destination="nlK-cc-qzF" id="mfl-Mu-bmw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YsS-Jz-ivf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -105,7 +111,7 @@
                 <viewControllerPlaceholder id="WBT-To-4Zg" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N6T-b3-tNk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="207" y="346"/>
+            <point key="canvasLocation" x="93" y="364"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CFg-HX-hfq">
@@ -128,7 +134,7 @@
         <!--Register-->
         <scene sceneID="cUk-Zh-tSf">
             <objects>
-                <viewController title="Register" id="pzd-f3-eHU" sceneMemberID="viewController">
+                <viewController title="Register" id="pzd-f3-eHU" customClass="loginViewController" customModule="Simple_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nNd-ir-6oJ"/>
                         <viewControllerLayoutGuide type="bottom" id="Hfk-4L-nhd"/>
@@ -344,11 +350,28 @@
             </objects>
             <point key="canvasLocation" x="3204.375" y="1531.6901408450703"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="0GR-2t-tWv">
+            <objects>
+                <viewController id="OUT-7X-BDO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WZr-ic-wSN"/>
+                        <viewControllerLayoutGuide type="bottom" id="cHJ-8g-JaH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Or-Vk-OI3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I9t-oh-RFr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
     <resources>
         <image name="IMG_0266" width="4032" height="3024"/>
-        <image name="IMG_0362.JPG" width="4032" height="3024"/>
         <image name="Image-1" width="4032" height="3024"/>
+        <image name="ezgif.com-video-to-gif.gif" width="480" height="672"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="3T4-Y1-O9J"/>

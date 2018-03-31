@@ -499,6 +499,7 @@ extension ViewController {
     }
     
     func setupSender() {
+        
         senderId = User.me.rawValue
         senderDisplayName = User.getName(User.me)
     }

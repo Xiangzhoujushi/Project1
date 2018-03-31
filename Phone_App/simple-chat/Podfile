@@ -10,6 +10,7 @@ target 'Simple Chat' do
   pod 'OpenWeatherSwift'
   pod 'SQLite.swift', '~> 0.11.4'
   pod 'PopupDialog'
+  pod 'SwiftGifOrigin', '~>1.6.1'
   # pod 'CDYelpFusionKit', '~> 1.5.0'
   
 end
