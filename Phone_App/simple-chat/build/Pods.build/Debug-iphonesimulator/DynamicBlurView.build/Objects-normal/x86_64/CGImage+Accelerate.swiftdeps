@@ -1,0 +1,246 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So7CGImageC", ""]
+- ["So7CGImageC", "area"]
+- ["So7CGImageC", "blurred"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "..<"
+- "AssignmentPrecedence"
+- !private "CFDataGetBytePtr"
+- "CGBlendMode"
+- !private "CGContext"
+- "CGImage"
+- "CGSize"
+- "Int"
+- "UIColor"
+- "UInt32"
+- "UnsafeMutableRawPointer"
+- !private "free"
+- !private "kvImageEdgeExtend"
+- !private "kvImageGetTempBufferSize"
+- !private "malloc"
+- !private "memcpy"
+- !private "vImageBoxConvolve_ARGB8888"
+- !private "vImagePixelCount"
+- "vImage_Buffer"
+- !private "vImage_Flags"
+depends-member:
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["SC12CGBitmapInfoV", "rawValue"]
+- !private ["So9CGContextC", "init"]
+- !private ["So9CGContextC", "makeImage"]
+- !private ["So14CGDataProviderC", "data"]
+- !private ["So7CGImageC", "CFDataGetBytePtr"]
+- ["So7CGImageC", "CGBlendMode"]
+- !private ["So7CGImageC", "CGContext"]
+- ["So7CGImageC", "CGImage"]
+- ["So7CGImageC", "CGSize"]
+- ["So7CGImageC", "Int"]
+- ["So7CGImageC", "UIColor"]
+- ["So7CGImageC", "UInt32"]
+- ["So7CGImageC", "UnsafeMutableRawPointer"]
+- ["So7CGImageC", "area"]
+- !private ["So7CGImageC", "bitmapInfo"]
+- !private ["So7CGImageC", "bitsPerComponent"]
+- ["So7CGImageC", "blurred"]
+- !private ["So7CGImageC", "bytes"]
+- !private ["So7CGImageC", "bytesPerRow"]
+- !private ["So7CGImageC", "colorSpace"]
+- !private ["So7CGImageC", "dataProvider"]
+- !private ["So7CGImageC", "free"]
+- !private ["So7CGImageC", "height"]
+- !private ["So7CGImageC", "imageBuffer"]
+- !private ["So7CGImageC", "kvImageEdgeExtend"]
+- !private ["So7CGImageC", "kvImageGetTempBufferSize"]
+- !private ["So7CGImageC", "malloc"]
+- !private ["So7CGImageC", "memcpy"]
+- !private ["So7CGImageC", "size"]
+- !private ["So7CGImageC", "vImageBoxConvolve_ARGB8888"]
+- !private ["So7CGImageC", "vImagePixelCount"]
+- ["So7CGImageC", "vImage_Buffer"]
+- !private ["So7CGImageC", "vImage_Flags"]
+- !private ["So7CGImageC", "width"]
+- !private ["SC6CGSizeV", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "flatMap"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "flatMap"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CFDataGetBytePtr"]
+- !private ["s9EquatableP", "CGContext"]
+- !private ["s9EquatableP", "CGSize"]
+- !private ["s9EquatableP", "bitmapInfo"]
+- !private ["s9EquatableP", "bitsPerComponent"]
+- !private ["s9EquatableP", "bytes"]
+- !private ["s9EquatableP", "bytesPerRow"]
+- !private ["s9EquatableP", "colorSpace"]
+- !private ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "dataProvider"]
+- !private ["s9EquatableP", "flatMap"]
+- !private ["s9EquatableP", "free"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "imageBuffer"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "kvImageEdgeExtend"]
+- !private ["s9EquatableP", "kvImageGetTempBufferSize"]
+- !private ["s9EquatableP", "makeImage"]
+- !private ["s9EquatableP", "malloc"]
+- !private ["s9EquatableP", "memcpy"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "vImageBoxConvolve_ARGB8888"]
+- !private ["s9EquatableP", "vImagePixelCount"]
+- !private ["s9EquatableP", "vImage_Buffer"]
+- !private ["s9EquatableP", "vImage_Flags"]
+- !private ["s9EquatableP", "width"]
+- !private ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "CFDataGetBytePtr"]
+- !private ["s8HashableP", "CGContext"]
+- !private ["s8HashableP", "CGSize"]
+- !private ["s8HashableP", "bitmapInfo"]
+- !private ["s8HashableP", "bitsPerComponent"]
+- !private ["s8HashableP", "bytes"]
+- !private ["s8HashableP", "bytesPerRow"]
+- !private ["s8HashableP", "colorSpace"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "dataProvider"]
+- !private ["s8HashableP", "free"]
+- !private ["s8HashableP", "height"]
+- !private ["s8HashableP", "imageBuffer"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "kvImageEdgeExtend"]
+- !private ["s8HashableP", "kvImageGetTempBufferSize"]
+- !private ["s8HashableP", "makeImage"]
+- !private ["s8HashableP", "malloc"]
+- !private ["s8HashableP", "memcpy"]
+- !private ["s8HashableP", "size"]
+- !private ["s8HashableP", "vImageBoxConvolve_ARGB8888"]
+- !private ["s8HashableP", "vImagePixelCount"]
+- !private ["s8HashableP", "vImage_Buffer"]
+- !private ["s8HashableP", "vImage_Flags"]
+- !private ["s8HashableP", "width"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s7NumericP", "init"]
+- !private ["s9OptionSetP", "rawValue"]
+- !private ["Sq", "flatMap"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["s10SetAlgebraP", "rawValue"]
+- !private ["s10StrideableP", "init"]
+- !private ["Su", "init"]
+- !private ["s6UInt32V", "init"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["14CoreFoundation9_CFObjectP", "CFDataGetBytePtr"]
+- !private ["14CoreFoundation9_CFObjectP", "CGContext"]
+- !private ["14CoreFoundation9_CFObjectP", "CGSize"]
+- !private ["14CoreFoundation9_CFObjectP", "bitmapInfo"]
+- !private ["14CoreFoundation9_CFObjectP", "bitsPerComponent"]
+- !private ["14CoreFoundation9_CFObjectP", "bytes"]
+- !private ["14CoreFoundation9_CFObjectP", "bytesPerRow"]
+- !private ["14CoreFoundation9_CFObjectP", "colorSpace"]
+- !private ["14CoreFoundation9_CFObjectP", "data"]
+- !private ["14CoreFoundation9_CFObjectP", "dataProvider"]
+- !private ["14CoreFoundation9_CFObjectP", "free"]
+- !private ["14CoreFoundation9_CFObjectP", "height"]
+- !private ["14CoreFoundation9_CFObjectP", "imageBuffer"]
+- !private ["14CoreFoundation9_CFObjectP", "init"]
+- !private ["14CoreFoundation9_CFObjectP", "kvImageEdgeExtend"]
+- !private ["14CoreFoundation9_CFObjectP", "kvImageGetTempBufferSize"]
+- !private ["14CoreFoundation9_CFObjectP", "makeImage"]
+- !private ["14CoreFoundation9_CFObjectP", "malloc"]
+- !private ["14CoreFoundation9_CFObjectP", "memcpy"]
+- !private ["14CoreFoundation9_CFObjectP", "size"]
+- !private ["14CoreFoundation9_CFObjectP", "vImageBoxConvolve_ARGB8888"]
+- !private ["14CoreFoundation9_CFObjectP", "vImagePixelCount"]
+- !private ["14CoreFoundation9_CFObjectP", "vImage_Buffer"]
+- !private ["14CoreFoundation9_CFObjectP", "vImage_Flags"]
+- !private ["14CoreFoundation9_CFObjectP", "width"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["SC13vImage_BufferV", "data"]
+- !private ["SC13vImage_BufferV", "init"]
+depends-nominal:
+- !private "s13BinaryIntegerP"
+- !private "SC12CGBitmapInfoV"
+- !private "So9CGContextC"
+- !private "So14CGDataProviderC"
+- "So7CGImageC"
+- !private "SC6CGSizeV"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s7NumericP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "s16RawRepresentableP"
+- !private "s10SetAlgebraP"
+- !private "s10StrideableP"
+- !private "Su"
+- !private "s6UInt32V"
+- !private "s15UnsignedIntegerP"
+- !private "s18_BitwiseOperationsP"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "SC13vImage_BufferV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/DynamicBlurView/DynamicBlurView-umbrella.h"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/DynamicBlurView/DynamicBlurView/DynamicBlurView.h"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/DynamicBlurView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d4d6f605fec48af844bdf34e3bb6e184"

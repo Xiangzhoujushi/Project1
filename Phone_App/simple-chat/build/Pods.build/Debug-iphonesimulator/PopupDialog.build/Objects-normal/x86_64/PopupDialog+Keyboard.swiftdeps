@@ -1,0 +1,568 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["11PopupDialogAAC", ""]
+- ["11PopupDialogAAC", "addObservers"]
+- ["11PopupDialogAAC", "removeObservers"]
+provides-dynamic-lookup:
+- "keyboardWillChangeFrame"
+- "keyboardWillHide"
+- "keyboardWillShow"
+- "orientationChanged"
+depends-top-level:
+- !private "/"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "NSNotification"
+- !private "NSValue"
+- "Notification"
+- !private "NotificationCenter"
+- "PopupDialog"
+- "TernaryPrecedence"
+- !private "UIKeyboardFrameEndUserInfoKey"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "centerYConstraint"]
+- !private ["So15CALayerDelegateP", "pv_layoutIfNeededAnimated"]
+- !private ["SC6CGRectV", "height"]
+- !private ["s7CVarArgP", "NSNotification"]
+- !private ["s7CVarArgP", "Name"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "centerPopup"]
+- !private ["s7CVarArgP", "centerYConstraint"]
+- !private ["s7CVarArgP", "cgRectValue"]
+- !private ["s7CVarArgP", "constant"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "isTopAndVisible"]
+- !private ["s7CVarArgP", "keyboardHeight"]
+- !private ["s7CVarArgP", "keyboardShiftsView"]
+- !private ["s7CVarArgP", "keyboardShown"]
+- !private ["s7CVarArgP", "keyboardWillChangeFrame"]
+- !private ["s7CVarArgP", "keyboardWillHide"]
+- !private ["s7CVarArgP", "keyboardWillShow"]
+- !private ["s7CVarArgP", "orientationChanged"]
+- !private ["s7CVarArgP", "popupContainerView"]
+- !private ["s7CVarArgP", "pv_layoutIfNeededAnimated"]
+- !private ["s7CVarArgP", "removeObserver"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "centerPopup"]
+- !private ["s28CustomDebugStringConvertibleP", "centerYConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "cgRectValue"]
+- !private ["s28CustomDebugStringConvertibleP", "constant"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "isTopAndVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardHeight"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardShiftsView"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardShown"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardWillChangeFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardWillHide"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardWillShow"]
+- !private ["s28CustomDebugStringConvertibleP", "orientationChanged"]
+- !private ["s28CustomDebugStringConvertibleP", "popupContainerView"]
+- !private ["s28CustomDebugStringConvertibleP", "pv_layoutIfNeededAnimated"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "NSNotification"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "centerPopup"]
+- !private ["s23CustomStringConvertibleP", "centerYConstraint"]
+- !private ["s23CustomStringConvertibleP", "cgRectValue"]
+- !private ["s23CustomStringConvertibleP", "constant"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "isTopAndVisible"]
+- !private ["s23CustomStringConvertibleP", "keyboardHeight"]
+- !private ["s23CustomStringConvertibleP", "keyboardShiftsView"]
+- !private ["s23CustomStringConvertibleP", "keyboardShown"]
+- !private ["s23CustomStringConvertibleP", "keyboardWillChangeFrame"]
+- !private ["s23CustomStringConvertibleP", "keyboardWillHide"]
+- !private ["s23CustomStringConvertibleP", "keyboardWillShow"]
+- !private ["s23CustomStringConvertibleP", "orientationChanged"]
+- !private ["s23CustomStringConvertibleP", "popupContainerView"]
+- !private ["s23CustomStringConvertibleP", "pv_layoutIfNeededAnimated"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "NSNotification"]
+- !private ["s9EquatableP", "Name"]
+- !private ["s9EquatableP", "NotificationCenter"]
+- !private ["s9EquatableP", "UIDeviceOrientationDidChange"]
+- !private ["s9EquatableP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["s9EquatableP", "UIKeyboardWillChangeFrame"]
+- !private ["s9EquatableP", "UIKeyboardWillHide"]
+- !private ["s9EquatableP", "UIKeyboardWillShow"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addObserver"]
+- !private ["s9EquatableP", "centerPopup"]
+- !private ["s9EquatableP", "centerYConstraint"]
+- !private ["s9EquatableP", "cgRectValue"]
+- !private ["s9EquatableP", "constant"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "isTopAndVisible"]
+- !private ["s9EquatableP", "keyboardHeight"]
+- !private ["s9EquatableP", "keyboardShiftsView"]
+- !private ["s9EquatableP", "keyboardShown"]
+- !private ["s9EquatableP", "keyboardWillChangeFrame"]
+- !private ["s9EquatableP", "keyboardWillHide"]
+- !private ["s9EquatableP", "keyboardWillShow"]
+- !private ["s9EquatableP", "orientationChanged"]
+- !private ["s9EquatableP", "popupContainerView"]
+- !private ["s9EquatableP", "pv_layoutIfNeededAnimated"]
+- !private ["s9EquatableP", "removeObserver"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "userInfo"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s8HashableP", "NSNotification"]
+- !private ["s8HashableP", "Name"]
+- !private ["s8HashableP", "NotificationCenter"]
+- !private ["s8HashableP", "UIDeviceOrientationDidChange"]
+- !private ["s8HashableP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["s8HashableP", "UIKeyboardWillChangeFrame"]
+- !private ["s8HashableP", "UIKeyboardWillHide"]
+- !private ["s8HashableP", "UIKeyboardWillShow"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addObserver"]
+- !private ["s8HashableP", "centerPopup"]
+- !private ["s8HashableP", "centerYConstraint"]
+- !private ["s8HashableP", "cgRectValue"]
+- !private ["s8HashableP", "constant"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "isTopAndVisible"]
+- !private ["s8HashableP", "keyboardHeight"]
+- !private ["s8HashableP", "keyboardShiftsView"]
+- !private ["s8HashableP", "keyboardShown"]
+- !private ["s8HashableP", "keyboardWillChangeFrame"]
+- !private ["s8HashableP", "keyboardWillHide"]
+- !private ["s8HashableP", "keyboardWillShow"]
+- !private ["s8HashableP", "orientationChanged"]
+- !private ["s8HashableP", "popupContainerView"]
+- !private ["s8HashableP", "pv_layoutIfNeededAnimated"]
+- !private ["s8HashableP", "removeObserver"]
+- !private ["s8HashableP", "userInfo"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "NSNotification"]
+- !private ["So8NSCodingP", "Name"]
+- !private ["So8NSCodingP", "NotificationCenter"]
+- !private ["So8NSCodingP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["So8NSCodingP", "centerPopup"]
+- !private ["So8NSCodingP", "centerYConstraint"]
+- !private ["So8NSCodingP", "cgRectValue"]
+- !private ["So8NSCodingP", "isTopAndVisible"]
+- !private ["So8NSCodingP", "keyboardHeight"]
+- !private ["So8NSCodingP", "keyboardShiftsView"]
+- !private ["So8NSCodingP", "keyboardShown"]
+- !private ["So8NSCodingP", "keyboardWillChangeFrame"]
+- !private ["So8NSCodingP", "keyboardWillHide"]
+- !private ["So8NSCodingP", "keyboardWillShow"]
+- !private ["So8NSCodingP", "orientationChanged"]
+- !private ["So8NSCodingP", "popupContainerView"]
+- !private ["So8NSCodingP", "pv_layoutIfNeededAnimated"]
+- !private ["So8NSCodingP", "userInfo"]
+- !private ["So9NSCopyingP", "Name"]
+- !private ["So9NSCopyingP", "cgRectValue"]
+- !private ["So9NSCopyingP", "userInfo"]
+- !private ["So26NSExtensionRequestHandlingP", "NSNotification"]
+- !private ["So26NSExtensionRequestHandlingP", "NotificationCenter"]
+- !private ["So26NSExtensionRequestHandlingP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["So26NSExtensionRequestHandlingP", "centerPopup"]
+- !private ["So26NSExtensionRequestHandlingP", "isTopAndVisible"]
+- !private ["So26NSExtensionRequestHandlingP", "keyboardHeight"]
+- !private ["So26NSExtensionRequestHandlingP", "keyboardShiftsView"]
+- !private ["So26NSExtensionRequestHandlingP", "keyboardShown"]
+- !private ["So26NSExtensionRequestHandlingP", "keyboardWillChangeFrame"]
+- !private ["So26NSExtensionRequestHandlingP", "keyboardWillHide"]
+- !private ["So26NSExtensionRequestHandlingP", "keyboardWillShow"]
+- !private ["So26NSExtensionRequestHandlingP", "orientationChanged"]
+- !private ["So26NSExtensionRequestHandlingP", "popupContainerView"]
+- !private ["So18NSLayoutConstraintC", "constant"]
+- !private ["So14NSNotificationC", "Name"]
+- !private ["So14NSNotificationC", "userInfo"]
+- !private ["So8NSObjectC", "NSNotification"]
+- !private ["So8NSObjectC", "NSValue"]
+- !private ["So8NSObjectC", "Name"]
+- ["So8NSObjectC", "Notification"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- !private ["So8NSObjectC", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["So8NSObjectC", "addObserver"]
+- ["So8NSObjectC", "addObservers"]
+- ["So8NSObjectC", "centerPopup"]
+- !private ["So8NSObjectC", "centerYConstraint"]
+- !private ["So8NSObjectC", "cgRectValue"]
+- !private ["So8NSObjectC", "constant"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "isTopAndVisible"]
+- !private ["So8NSObjectC", "keyboardHeight"]
+- !private ["So8NSObjectC", "keyboardShiftsView"]
+- !private ["So8NSObjectC", "keyboardShown"]
+- ["So8NSObjectC", "keyboardWillChangeFrame"]
+- ["So8NSObjectC", "keyboardWillHide"]
+- ["So8NSObjectC", "keyboardWillShow"]
+- ["So8NSObjectC", "orientationChanged"]
+- !private ["So8NSObjectC", "popupContainerView"]
+- !private ["So8NSObjectC", "pv_layoutIfNeededAnimated"]
+- !private ["So8NSObjectC", "removeObserver"]
+- ["So8NSObjectC", "removeObservers"]
+- !private ["So8NSObjectC", "userInfo"]
+- !private ["So16NSObjectProtocolP", "NSNotification"]
+- !private ["So16NSObjectProtocolP", "Name"]
+- !private ["So16NSObjectProtocolP", "NotificationCenter"]
+- !private ["So16NSObjectProtocolP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["So16NSObjectProtocolP", "addObserver"]
+- !private ["So16NSObjectProtocolP", "centerPopup"]
+- !private ["So16NSObjectProtocolP", "centerYConstraint"]
+- !private ["So16NSObjectProtocolP", "cgRectValue"]
+- !private ["So16NSObjectProtocolP", "constant"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "isTopAndVisible"]
+- !private ["So16NSObjectProtocolP", "keyboardHeight"]
+- !private ["So16NSObjectProtocolP", "keyboardShiftsView"]
+- !private ["So16NSObjectProtocolP", "keyboardShown"]
+- !private ["So16NSObjectProtocolP", "keyboardWillChangeFrame"]
+- !private ["So16NSObjectProtocolP", "keyboardWillHide"]
+- !private ["So16NSObjectProtocolP", "keyboardWillShow"]
+- !private ["So16NSObjectProtocolP", "orientationChanged"]
+- !private ["So16NSObjectProtocolP", "popupContainerView"]
+- !private ["So16NSObjectProtocolP", "pv_layoutIfNeededAnimated"]
+- !private ["So16NSObjectProtocolP", "removeObserver"]
+- !private ["So16NSObjectProtocolP", "userInfo"]
+- !private ["So14NSSecureCodingP", "cgRectValue"]
+- !private ["So7NSValueC", "cgRectValue"]
+- !private ["So14NSNotificationC4NameV", "UIDeviceOrientationDidChange"]
+- !private ["So14NSNotificationC4NameV", "UIKeyboardWillChangeFrame"]
+- !private ["So14NSNotificationC4NameV", "UIKeyboardWillHide"]
+- !private ["So14NSNotificationC4NameV", "UIKeyboardWillShow"]
+- !private ["So18NotificationCenterC", "addObserver"]
+- !private ["So18NotificationCenterC", "default"]
+- !private ["So18NotificationCenterC", "removeObserver"]
+- !private ["11PopupDialogAAC", "NSNotification"]
+- !private ["11PopupDialogAAC", "NSValue"]
+- ["11PopupDialogAAC", "Notification"]
+- !private ["11PopupDialogAAC", "NotificationCenter"]
+- !private ["11PopupDialogAAC", "UIKeyboardFrameEndUserInfoKey"]
+- ["11PopupDialogAAC", "addObservers"]
+- !private ["11PopupDialogAAC", "centerPopup"]
+- !private ["11PopupDialogAAC", "isTopAndVisible"]
+- !private ["11PopupDialogAAC", "keyboardHeight"]
+- !private ["11PopupDialogAAC", "keyboardShiftsView"]
+- !private ["11PopupDialogAAC", "keyboardShown"]
+- !private ["11PopupDialogAAC", "keyboardWillChangeFrame"]
+- !private ["11PopupDialogAAC", "keyboardWillHide"]
+- !private ["11PopupDialogAAC", "keyboardWillShow"]
+- !private ["11PopupDialogAAC", "orientationChanged"]
+- !private ["11PopupDialogAAC", "popupContainerView"]
+- ["11PopupDialogAAC", "removeObservers"]
+- !private ["11PopupDialog0aB13ContainerViewC", "centerYConstraint"]
+- !private ["11PopupDialog0aB13ContainerViewC", "pv_layoutIfNeededAnimated"]
+- !private ["s16RawRepresentableP", "UIDeviceOrientationDidChange"]
+- !private ["s16RawRepresentableP", "UIKeyboardWillChangeFrame"]
+- !private ["s16RawRepresentableP", "UIKeyboardWillHide"]
+- !private ["s16RawRepresentableP", "UIKeyboardWillShow"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["So29UIAccessibilityIdentificationP", "centerYConstraint"]
+- !private ["So29UIAccessibilityIdentificationP", "pv_layoutIfNeededAnimated"]
+- !private ["So12UIAppearanceP", "centerYConstraint"]
+- !private ["So12UIAppearanceP", "pv_layoutIfNeededAnimated"]
+- !private ["So21UIAppearanceContainerP", "NSNotification"]
+- !private ["So21UIAppearanceContainerP", "NotificationCenter"]
+- !private ["So21UIAppearanceContainerP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["So21UIAppearanceContainerP", "centerPopup"]
+- !private ["So21UIAppearanceContainerP", "centerYConstraint"]
+- !private ["So21UIAppearanceContainerP", "isTopAndVisible"]
+- !private ["So21UIAppearanceContainerP", "keyboardHeight"]
+- !private ["So21UIAppearanceContainerP", "keyboardShiftsView"]
+- !private ["So21UIAppearanceContainerP", "keyboardShown"]
+- !private ["So21UIAppearanceContainerP", "keyboardWillChangeFrame"]
+- !private ["So21UIAppearanceContainerP", "keyboardWillHide"]
+- !private ["So21UIAppearanceContainerP", "keyboardWillShow"]
+- !private ["So21UIAppearanceContainerP", "orientationChanged"]
+- !private ["So21UIAppearanceContainerP", "popupContainerView"]
+- !private ["So21UIAppearanceContainerP", "pv_layoutIfNeededAnimated"]
+- !private ["So18UIContentContainerP", "NSNotification"]
+- !private ["So18UIContentContainerP", "NotificationCenter"]
+- !private ["So18UIContentContainerP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["So18UIContentContainerP", "centerPopup"]
+- !private ["So18UIContentContainerP", "isTopAndVisible"]
+- !private ["So18UIContentContainerP", "keyboardHeight"]
+- !private ["So18UIContentContainerP", "keyboardShiftsView"]
+- !private ["So18UIContentContainerP", "keyboardShown"]
+- !private ["So18UIContentContainerP", "keyboardWillChangeFrame"]
+- !private ["So18UIContentContainerP", "keyboardWillHide"]
+- !private ["So18UIContentContainerP", "keyboardWillShow"]
+- !private ["So18UIContentContainerP", "orientationChanged"]
+- !private ["So18UIContentContainerP", "popupContainerView"]
+- !private ["So17UICoordinateSpaceP", "centerYConstraint"]
+- !private ["So17UICoordinateSpaceP", "pv_layoutIfNeededAnimated"]
+- !private ["So13UIDynamicItemP", "centerYConstraint"]
+- !private ["So13UIDynamicItemP", "pv_layoutIfNeededAnimated"]
+- !private ["So18UIFocusEnvironmentP", "NSNotification"]
+- !private ["So18UIFocusEnvironmentP", "NotificationCenter"]
+- !private ["So18UIFocusEnvironmentP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["So18UIFocusEnvironmentP", "centerPopup"]
+- !private ["So18UIFocusEnvironmentP", "centerYConstraint"]
+- !private ["So18UIFocusEnvironmentP", "isTopAndVisible"]
+- !private ["So18UIFocusEnvironmentP", "keyboardHeight"]
+- !private ["So18UIFocusEnvironmentP", "keyboardShiftsView"]
+- !private ["So18UIFocusEnvironmentP", "keyboardShown"]
+- !private ["So18UIFocusEnvironmentP", "keyboardWillChangeFrame"]
+- !private ["So18UIFocusEnvironmentP", "keyboardWillHide"]
+- !private ["So18UIFocusEnvironmentP", "keyboardWillShow"]
+- !private ["So18UIFocusEnvironmentP", "orientationChanged"]
+- !private ["So18UIFocusEnvironmentP", "popupContainerView"]
+- !private ["So18UIFocusEnvironmentP", "pv_layoutIfNeededAnimated"]
+- !private ["So11UIFocusItemP", "centerYConstraint"]
+- !private ["So11UIFocusItemP", "pv_layoutIfNeededAnimated"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "NotificationCenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerPopup"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerYConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "isTopAndVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardHeight"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardShiftsView"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardShown"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardWillChangeFrame"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardWillHide"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardWillShow"]
+- !private ["So30UIPasteConfigurationSupportingP", "orientationChanged"]
+- !private ["So30UIPasteConfigurationSupportingP", "popupContainerView"]
+- !private ["So30UIPasteConfigurationSupportingP", "pv_layoutIfNeededAnimated"]
+- !private ["So11UIResponderC", "NSNotification"]
+- !private ["So11UIResponderC", "NSValue"]
+- ["So11UIResponderC", "Notification"]
+- !private ["So11UIResponderC", "NotificationCenter"]
+- !private ["So11UIResponderC", "UIKeyboardFrameEndUserInfoKey"]
+- ["So11UIResponderC", "addObservers"]
+- ["So11UIResponderC", "centerPopup"]
+- !private ["So11UIResponderC", "centerYConstraint"]
+- !private ["So11UIResponderC", "isTopAndVisible"]
+- !private ["So11UIResponderC", "keyboardHeight"]
+- !private ["So11UIResponderC", "keyboardShiftsView"]
+- !private ["So11UIResponderC", "keyboardShown"]
+- ["So11UIResponderC", "keyboardWillChangeFrame"]
+- ["So11UIResponderC", "keyboardWillHide"]
+- ["So11UIResponderC", "keyboardWillShow"]
+- ["So11UIResponderC", "orientationChanged"]
+- !private ["So11UIResponderC", "popupContainerView"]
+- !private ["So11UIResponderC", "pv_layoutIfNeededAnimated"]
+- ["So11UIResponderC", "removeObservers"]
+- !private ["So30UIResponderStandardEditActionsP", "NSNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "NotificationCenter"]
+- !private ["So30UIResponderStandardEditActionsP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["So30UIResponderStandardEditActionsP", "centerPopup"]
+- !private ["So30UIResponderStandardEditActionsP", "centerYConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "isTopAndVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardHeight"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardShiftsView"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardShown"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardWillChangeFrame"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardWillHide"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardWillShow"]
+- !private ["So30UIResponderStandardEditActionsP", "orientationChanged"]
+- !private ["So30UIResponderStandardEditActionsP", "popupContainerView"]
+- !private ["So30UIResponderStandardEditActionsP", "pv_layoutIfNeededAnimated"]
+- !private ["So16UIStateRestoringP", "NSNotification"]
+- !private ["So16UIStateRestoringP", "NotificationCenter"]
+- !private ["So16UIStateRestoringP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["So16UIStateRestoringP", "centerPopup"]
+- !private ["So16UIStateRestoringP", "isTopAndVisible"]
+- !private ["So16UIStateRestoringP", "keyboardHeight"]
+- !private ["So16UIStateRestoringP", "keyboardShiftsView"]
+- !private ["So16UIStateRestoringP", "keyboardShown"]
+- !private ["So16UIStateRestoringP", "keyboardWillChangeFrame"]
+- !private ["So16UIStateRestoringP", "keyboardWillHide"]
+- !private ["So16UIStateRestoringP", "keyboardWillShow"]
+- !private ["So16UIStateRestoringP", "orientationChanged"]
+- !private ["So16UIStateRestoringP", "popupContainerView"]
+- !private ["So18UITraitEnvironmentP", "NSNotification"]
+- !private ["So18UITraitEnvironmentP", "NotificationCenter"]
+- !private ["So18UITraitEnvironmentP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["So18UITraitEnvironmentP", "centerPopup"]
+- !private ["So18UITraitEnvironmentP", "centerYConstraint"]
+- !private ["So18UITraitEnvironmentP", "isTopAndVisible"]
+- !private ["So18UITraitEnvironmentP", "keyboardHeight"]
+- !private ["So18UITraitEnvironmentP", "keyboardShiftsView"]
+- !private ["So18UITraitEnvironmentP", "keyboardShown"]
+- !private ["So18UITraitEnvironmentP", "keyboardWillChangeFrame"]
+- !private ["So18UITraitEnvironmentP", "keyboardWillHide"]
+- !private ["So18UITraitEnvironmentP", "keyboardWillShow"]
+- !private ["So18UITraitEnvironmentP", "orientationChanged"]
+- !private ["So18UITraitEnvironmentP", "popupContainerView"]
+- !private ["So18UITraitEnvironmentP", "pv_layoutIfNeededAnimated"]
+- !private ["So6UIViewC", "centerYConstraint"]
+- !private ["So6UIViewC", "pv_layoutIfNeededAnimated"]
+- !private ["So16UIViewControllerC", "NSNotification"]
+- !private ["So16UIViewControllerC", "NSValue"]
+- ["So16UIViewControllerC", "Notification"]
+- !private ["So16UIViewControllerC", "NotificationCenter"]
+- !private ["So16UIViewControllerC", "UIKeyboardFrameEndUserInfoKey"]
+- ["So16UIViewControllerC", "addObservers"]
+- ["So16UIViewControllerC", "centerPopup"]
+- !private ["So16UIViewControllerC", "isTopAndVisible"]
+- !private ["So16UIViewControllerC", "keyboardHeight"]
+- !private ["So16UIViewControllerC", "keyboardShiftsView"]
+- !private ["So16UIViewControllerC", "keyboardShown"]
+- ["So16UIViewControllerC", "keyboardWillChangeFrame"]
+- ["So16UIViewControllerC", "keyboardWillHide"]
+- ["So16UIViewControllerC", "keyboardWillShow"]
+- ["So16UIViewControllerC", "orientationChanged"]
+- !private ["So16UIViewControllerC", "popupContainerView"]
+- ["So16UIViewControllerC", "removeObservers"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "centerYConstraint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "pv_layoutIfNeededAnimated"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Name"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "userInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerPopup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerYConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgRectValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isTopAndVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardHeight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardShiftsView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardShown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardWillChangeFrame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardWillHide"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardWillShow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "orientationChanged"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popupContainerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pv_layoutIfNeededAnimated"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["s21_ObjectiveCBridgeableP", "UIDeviceOrientationDidChange"]
+- !private ["s21_ObjectiveCBridgeableP", "UIKeyboardWillChangeFrame"]
+- !private ["s21_ObjectiveCBridgeableP", "UIKeyboardWillHide"]
+- !private ["s21_ObjectiveCBridgeableP", "UIKeyboardWillShow"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIDeviceOrientationDidChange"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIKeyboardWillChangeFrame"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIKeyboardWillHide"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIKeyboardWillShow"]
+depends-nominal:
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So18NSLayoutConstraintC"
+- !private "So14NSNotificationC"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- !private "So14NSNotificationC4NameV"
+- !private "So18NotificationCenterC"
+- "11PopupDialogAAC"
+- !private "11PopupDialog0aB13ContainerViewC"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/DynamicBlurView/DynamicBlurView.framework/Modules/DynamicBlurView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/PopupDialog/PopupDialog-umbrella.h"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/DynamicBlurView/DynamicBlurView-umbrella.h"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/DynamicBlurView/DynamicBlurView.framework/Headers/DynamicBlurView-Swift.h"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/DynamicBlurView/DynamicBlurView/DynamicBlurView.h"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/PopupDialog.build/unextended-module.modulemap"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/DynamicBlurView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a67bc1e9a9667a1ffcacd5a4784ba8d8"

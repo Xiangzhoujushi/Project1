@@ -21,7 +21,11 @@
   "iOS" : [
     {
       "name" : "Alamofire",
+<<<<<<< HEAD
       "hash" : "ccb8c5d7eec757fd1d72cd0f274784b53aebfbf824a9c1a99f48eef49e2f452d"
+=======
+      "hash" : "46814ecdb1528cbe2b9a9bd1e195e18dc5c361fc5b547b967424d3df0238465e"
+>>>>>>> 6a5e0f8b9e3469ec1b615909929047d98e85b00c
     }
   ]
 }

@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "4e8fb2e220d5ce6c92f313c7b64d4c01"
+build_time: [1522789160, 247550000]
+inputs:
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/DynamicBlurView/DynamicBlurView/BlurLayer.swift": [1522269685, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/DynamicBlurView/DynamicBlurView/CaptureQuality.swift": [1522269685, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/DynamicBlurView/DynamicBlurView/CGContext+CGImage.swift": [1522269685, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/DynamicBlurView/DynamicBlurView/CGImage+Accelerate.swift": [1522269685, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/DynamicBlurView/DynamicBlurView/DynamicBlurView.swift": [1522269685, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/DynamicBlurView/DynamicBlurView/TrackingMode.swift": [1522269685, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/DynamicBlurView/DynamicBlurView/UIImage+Blur.swift": [1522269685, 0]

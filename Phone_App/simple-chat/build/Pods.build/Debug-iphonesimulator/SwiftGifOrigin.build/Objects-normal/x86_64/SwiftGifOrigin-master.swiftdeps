@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "cdae3c587d5b3a9a9ad6657a421121ed"
+build_time: [1522789173, 309932000]
+inputs:
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/SwiftGifOrigin/SwiftGifCommon/UIImage+Gif.swift": [1522360893, 0]

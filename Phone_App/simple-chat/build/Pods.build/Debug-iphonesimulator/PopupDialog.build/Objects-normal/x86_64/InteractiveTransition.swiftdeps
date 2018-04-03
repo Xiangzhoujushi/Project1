@@ -1,0 +1,430 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InteractiveTransition"
+provides-nominal:
+- "11PopupDialog21InteractiveTransitionC"
+provides-member:
+- ["11PopupDialog21InteractiveTransitionC", ""]
+- ["11PopupDialog21InteractiveTransitionC", "calculateProgress"]
+provides-dynamic-lookup:
+- "handlePan"
+depends-top-level:
+- !private "/"
+- !private ">"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CGFloat"
+- !private "Float"
+- "InteractiveTransition"
+- "TernaryPrecedence"
+- "UIPanGestureRecognizer"
+- "UIPercentDrivenInteractiveTransition"
+- "UIViewController"
+- !private "fmaxf"
+- !private "fminf"
+depends-member:
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["SC7CGPointV", "y"]
+- !private ["SC6CGRectV", "height"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "Float"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "calculateProgress"]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "completionSpeed"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "finish"]
+- !private ["s7CVarArgP", "fmaxf"]
+- !private ["s7CVarArgP", "fminf"]
+- !private ["s7CVarArgP", "hasStarted"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "shouldFinish"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "translation"]
+- !private ["s7CVarArgP", "update"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewController"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "calculateProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "completionSpeed"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "finish"]
+- !private ["s28CustomDebugStringConvertibleP", "fmaxf"]
+- !private ["s28CustomDebugStringConvertibleP", "fminf"]
+- !private ["s28CustomDebugStringConvertibleP", "hasStarted"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldFinish"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "translation"]
+- !private ["s28CustomDebugStringConvertibleP", "update"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewController"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "y"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "calculateProgress"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "completionSpeed"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "finish"]
+- !private ["s23CustomStringConvertibleP", "fmaxf"]
+- !private ["s23CustomStringConvertibleP", "fminf"]
+- !private ["s23CustomStringConvertibleP", "hasStarted"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "shouldFinish"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "translation"]
+- !private ["s23CustomStringConvertibleP", "update"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewController"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "y"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "y"]
+- !private ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "Float"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "began"]
+- !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "calculateProgress"]
+- !private ["s9EquatableP", "cancel"]
+- ["s9EquatableP", "cancelled"]
+- ["s9EquatableP", "changed"]
+- !private ["s9EquatableP", "completionSpeed"]
+- !private ["s9EquatableP", "dismiss"]
+- ["s9EquatableP", "ended"]
+- !private ["s9EquatableP", "finish"]
+- !private ["s9EquatableP", "fmaxf"]
+- !private ["s9EquatableP", "fminf"]
+- !private ["s9EquatableP", "hasStarted"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "shouldFinish"]
+- !private ["s9EquatableP", "state"]
+- !private ["s9EquatableP", "translation"]
+- !private ["s9EquatableP", "update"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewController"]
+- !private ["s9EquatableP", "y"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "CGFloat"]
+- !private ["s8HashableP", "Float"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "began"]
+- !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "calculateProgress"]
+- !private ["s8HashableP", "cancel"]
+- ["s8HashableP", "cancelled"]
+- ["s8HashableP", "changed"]
+- !private ["s8HashableP", "completionSpeed"]
+- !private ["s8HashableP", "dismiss"]
+- ["s8HashableP", "ended"]
+- !private ["s8HashableP", "finish"]
+- !private ["s8HashableP", "fmaxf"]
+- !private ["s8HashableP", "fminf"]
+- !private ["s8HashableP", "hasStarted"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "shouldFinish"]
+- !private ["s8HashableP", "state"]
+- !private ["s8HashableP", "translation"]
+- !private ["s8HashableP", "update"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewController"]
+- ["11PopupDialog21InteractiveTransitionC", "CGFloat"]
+- !private ["11PopupDialog21InteractiveTransitionC", "Float"]
+- ["11PopupDialog21InteractiveTransitionC", "UIPanGestureRecognizer"]
+- ["11PopupDialog21InteractiveTransitionC", "UIViewController"]
+- ["11PopupDialog21InteractiveTransitionC", "calculateProgress"]
+- !private ["11PopupDialog21InteractiveTransitionC", "cancel"]
+- !private ["11PopupDialog21InteractiveTransitionC", "completionSpeed"]
+- ["11PopupDialog21InteractiveTransitionC", "deinit"]
+- !private ["11PopupDialog21InteractiveTransitionC", "finish"]
+- !private ["11PopupDialog21InteractiveTransitionC", "fmaxf"]
+- !private ["11PopupDialog21InteractiveTransitionC", "fminf"]
+- ["11PopupDialog21InteractiveTransitionC", "handlePan"]
+- ["11PopupDialog21InteractiveTransitionC", "hasStarted"]
+- ["11PopupDialog21InteractiveTransitionC", "init"]
+- ["11PopupDialog21InteractiveTransitionC", "shouldFinish"]
+- !private ["11PopupDialog21InteractiveTransitionC", "update"]
+- ["11PopupDialog21InteractiveTransitionC", "viewController"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "UIPanGestureRecognizer"]
+- ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "calculateProgress"]
+- !private ["So8NSObjectC", "cancel"]
+- !private ["So8NSObjectC", "completionSpeed"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "finish"]
+- !private ["So8NSObjectC", "fmaxf"]
+- !private ["So8NSObjectC", "fminf"]
+- ["So8NSObjectC", "handlePan"]
+- ["So8NSObjectC", "hasStarted"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "shouldFinish"]
+- !private ["So8NSObjectC", "state"]
+- !private ["So8NSObjectC", "translation"]
+- !private ["So8NSObjectC", "update"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewController"]
+- !private ["So16NSObjectProtocolP", "CGFloat"]
+- !private ["So16NSObjectProtocolP", "Float"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "calculateProgress"]
+- !private ["So16NSObjectProtocolP", "cancel"]
+- !private ["So16NSObjectProtocolP", "completionSpeed"]
+- !private ["So16NSObjectProtocolP", "dismiss"]
+- !private ["So16NSObjectProtocolP", "finish"]
+- !private ["So16NSObjectProtocolP", "fmaxf"]
+- !private ["So16NSObjectProtocolP", "fminf"]
+- !private ["So16NSObjectProtocolP", "hasStarted"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "shouldFinish"]
+- !private ["So16NSObjectProtocolP", "state"]
+- !private ["So16NSObjectProtocolP", "translation"]
+- !private ["So16NSObjectProtocolP", "update"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewController"]
+- !private ["s7NumericP", "init"]
+- ["s16RawRepresentableP", "began"]
+- ["s16RawRepresentableP", "cancelled"]
+- ["s16RawRepresentableP", "changed"]
+- ["s16RawRepresentableP", "ended"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So19UIGestureRecognizerC", "state"]
+- !private ["So19UIGestureRecognizerC", "translation"]
+- ["SC24UIGestureRecognizerStateO", "began"]
+- ["SC24UIGestureRecognizerStateO", "cancelled"]
+- ["SC24UIGestureRecognizerStateO", "changed"]
+- ["SC24UIGestureRecognizerStateO", "ended"]
+- !private ["So22UIPanGestureRecognizerC", "state"]
+- !private ["So22UIPanGestureRecognizerC", "translation"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "CGFloat"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "Float"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "UIPanGestureRecognizer"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "UIViewController"]
+- ["So36UIPercentDrivenInteractiveTransitionC", ""]
+- ["So36UIPercentDrivenInteractiveTransitionC", "calculateProgress"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "cancel"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "completionSpeed"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "finish"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "fmaxf"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "fminf"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "handlePan"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "hasStarted"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "init"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "shouldFinish"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "update"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "viewController"]
+- !private ["So11UIResponderC", "bounds"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So6UIViewC", "bounds"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "CGFloat"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "Float"]
+- ["So40UIViewControllerInteractiveTransitioningP", ""]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "calculateProgress"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "cancel"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "completionSpeed"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "finish"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "fmaxf"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "fminf"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "hasStarted"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "init"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "shouldFinish"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "update"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "viewController"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calculateProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "completionSpeed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finish"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fmaxf"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fminf"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasStarted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldFinish"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "update"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewController"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+depends-nominal:
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "Sf"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- "11PopupDialog21InteractiveTransitionC"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- "s16RawRepresentableP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So19UIGestureRecognizerC"
+- "SC24UIGestureRecognizerStateO"
+- !private "So22UIPanGestureRecognizerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So36UIPercentDrivenInteractiveTransitionC"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- "So40UIViewControllerInteractiveTransitioningP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/DynamicBlurView/DynamicBlurView.framework/Modules/DynamicBlurView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/PopupDialog/PopupDialog-umbrella.h"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/DynamicBlurView/DynamicBlurView-umbrella.h"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/DynamicBlurView/DynamicBlurView.framework/Headers/DynamicBlurView-Swift.h"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/DynamicBlurView/DynamicBlurView/DynamicBlurView.h"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/PopupDialog.build/unextended-module.modulemap"
+- "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/DynamicBlurView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "bc3fa9c34e83ec96d0a2fd7ca1b9660a"

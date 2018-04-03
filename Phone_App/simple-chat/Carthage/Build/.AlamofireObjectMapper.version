@@ -21,7 +21,11 @@
   "iOS" : [
     {
       "name" : "AlamofireObjectMapper",
+<<<<<<< HEAD
       "hash" : "504011c9703835c9ddd7a305cc63b9d92ee9378401ef13257281ed1d6b1b4aea"
+=======
+      "hash" : "78c79db4f2cba313adba497d10ba8d208d2582527fbe56e73a6dad581bd61c22"
+>>>>>>> 6a5e0f8b9e3469ec1b615909929047d98e85b00c
     }
   ]
 }

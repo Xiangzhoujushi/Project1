@@ -1,0 +1,547 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/DynamicBlurView/DynamicBlurView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DynamicBlurView-Swift.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/DynamicBlurView/DynamicBlurView.framework/Headers/DynamicBlurView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DynamicBlurView-umbrella.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/DynamicBlurView/DynamicBlurView-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "DynamicBlurView.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/DynamicBlurView/DynamicBlurView/DynamicBlurView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/DynamicBlurView/DynamicBlurView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/DynamicBlurView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "JSQAudioMediaItem.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQAudioMediaItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQAudioMediaViewAttributes.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQAudioMediaViewAttributes.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQLocationMediaItem.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQLocationMediaItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMediaItem.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMediaItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessage.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessageAvatarImageDataSource.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessageAvatarImageDataSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessageBubbleImageDataSource.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessageBubbleImageDataSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessageData.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessageData.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessageMediaData.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessageMediaData.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessages.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesAvatarImage.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesAvatarImage.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesAvatarImageFactory.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesAvatarImageFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesBubbleImage.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesBubbleImage.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesBubbleImageFactory.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesBubbleImageFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesBubbleSizeCalculating.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesBubbleSizeCalculating.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesBubblesSizeCalculator.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesBubblesSizeCalculator.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCellTextView.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCellTextView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionView.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewCell.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewCellIncoming.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellIncoming.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewCellOutgoing.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellOutgoing.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewDataSource.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesCollectionViewDataSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewDelegateFlowLayout.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesCollectionViewDelegateFlowLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewFlowLayout.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewFlowLayoutInvalidationContext.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewLayoutAttributes.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewLayoutAttributes.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesComposerTextView.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesComposerTextView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesInputToolbar.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesInputToolbar.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesKeyboardController.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Controllers/JSQMessagesKeyboardController.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesLabel.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesLabel.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesLoadEarlierHeaderView.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesMediaPlaceholderView.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesMediaPlaceholderView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesMediaViewBubbleImageMasker.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesMediaViewBubbleImageMasker.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesTimestampFormatter.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesTimestampFormatter.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesToolbarButtonFactory.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesToolbarButtonFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesToolbarContentView.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesToolbarContentView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesTypingIndicatorFooterView.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesTypingIndicatorFooterView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesViewController-Swift.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesViewController-umbrella.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/JSQMessagesViewController/JSQMessagesViewController-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesViewController.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Controllers/JSQMessagesViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQPhotoMediaItem.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQPhotoMediaItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQSystemSoundPlayer+JSQMessages.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/JSQSystemSoundPlayer+JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQVideoMediaItem.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQVideoMediaItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSBundle+JSQMessages.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/NSBundle+JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSString+JSQMessages.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/NSString+JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+JSQMessages.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/UIColor+JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIDevice+JSQMessages.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/UIDevice+JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+JSQMessages.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/UIImage+JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+JSQMessages.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/UIView+JSQMessages.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/JSQMessagesViewController.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "JSQSystemSoundPlayer-Swift.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQSystemSoundPlayer-umbrella.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/JSQSystemSoundPlayer/JSQSystemSoundPlayer-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQSystemSoundPlayer.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/JSQSystemSoundPlayer.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/OpenWeatherSwift/OpenWeatherSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "OpenWeatherSwift-Swift.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/OpenWeatherSwift/OpenWeatherSwift.framework/Headers/OpenWeatherSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "OpenWeatherSwift-umbrella.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/OpenWeatherSwift/OpenWeatherSwift-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "OpenWeatherSwift.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/OpenWeatherSwift/OpenWeatherSwift/OpenWeatherSwift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/OpenWeatherSwift/OpenWeatherSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/OpenWeatherSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/Pods_Simple_Chat.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Simple Chat-umbrella.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/Pods-Simple Chat/Pods-Simple Chat-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Simple_Chat-Swift.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/Pods_Simple_Chat.framework/Headers/Pods_Simple_Chat-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/Pods_Simple_Chat.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/Pods-Simple Chat.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/PopupDialog/PopupDialog.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PopupDialog-Swift.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/PopupDialog/PopupDialog.framework/Headers/PopupDialog-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PopupDialog-umbrella.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/PopupDialog/PopupDialog-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/PopupDialog/PopupDialog.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/PopupDialog.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SQLite-Bridging.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLite-Bridging.h"
+        },
+        {
+          'type': 'file',
+          'name': "SQLite-Swift.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SQLite.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/SQLite.swift/Sources/SQLite/SQLite.h"
+        },
+        {
+          'type': 'file',
+          'name': "SQLite.swift-umbrella.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/SQLite.swift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/SQLite.swift/SQLite.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "fts3_tokenizer.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/SQLite.swift/Sources/SQLiteObjc/fts3_tokenizer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftGifOrigin-Swift.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftGifOrigin-umbrella.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/SwiftGifOrigin/SwiftGifOrigin-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/SwiftGifOrigin.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

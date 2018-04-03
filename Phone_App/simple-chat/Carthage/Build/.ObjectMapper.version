@@ -21,7 +21,11 @@
   "iOS" : [
     {
       "name" : "ObjectMapper",
+<<<<<<< HEAD
       "hash" : "155787053779b15eb24b80cd6b3d216c37c7d33df1efb64af7fbdd5af826293c"
+=======
+      "hash" : "86980bcf9ea8a91de867914daa8e5e3e0f16abf6792c2aa2f610c8052fd3756c"
+>>>>>>> 6a5e0f8b9e3469ec1b615909929047d98e85b00c
     }
   ]
 }

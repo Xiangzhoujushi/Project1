@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "dedc6b50843c841b5d59b8a502cf4827"
+build_time: [1522789160, 384785000]
+inputs:
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1522269685, 0]

@@ -21,7 +21,11 @@
   "iOS" : [
     {
       "name" : "CDYelpFusionKit",
+<<<<<<< HEAD
       "hash" : "7a62957cfd08eb7cc4043e92dbd645eb187c311e668748c4226a9d42fbe7e255"
+=======
+      "hash" : "14b54adaf9bc79052349bdbe5c5d9c252faaba6c2746b1136123d41aa44324de"
+>>>>>>> 6a5e0f8b9e3469ec1b615909929047d98e85b00c
     }
   ]
 }

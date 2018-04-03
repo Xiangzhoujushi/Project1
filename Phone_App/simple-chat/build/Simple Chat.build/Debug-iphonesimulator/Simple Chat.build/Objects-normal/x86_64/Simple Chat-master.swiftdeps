@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "f3a32f1496214fa2fcd98a5c92d6a8ce"
+build_time: [1522792085, 913616000]
+inputs:
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Simple Chat/User.swift": !dirty [1522269686, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Simple Chat/Credentials.swift": !dirty [1522269686, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Simple Chat/Navigation.swift": !dirty [1522269686, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Simple Chat/ViewController.swift": !dirty [1522788693, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Simple Chat/Swift+Gif.swift": !dirty [1522361584, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Simple Chat/restaurant.swift": !dirty [1522269686, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Simple Chat/AppDelegate.swift": !dirty [1522359581, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Simple Chat/DirectionViewController.swift": !dirty [1522269686, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Simple Chat/LaunchViewController.swift": !dirty [1522360482, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Simple Chat/WeatherPart.swift": !dirty [1522269686, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Simple Chat/TableViewController.swift": !dirty [1522269686, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Simple Chat/LoginViewController.swift": !dirty [1522362113, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Simple Chat.build/Debug-iphonesimulator/Simple Chat.build/DerivedSources/CoreDataGenerated/Model/LocalUser+CoreDataClass.swift": !dirty [1522789179, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Simple Chat.build/Debug-iphonesimulator/Simple Chat.build/DerivedSources/CoreDataGenerated/Model/LocalUser+CoreDataProperties.swift": !dirty [1522789179, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Simple Chat.build/Debug-iphonesimulator/Simple Chat.build/DerivedSources/CoreDataGenerated/Model/MessageHistory+CoreDataClass.swift": !dirty [1522789179, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Simple Chat.build/Debug-iphonesimulator/Simple Chat.build/DerivedSources/CoreDataGenerated/Model/MessageHistory+CoreDataProperties.swift": !dirty [1522789179, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/build/Simple Chat.build/Debug-iphonesimulator/Simple Chat.build/DerivedSources/CoreDataGenerated/Model/Model+CoreDataModel.swift": !dirty [1522789179, 0]

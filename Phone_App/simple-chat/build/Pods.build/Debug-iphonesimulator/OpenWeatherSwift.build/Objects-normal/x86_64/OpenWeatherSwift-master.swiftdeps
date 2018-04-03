@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "3e6f71acda8787e98d44fc8f8e4ba25f"
+build_time: [1522789173, 24166000]
+inputs:
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/OpenWeatherSwift/OpenWeatherSwift/Forecast.swift": [1522269685, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/OpenWeatherSwift/OpenWeatherSwift/OpenWeatherSwift.swift": [1522269685, 0]
+  "/Users/peiyuantang/Spring2018/CSE5914/updated_project/Project1/Phone_App/simple-chat/Pods/OpenWeatherSwift/OpenWeatherSwift/Weather.swift": [1522269685, 0]

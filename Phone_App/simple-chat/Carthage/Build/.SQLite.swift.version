@@ -21,7 +21,11 @@
   "iOS" : [
     {
       "name" : "SQLite",
+<<<<<<< HEAD
       "hash" : "5eb5205af77acf1ad3ba9c28dc4c8787bf20cf62cc91b4af56cf9da006f21141"
+=======
+      "hash" : "03a9b68b06459fdea5b71bcd1fcb5250e447729bb6942c3d306b49a308eb7efc"
+>>>>>>> 6a5e0f8b9e3469ec1b615909929047d98e85b00c
     }
   ]
 }

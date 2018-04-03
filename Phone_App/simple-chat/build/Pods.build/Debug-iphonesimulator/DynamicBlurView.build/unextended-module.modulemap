@@ -1,0 +1,10 @@
+framework module DynamicBlurView {
+  umbrella header "DynamicBlurView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module DynamicBlurView.__Swift {
+    exclude header "DynamicBlurView-Swift.h"
+}
