@@ -35,14 +35,21 @@ class RegisterViewController: UIViewController {
             displayAlert(userMessage: "All fields have to be filled!")
             return
         }
-        
         if (password != password2){
             displayAlert(userMessage: "Passwords don't match!")
             return
         }
+        let arr_emp = [[String]]()
         let defaults = UserDefaults.standard
-        defaults.set(password, forKey: "pass")
-        defaults.set(username, forKey: "user")
+        
+        if (defaults.array(forKey: "login") == nil){
+            defaults.set(arr_emp, forKey: "login")
+        }
+        var arr = [[String]]()
+        arr = defaults.array(forKey: "login") as! [[String]]
+        arr.append([username!, password!])
+        defaults.set(arr, forKey: "login")
+        print(defaults.array(forKey: "login"))
     }
     
     func displayAlert (userMessage : String){

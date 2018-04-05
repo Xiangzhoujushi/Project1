@@ -43,14 +43,19 @@ class LoginViewController: UIViewController {
     }
 
     func input(userr : String, passs: String){
-        let user_reg = UserDefaults.standard.string(forKey: "user")
-        let user_pass = UserDefaults.standard.string(forKey: "pass")
+        let regis = UserDefaults.standard.array(forKey: "login")as! [[String]]
 
-        if(userr == user_reg && passs == user_pass){
-//            login_button.addTarget(self, action: #selector(gotoLogin), for: .touchUpInside)
-//            login_button.addTarget(self, action: #selector(gotoLogin), for: .touchUpOutside)
-            gotoLogin(sender: login_button)
+        
+        for (index, element) in regis.enumerated() {
+            if(userr == regis[index][0] && passs == regis[index][1]){
+                gotoLogin(sender: login_button)
+            }
         }
+//        if(userr == user_reg && passs == user_pass){
+////            login_button.addTarget(self, action: #selector(gotoLogin), for: .touchUpInside)
+////            login_button.addTarget(self, action: #selector(gotoLogin), for: .touchUpOutside)
+//            gotoLogin(sender: login_button)
+//        }
     }
     @IBAction func gotoLogin (sender: UIButton!) {
         
