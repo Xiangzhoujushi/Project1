@@ -11,16 +11,12 @@
   "commitish" : "v0.23.3",
   "iOS" : [
     {
-      "name" : "NaturalLanguageClassifierV1",
-      "hash" : "c28401cb4213843ce2e68aceaa40be82e762583bf15cc35c7036a9508e0a0a9c"
-    },
-    {
       "name" : "ToneAnalyzerV3",
       "hash" : "019bded00aba804c14c3d675f66b6d0f28f92daecaad6b2a0acea8392a70ebdb"
     },
     {
-      "name" : "PersonalityInsightsV3",
-      "hash" : "8811be0510e5660525b6d2b9a2227860a9e20845ffe0c4586b1273e62026aeea"
+      "name" : "NaturalLanguageClassifierV1",
+      "hash" : "c28401cb4213843ce2e68aceaa40be82e762583bf15cc35c7036a9508e0a0a9c"
     },
     {
       "name" : "LanguageTranslatorV2",
@@ -31,16 +27,20 @@
       "hash" : "965148f57d796d061d4e8092dc16f68e4c2f763f27d6af95e3cd3856fb7eb067"
     },
     {
+      "name" : "PersonalityInsightsV3",
+      "hash" : "8811be0510e5660525b6d2b9a2227860a9e20845ffe0c4586b1273e62026aeea"
+    },
+    {
       "name" : "TextToSpeechV1",
       "hash" : "c6f79f5769e7be8e665be053b6c0121d2ebb2332d92b80e91df19e27e73d1399"
     },
     {
-      "name" : "DiscoveryV1",
-      "hash" : "85dc844ca6379ee1605bfe1c9603ed01d732154ed1148d80a85283b0f08b7358"
-    },
-    {
       "name" : "NaturalLanguageUnderstandingV1",
       "hash" : "93e1f2a51c6ebf23190bd8bc23557cb8fa7762388bd204e8a3f4fa704622113a"
+    },
+    {
+      "name" : "DiscoveryV1",
+      "hash" : "85dc844ca6379ee1605bfe1c9603ed01d732154ed1148d80a85283b0f08b7358"
     },
     {
       "name" : "SpeechToTextV1",

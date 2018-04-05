@@ -39,6 +39,8 @@
 		9A0AF9C22051B20C0087DBEA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AF9C12051B20C0087DBEA /* TableViewController.swift */; };
 		9A0AF9D62051B2DC0087DBEA /* DirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AF9D52051B2DC0087DBEA /* DirectionViewController.swift */; };
 		9A203C952050CCFF00D80A94 /* restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A203C942050CCFF00D80A94 /* restaurant.swift */; };
+		9AFA6ED02075ACF80021C51B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA6ECE2075ACF80021C51B /* RegisterViewController.swift */; };
+		9AFA6ED12075ACF80021C51B /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AFA6ECF2075ACF80021C51B /* RegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,6 +225,8 @@
 		9A0AF9C12051B20C0087DBEA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		9A0AF9D52051B2DC0087DBEA /* DirectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionViewController.swift; sourceTree = "<group>"; };
 		9A203C942050CCFF00D80A94 /* restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurant.swift; sourceTree = "<group>"; };
+		9AFA6ECE2075ACF80021C51B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9AFA6ECF2075ACF80021C51B /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +334,7 @@
 		6800B9201EE218EC00F2BD7C /* Simple Chat */ = {
 			isa = PBXGroup;
 			children = (
+				9AFA6ECE2075ACF80021C51B /* RegisterViewController.swift */,
 				80172052206D822100A8CC8C /* LoginViewController.swift */,
 				80172053206D822100A8CC8C /* LoginViewController.xib */,
 				6800B9211EE218EC00F2BD7C /* AppDelegate.swift */,
@@ -352,6 +357,7 @@
 				9A203C942050CCFF00D80A94 /* restaurant.swift */,
 				9A0AF9C12051B20C0087DBEA /* TableViewController.swift */,
 				9A0AF9D52051B2DC0087DBEA /* DirectionViewController.swift */,
+				9AFA6ECF2075ACF80021C51B /* RegisterViewController.xib */,
 			);
 			path = "Simple Chat";
 			sourceTree = "<group>";
@@ -574,6 +580,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80BAF6A72035202600371E53 /* IMG_0362.JPG in Resources */,
+				9AFA6ED12075ACF80021C51B /* RegisterViewController.xib in Resources */,
 				6800B92C1EE218EC00F2BD7C /* LaunchScreen.storyboard in Resources */,
 				6800B9291EE218EC00F2BD7C /* Assets.xcassets in Resources */,
 				8086BFDC206D982200045241 /* LaunchViewController.xib in Resources */,
@@ -693,6 +700,7 @@
 				6800B9221EE218EC00F2BD7C /* AppDelegate.swift in Sources */,
 				9A0AF9D62051B2DC0087DBEA /* DirectionViewController.swift in Sources */,
 				8086BFDB206D982200045241 /* LaunchViewController.swift in Sources */,
+				9AFA6ED02075ACF80021C51B /* RegisterViewController.swift in Sources */,
 				52B46C5D202CDC4E0001C009 /* WeatherPart.swift in Sources */,
 				9A0AF9C22051B20C0087DBEA /* TableViewController.swift in Sources */,
 				8028ED0D2037323C00336AA0 /* Model.xcdatamodeld in Sources */,

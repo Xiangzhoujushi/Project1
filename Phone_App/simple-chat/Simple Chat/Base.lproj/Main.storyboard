@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="p5f-qz-dA7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="p5f-qz-dA7">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -71,7 +71,7 @@
                                     <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Q0p-zj-D7Y" kind="presentation" id="hIA-o6-ZbC"/>
+                                    <action selector="didTapLoginButton:" destination="AmV-Vc-29f" eventType="touchUpInside" id="KYh-hH-EA5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQH-pz-hsq">
@@ -93,6 +93,9 @@
                     <navigationItem key="navigationItem" id="KCK-2d-N9n"/>
                     <connections>
                         <outlet property="GifView" destination="nlK-cc-qzF" id="mfl-Mu-bmw"/>
+                        <outlet property="login_button" destination="DcY-SK-48R" id="DVj-AV-FVF"/>
+                        <outlet property="password_input" destination="Ses-h9-yNI" id="i8u-F1-xOQ"/>
+                        <outlet property="username_input" destination="udB-h3-m4f" id="rh9-fE-ixx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YsS-Jz-ivf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -128,7 +131,7 @@
         <!--Register-->
         <scene sceneID="cUk-Zh-tSf">
             <objects>
-                <viewController title="Register" id="pzd-f3-eHU" customClass="loginViewController" customModule="Simple_Chat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Register" id="pzd-f3-eHU" customClass="RegisterViewController" customModule="Simple_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nNd-ir-6oJ"/>
                         <viewControllerLayoutGuide type="bottom" id="Hfk-4L-nhd"/>
@@ -176,16 +179,10 @@
                                     <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="doRegister:" destination="pzd-f3-eHU" eventType="touchUpInside" id="vjA-CS-uhS"/>
                                     <segue destination="AmV-Vc-29f" kind="presentation" id="ZX8-DT-TYZ"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="095-AX-yUh">
-                                <rect key="frame" x="97" y="28" width="126" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="   To Login Page: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJg-DH-tlH">
                                 <rect key="frame" x="0.0" y="382" width="320" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -207,10 +204,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="tmx-ao-fB8"/>
+                    <connections>
+                        <outlet property="RegisterPassword" destination="4Pt-oz-5pn" id="4Uw-ff-8TU"/>
+                        <outlet property="RegisterPassword2" destination="F5k-lT-HP8" id="vC7-bk-ore"/>
+                        <outlet property="RegisterUsername" destination="Vl9-SL-59u" id="4h6-m1-ebu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ECV-kw-FU2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2284" y="1514"/>
+            <point key="canvasLocation" x="2096" y="1428"/>
         </scene>
         <!--Direction View Controller-->
         <scene sceneID="IZv-z5-h6M">
@@ -259,6 +261,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZtN-7s-dDq">
+                                <rect key="frame" x="44" y="45" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="AmV-Vc-29f" kind="presentation" id="hTd-Cj-pZg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
@@ -374,6 +384,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I9t-oh-RFr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="3204" y="1096"/>
         </scene>
     </scenes>
     <resources>
@@ -383,7 +394,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="UOf-eU-dFX"/>
-        <segue reference="VKG-Ul-wE2"/>
         <segue reference="ZX8-DT-TYZ"/>
     </inferredMetricsTieBreakers>
 </document>

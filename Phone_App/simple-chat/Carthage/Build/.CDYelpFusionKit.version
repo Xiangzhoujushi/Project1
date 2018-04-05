@@ -1,31 +1,9 @@
 {
-  "Mac" : [
-    {
-      "name" : "CDYelpFusionKit",
-      "hash" : "fbed2044f3db28522c19c92f3f6a380cd4d9afa959340c3aea9930f27768f998"
-    }
-  ],
-  "watchOS" : [
-    {
-      "name" : "CDYelpFusionKit",
-      "hash" : "be453a496f245387d44b78e0015eba910b74baec01cb0b310e5e1066bc43cb95"
-    }
-  ],
-  "tvOS" : [
-    {
-      "name" : "CDYelpFusionKit",
-      "hash" : "d3d3c30bb3e33178742180ff11c8f58db9e1e60a610602d253b29b9b731f5eb9"
-    }
-  ],
   "commitish" : "1.5.0",
   "iOS" : [
     {
       "name" : "CDYelpFusionKit",
-<<<<<<< HEAD
-      "hash" : "7a62957cfd08eb7cc4043e92dbd645eb187c311e668748c4226a9d42fbe7e255"
-=======
-      "hash" : "14b54adaf9bc79052349bdbe5c5d9c252faaba6c2746b1136123d41aa44324de"
->>>>>>> 6a5e0f8b9e3469ec1b615909929047d98e85b00c
+      "hash" : "736a81459a001d744326bd20cca1b04559ac7fdc5308afbbd7e62f38538f3765"
     }
   ]
 }

@@ -495,9 +495,26 @@ extension ViewController {
         microphoneButton.addTarget(self, action: #selector(stopTranscribing), for: .touchUpInside)
         microphoneButton.addTarget(self, action: #selector(stopTranscribing), for: .touchUpOutside)
         self.view.addSubview(microphoneButton)
+        
+        let backButton = UIButton(type: .custom)
+        backButton.frame = CGRect(x: 0, y: 20, width: 46, height: 30)
+        //        backButton.setTitle("BACK", for: UIControlState.normal)
+        backButton.setImage(#imageLiteral(resourceName: "backicon-hollow"), for: .normal)
+        backButton.setImage(#imageLiteral(resourceName: "backicon"), for: .highlighted)
+        backButton.addTarget(self, action: #selector(BackButton), for: .touchUpInside)
+        backButton.addTarget(self, action: #selector(BackButton), for: .touchUpOutside)
+        
+        self.view.addSubview(backButton)
         inputToolbar.removeFromSuperview()
     }
-    
+    @IBAction func BackButton (sender: UIButton!) {
+        
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "DirectionView") as! DirectionViewController
+        
+        self.present(nextViewController, animated:true, completion:nil)
+        
+    }
     func setupSender() {
         
         senderId = User.me.rawValue
