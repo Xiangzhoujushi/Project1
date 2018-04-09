@@ -33,6 +33,7 @@ public class WeatherPart {
             }
         }
         semaphore.wait()
+        result = result.replacingOccurrences(of: "+", with: " ")
         print (result)
         return result
     }

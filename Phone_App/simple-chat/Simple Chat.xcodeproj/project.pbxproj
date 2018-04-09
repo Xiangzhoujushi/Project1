@@ -15,6 +15,8 @@
 		5228FE3C201AD47600A312EA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5228FE3B201AD47600A312EA /* Podfile */; };
 		5228FE3E201ADDF800A312EA /* Pods in Resources */ = {isa = PBXBuildFile; fileRef = 5228FE3D201ADDF800A312EA /* Pods */; };
 		52B46C5D202CDC4E0001C009 /* WeatherPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B46C5C202CDC4E0001C009 /* WeatherPart.swift */; };
+		52CD8F6E20766F5000107DEE /* lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52CD8F6D20766F4F00107DEE /* lake.jpg */; };
+		52CD8F702076A0E800107DEE /* TranslatorImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CD8F6F2076A0E700107DEE /* TranslatorImage.png */; };
 		642F51F9977D2B4C7F0C2B96 /* Pods_Simple_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F98792ECF89344B50C77911 /* Pods_Simple_Chat.framework */; };
 		6800B9221EE218EC00F2BD7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6800B9211EE218EC00F2BD7C /* AppDelegate.swift */; };
 		6800B9241EE218EC00F2BD7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6800B9231EE218EC00F2BD7C /* ViewController.swift */; };
@@ -198,6 +200,8 @@
 		5228FE3F201ADE9D00A312EA /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		5228FE4B201ADEB000A312EA /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		52B46C5C202CDC4E0001C009 /* WeatherPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPart.swift; sourceTree = "<group>"; };
+		52CD8F6D20766F4F00107DEE /* lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lake.jpg; sourceTree = "<group>"; };
+		52CD8F6F2076A0E700107DEE /* TranslatorImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TranslatorImage.png; sourceTree = "<group>"; };
 		661949F74760477C68416846 /* Pods-Simple Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Chat/Pods-Simple Chat.release.xcconfig"; sourceTree = "<group>"; };
 		6800B91E1EE218EC00F2BD7C /* Simple Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6800B9211EE218EC00F2BD7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -334,6 +338,8 @@
 		6800B9201EE218EC00F2BD7C /* Simple Chat */ = {
 			isa = PBXGroup;
 			children = (
+				52CD8F6F2076A0E700107DEE /* TranslatorImage.png */,
+				52CD8F6D20766F4F00107DEE /* lake.jpg */,
 				9AFA6ECE2075ACF80021C51B /* RegisterViewController.swift */,
 				80172052206D822100A8CC8C /* LoginViewController.swift */,
 				80172053206D822100A8CC8C /* LoginViewController.xib */,
@@ -398,7 +404,7 @@
 				TargetAttributes = {
 					6800B91D1EE218EC00F2BD7C = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 3F472A7D5S;
+						DevelopmentTeam = JQ44KC5HM9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -584,7 +590,9 @@
 				6800B92C1EE218EC00F2BD7C /* LaunchScreen.storyboard in Resources */,
 				6800B9291EE218EC00F2BD7C /* Assets.xcassets in Resources */,
 				8086BFDC206D982200045241 /* LaunchViewController.xib in Resources */,
+				52CD8F6E20766F5000107DEE /* lake.jpg in Resources */,
 				5228FE3C201AD47600A312EA /* Podfile in Resources */,
+				52CD8F702076A0E800107DEE /* TranslatorImage.png in Resources */,
 				5228FE3E201ADDF800A312EA /* Pods in Resources */,
 				80172055206D822100A8CC8C /* LoginViewController.xib in Resources */,
 				6800B9271EE218EC00F2BD7C /* Main.storyboard in Resources */,
@@ -597,7 +605,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		681575211EE21A2100E2F476 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -613,7 +621,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
@@ -833,7 +841,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 3F472A7D5S;
+				DEVELOPMENT_TEAM = JQ44KC5HM9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -841,7 +849,7 @@
 				INFOPLIST_FILE = "Simple Chat/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zhenyang.simple-chat";
+				PRODUCT_BUNDLE_IDENTIFIER = zhang.5698;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -853,7 +861,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 3F472A7D5S;
+				DEVELOPMENT_TEAM = JQ44KC5HM9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -861,7 +869,7 @@
 				INFOPLIST_FILE = "Simple Chat/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zhenyang.simple-chat";
+				PRODUCT_BUNDLE_IDENTIFIER = zhang.5698;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};

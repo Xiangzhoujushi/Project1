@@ -1,58 +1,49 @@
 {
-  "Mac" : [
-
-  ],
-  "watchOS" : [
-
-  ],
-  "tvOS" : [
-
-  ],
   "commitish" : "v0.23.3",
   "iOS" : [
     {
-      "name" : "ToneAnalyzerV3",
-      "hash" : "019bded00aba804c14c3d675f66b6d0f28f92daecaad6b2a0acea8392a70ebdb"
+      "name" : "LanguageTranslatorV2",
+      "hash" : "3808708205761b0cfd3481bf09ea1dc3e99905d45e97f33c964b3afbe6d02d24"
     },
     {
       "name" : "NaturalLanguageClassifierV1",
-      "hash" : "c28401cb4213843ce2e68aceaa40be82e762583bf15cc35c7036a9508e0a0a9c"
-    },
-    {
-      "name" : "LanguageTranslatorV2",
-      "hash" : "5e4bc2abeb628491a95dec89a179917802585b239787945b877325e3047ac83b"
-    },
-    {
-      "name" : "VisualRecognitionV3",
-      "hash" : "965148f57d796d061d4e8092dc16f68e4c2f763f27d6af95e3cd3856fb7eb067"
+      "hash" : "78bc818188a171e52210c0546dd23bf4fac58f4b3bfb1e39372d4acd2e2f3ec5"
     },
     {
       "name" : "PersonalityInsightsV3",
-      "hash" : "8811be0510e5660525b6d2b9a2227860a9e20845ffe0c4586b1273e62026aeea"
+      "hash" : "803569bd06ba46502934451619c3c37769916e79c8ebdbdf56f00c21569bb274"
+    },
+    {
+      "name" : "ToneAnalyzerV3",
+      "hash" : "5cde896aaf819b806a45f34b2706f4163bc5b4c0c6ecd23539bdc3e8474ad165"
+    },
+    {
+      "name" : "VisualRecognitionV3",
+      "hash" : "371c11d3b7c261ad128353b3ee0ab47589cb054f214e2e0e8388464795acae1d"
     },
     {
       "name" : "TextToSpeechV1",
-      "hash" : "c6f79f5769e7be8e665be053b6c0121d2ebb2332d92b80e91df19e27e73d1399"
+      "hash" : "279341203b5cb1043191f2d46053e902e74c51ad1c1421140251b641eb2f694c"
     },
     {
       "name" : "NaturalLanguageUnderstandingV1",
-      "hash" : "93e1f2a51c6ebf23190bd8bc23557cb8fa7762388bd204e8a3f4fa704622113a"
+      "hash" : "d7e6319f1665aa2e39511a3a0463b91e4342fcf1d539a423e32fcd12cabf0bd9"
     },
     {
       "name" : "DiscoveryV1",
-      "hash" : "85dc844ca6379ee1605bfe1c9603ed01d732154ed1148d80a85283b0f08b7358"
+      "hash" : "0f3168101e82a2e5f575349930e75101fab6694b8f645741677a33f5ca04cdbe"
     },
     {
       "name" : "SpeechToTextV1",
-      "hash" : "9b62bdc178f849a2f70dfb57b68df6f2e4cb65fe9fa6e2e86afd0edc2b647f33"
-    },
-    {
-      "name" : "AssistantV1",
-      "hash" : "f7bf90b32fcaf30cc03cf17d4a6e550707cfb5ee585f8239bb9007b2e6b63a5d"
+      "hash" : "8d80918fa9d610dc4f5d737af348a94e2493437e80ec76ffee3a75f557910817"
     },
     {
       "name" : "ConversationV1",
-      "hash" : "81088fde5bf8eb46f9d87ff549c180b7464d709a3f953a9b6859cdbc5381f067"
+      "hash" : "44463bfefda3a64811cbb7713d9eaa0ac4c3c9c144f11bfe3ed93e2b87551d3e"
+    },
+    {
+      "name" : "AssistantV1",
+      "hash" : "e354da3dfca30c320ee1c6f16bea6fde6f6833515cc0bc8f44c7796727434890"
     }
   ]
 }

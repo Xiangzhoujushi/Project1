@@ -31,7 +31,7 @@ enum User: String {
     static func getAvatar(_ id: String) -> JSQMessagesAvatarImage? {
         let user = User(rawValue: id)!
         switch user {
-        case .me: return nil
+        case .me: return avatarUser
         case .watson: return avatarWatson
         }
     }
@@ -39,5 +39,10 @@ enum User: String {
 
 private let avatarWatson = JSQMessagesAvatarImageFactory.avatarImage(
     with: #imageLiteral(resourceName: "watson_avatar"),
+    diameter: 24
+)
+
+private let avatarUser = JSQMessagesAvatarImageFactory.avatarImage(
+    with: #imageLiteral(resourceName: "jsqImg"),
     diameter: 24
 )

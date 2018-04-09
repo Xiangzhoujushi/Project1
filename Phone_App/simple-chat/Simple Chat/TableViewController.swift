@@ -12,8 +12,9 @@ import Foundation
 
 class Cell:UITableViewCell{
     @IBOutlet weak var title: UILabel!
-    @IBOutlet weak var link: UITextField!
+//    @IBOutlet weak var link: UITextField!
     @IBOutlet weak var passage: UITextView!
+    @IBOutlet weak var link: UITextView!
     //    @IBOutlet weak var link: UITextField!
 }
 
@@ -201,7 +202,7 @@ class TableViewController: UITableViewController {
             cell.title.text = txt
             cell.passage.text = passage
         }
-            cell.link.isEnabled = false
+//            cell.link.isEnabled = false
         
 //            cell.passage.isEditable = false
         //        rcell.link.x/

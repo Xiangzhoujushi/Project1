@@ -53,8 +53,8 @@ class ViewController: JSQMessagesViewController, CLLocationManagerDelegate {
     var speech = ""
     var translate = ""
     var translateLang = ""
-    var langToTranslator : [String: String] = ["spanish":"es", "french":"fr", "japanese":"ja", "korean":"ko"]
-    var langToSpeech : [String: String] = ["spanish":"es-ES_BroadbandModel", "french":"fr-FR_BroadbandModel", "japanese":"ja-JP_BroadbandModel", "korean":"ko-KR_BroadbandModel" ]
+    var langToTranslator : [String: String] = ["spanish":"es", "French":"fr", "Japanese":"ja", "Korean":"ko"]
+    var langToSpeech : [String: String] = ["spanish":"es-ES_BroadbandModel", "French":"fr-FR_BroadbandModel", "Japanese":"ja-JP_BroadbandModel", "Korean":"ko-KR_BroadbandModel" ]
     
     var popup = PopupDialog(title: "", message: "", image: UIImage(named: "TranslatorImage.png"))
     let locationManager = CLLocationManager()
@@ -179,7 +179,6 @@ extension ViewController {
         return (result, result1)
     }
     
-    
     func getReview(_ num: Int) -> String{
         var result = ""
         let semaphore = DispatchSemaphore(value: 0)
@@ -255,15 +254,11 @@ extension ViewController {
         var text = response.output.text.joined()
 //        饭店
         if ((response.intents.count > 0) && (response.intents[0].intent == "locate_amenity")){
-            
             let semaphore = DispatchSemaphore(value: 0)
-            print(response.entities.count)
             if (response.entities.count>1){
                 var coord:CLLocationCoordinate2D?
                 Navigation().getCoordinate(addressString: response.entities[1].value){ coordinate, error in
                     coord = coordinate
-                    print(coord)
-                    print(coordinate)
                     semaphore.signal()
                 }
                 semaphore.wait()
@@ -284,38 +279,50 @@ extension ViewController {
         }
 //        购物
         if ((response.intents.count > 0) && (response.intents[0].intent == "shopping")){
-            let (shop_rec, shop_res) = getShopping(response.entities[1].value)
-            text = String(shop_rec)
-            shopping = shop_res
-            print(shopping)
+           
         }
 //        天气
         if ((response.intents.count > 0) && (response.intents[0].intent == "weather")){
             if (response.entities.count == 0){
                 text = WeatherPart().getWeather("Columbus")
             }else{
-                text = WeatherPart().getWeather(response.entities[0].value)
+                //print (response.entities[0].value)
+                var location = response.entities[0].value.replacingOccurrences(of: " ", with: "+")
+                text = WeatherPart().getWeather(location)
+                
             }
         }
 //        导航
         if ((response.intents.count > 0) && (response.intents[0].intent == "navigation")){
             if (response.entities.count > 0){
-                if(Int(response.entities[1].value) != nil && response.entities[0].value == "restaurant" ) {
-                    text = "Start routing"
-                    print(restaurants)
-                    print(response.entities[0].value)
-                    print(restaurants[Int(response.entities[1].value)!-1])
-                    Navigation().openMap_cor(coordinate: restaurants[Int(response.entities[1].value)!-1])
-                }else if (response.entities[0].value == "shopping mall"){
-                    text = "Start routing"
-                    print(shopping[Int(response.entities[1].value)!-1])
-                    print(shopping[Int(response.entities[1].value)!-1])
-                    Navigation().openMap(address: shopping[Int(response.entities[1].value)!-1])
-                    
+                if(response.entities.count > 1){
+                    if(response.entities[0].value == "restaurant"  || response.entities[1].value == "restaurant" ) {
+                        if (Int(response.entities[0].value) != nil){
+                            let index = Int(response.entities[0].value)
+                            text = "Start routing"
+                            //                        print(restaurants);
+                            //                        print(response.entities[0].value)
+                            //                        print(restaurants[index!-1])
+                            Navigation().openMap_cor(coordinate: restaurants[index!-1])
+                        } else{
+                            let index = Int(response.entities[1].value)
+                            text = "Start routing"
+                            //                        print(restaurants);
+                            //                        print(response.entities[0].value)
+                            //                        print(restaurants[index!-1])
+                            Navigation().openMap_cor(coordinate: restaurants[index!-1])
+                        }
+                    }else if (response.entities[0].value == "shopping mall" || response.entities[1].value == "shopping mall"){
+                        text = "Start routing"
+                        //                    print(shopping[Int(response.entities[1].value)!-1])
+                        //                    print(shopping[Int(response.entities[1].value)!-1])
+                        Navigation().openMap(address: shopping[Int(response.entities[1].value)!-1])
+                        
+                    }
                 }else{
                     text = "Start routing"
                     Navigation().openMap(address: response.entities[0].value)
-                    }
+                }
             }
         }
 //        翻译
@@ -329,17 +336,13 @@ extension ViewController {
             }
         }
         
-        
-        //self.present(popup, animated: true, completion: nil)
         context = response.context // save context to continue conversation
-        
         // synthesize and speak the response
         textToSpeech.synthesize(text: text, accept: "audio/wav", failure: failure) { audio in
             self.audioPlayer = try! AVAudioPlayer(data: audio)
             self.audioPlayer?.prepareToPlay()
             self.audioPlayer?.play()
         }
-        
         
         // create message
         let message = JSQMessage(
@@ -373,8 +376,6 @@ extension ViewController {
         let message = JSQMessage(senderId: User.me.rawValue, displayName: User.getName(User.me), text: self.speech)
         self.messages.append(message!)
         self.finishSendingMessage(animated: true)
-        
-        // send text to conversation service
         let input = InputData(text: self.speech)
         let request = MessageRequest(input: input, context: context)
         conversation.message(
@@ -445,7 +446,6 @@ extension ViewController {
         let vc = self.popup.viewController as! PopupDialogDefaultViewController
         var settings = RecognitionSettings(contentType: .opus)
         settings.interimResults = true
-        //speechToText.resetCustomization(withID: self.spanishId)
         speechToText.recognizeMicrophone(settings: settings, model: self.langToSpeech[self.translateLang],failure: failure) { results in
             self.translate = results.bestTranscript
             vc.titleText = self.translate
@@ -476,6 +476,12 @@ extension ViewController {
 extension ViewController {
     
     func setupInterface() {
+        
+        let image1 = UIImage(named:"lake.jpg")
+        let newView = UIImageView(image:image1)
+        newView.alpha = 0.5;
+        newView.frame = CGRect(x:0,y:0,width:UIScreen.main.bounds.width,height:UIScreen.main.bounds.height)
+        collectionView.backgroundView = newView
         // bubbles
         let factory = JSQMessagesBubbleImageFactory()
         let incomingColor = UIColor.jsq_messageBubbleBlue()
@@ -483,12 +489,13 @@ extension ViewController {
         incomingBubble = factory!.incomingMessagesBubbleImage(with: incomingColor)
         outgoingBubble = factory!.outgoingMessagesBubbleImage(with: outgoingColor)
         
+        
         // avatars
-        collectionView.collectionViewLayout.outgoingAvatarViewSize = CGSize.zero
+        //collectionView.collectionViewLayout.outgoingAvatarViewSize = CGSize.zero
         
         // microphone button
         let microphoneButton = UIButton(type: .custom)
-        microphoneButton.frame = CGRect(x: 137, y: 493, width: 46, height: 30)
+        microphoneButton.frame = CGRect(x: 137, y: 520, width: 46, height: 30)
         microphoneButton.setImage(#imageLiteral(resourceName: "microphone-hollow"), for: .normal)
         microphoneButton.setImage(#imageLiteral(resourceName: "microphone"), for: .highlighted)
         microphoneButton.addTarget(self, action: #selector(startTranscribing), for: .touchDown)
@@ -498,7 +505,6 @@ extension ViewController {
         
         let backButton = UIButton(type: .custom)
         backButton.frame = CGRect(x: 0, y: 20, width: 46, height: 30)
-        //        backButton.setTitle("BACK", for: UIControlState.normal)
         backButton.setImage(#imageLiteral(resourceName: "backicon-hollow"), for: .normal)
         backButton.setImage(#imageLiteral(resourceName: "backicon"), for: .highlighted)
         backButton.addTarget(self, action: #selector(BackButton), for: .touchUpInside)
